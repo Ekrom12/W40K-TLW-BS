@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="bbd8-a540-427c-19d1" name="The Long War - Codex Tyranids" revision="6" battleScribeVersion="2.03" authorName="Thanathoum" authorContact="" library="false" gameSystemId="5a96-11db-b761-54f0" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="bbd8-a540-427c-19d1" name="The Long War - Codex Tyranids" revision="7" battleScribeVersion="2.03" authorName="Thanathoum" authorContact="" library="false" gameSystemId="5a96-11db-b761-54f0" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="6ce0-fd6b-2a83-a367" name="The Long War - Codex Tyranids v3.0" shortName="Codex Tyranids"/>
   </publications>
@@ -5099,8 +5099,16 @@ counts as an Instant death attack).</characteristic>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0774-808c-9369-6385" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="c822-0e05-0a5b-550c" name="Bone Mace" hidden="false" collective="false" import="true" targetId="4d06-0390-6d88-2ef9" type="selectionEntry"/>
-                <entryLink id="f893-7aef-9aa9-bfcd" name="Thresher Scythe" hidden="false" collective="false" import="true" targetId="2a7b-e2f4-b98c-d23d" type="selectionEntry"/>
+                <entryLink id="c822-0e05-0a5b-550c" name="Bone Mace" hidden="false" collective="false" import="true" targetId="4d06-0390-6d88-2ef9" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="3.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="f893-7aef-9aa9-bfcd" name="Thresher Scythe" hidden="false" collective="false" import="true" targetId="2a7b-e2f4-b98c-d23d" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="2.0"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="cb78-3a59-55d3-19ba" name="Carapace Bio-Morphs" hidden="false" collective="false" import="true">
@@ -5117,7 +5125,7 @@ counts as an Instant death attack).</characteristic>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+                    <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="5.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="6296-eea9-486b-376c" name="Spore Cysts" hidden="false" collective="false" import="true" type="upgrade">
@@ -5129,7 +5137,7 @@ counts as an Instant death attack).</characteristic>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+                    <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="10.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -5155,7 +5163,7 @@ counts as an Instant death attack).</characteristic>
                     </infoLink>
                   </infoLinks>
                   <costs>
-                    <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+                    <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="5.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="e1a8-d57b-3e99-5d57" name="Tusks" hidden="false" collective="false" import="true" type="upgrade">
@@ -5167,12 +5175,16 @@ counts as an Instant death attack).</characteristic>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+                    <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="5.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
               <entryLinks>
-                <entryLink id="dd5e-2009-8601-8d12" name="Monstrous Acid Maw" hidden="false" collective="false" import="true" targetId="393d-5dd5-4f26-59d9" type="selectionEntry"/>
+                <entryLink id="dd5e-2009-8601-8d12" name="Monstrous Acid Maw" hidden="false" collective="false" import="true" targetId="393d-5dd5-4f26-59d9" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="5.0"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -6450,8 +6462,16 @@ Benefits:
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ab6-bde8-f426-870f" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="22cc-8f1a-5c11-4389" name="Bone Mace" hidden="false" collective="false" import="true" targetId="4d06-0390-6d88-2ef9" type="selectionEntry"/>
-                <entryLink id="200f-df51-b358-bf97" name="Thresher Scythe" hidden="false" collective="false" import="true" targetId="2a7b-e2f4-b98c-d23d" type="selectionEntry"/>
+                <entryLink id="22cc-8f1a-5c11-4389" name="Bone Mace" hidden="false" collective="false" import="true" targetId="4d06-0390-6d88-2ef9" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="3.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="200f-df51-b358-bf97" name="Thresher Scythe" hidden="false" collective="false" import="true" targetId="2a7b-e2f4-b98c-d23d" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="2.0"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="28a8-8f56-fd84-5ef5" name="Carapace Bio-Morphs" hidden="false" collective="false" import="true">
@@ -6468,7 +6488,7 @@ Benefits:
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+                    <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="5.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="5644-adee-2721-7cf6" name="Spore Cysts" hidden="false" collective="false" import="true" type="upgrade">
@@ -6480,7 +6500,7 @@ Benefits:
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+                    <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="10.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -6506,7 +6526,7 @@ Benefits:
                     </infoLink>
                   </infoLinks>
                   <costs>
-                    <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+                    <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="5.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="972b-bf9f-ed2a-29ad" name="Tusks" hidden="false" collective="false" import="true" type="upgrade">
@@ -6518,12 +6538,16 @@ Benefits:
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+                    <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="5.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
               <entryLinks>
-                <entryLink id="a6df-a36e-3a1c-8650" name="Monstrous Acid Maw" hidden="false" collective="false" import="true" targetId="393d-5dd5-4f26-59d9" type="selectionEntry"/>
+                <entryLink id="a6df-a36e-3a1c-8650" name="Monstrous Acid Maw" hidden="false" collective="false" import="true" targetId="393d-5dd5-4f26-59d9" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="5.0"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
