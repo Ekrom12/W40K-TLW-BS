@@ -1339,7 +1339,6 @@
         <categoryLink id="9d67-4cc4-4d00-421c" name="Hive Tyrant" hidden="false" targetId="46eb-97b1-f252-9f66" primary="false"/>
         <categoryLink id="1f0d-95d2-7645-08b9" name="Synapse" hidden="false" targetId="1364-b259-2825-f472" primary="false"/>
         <categoryLink id="a596-67bd-93cd-f07a" name="M41" hidden="false" targetId="a842-59be-7eae-8938" primary="false"/>
-        <categoryLink id="9ddd-8f73-5842-7aad" name="Monster" hidden="false" targetId="4637-0878-f0cb-b11a" primary="false"/>
         <categoryLink id="b916-a38a-15c6-58af" name="Non-Flyer" hidden="false" targetId="af97-c5ad-abb2-5b03" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
@@ -1537,6 +1536,9 @@
       <categoryLinks>
         <categoryLink id="6ff7-bcd8-ab9b-4712" name="Troop" hidden="false" targetId="1966-eed8-9866-bcad" primary="true"/>
         <categoryLink id="f6b6-47cb-13c6-ea16" name="Non-Flyer" hidden="false" targetId="af97-c5ad-abb2-5b03" primary="false"/>
+        <categoryLink id="16ee-9e90-527e-04b2" name="Assault" hidden="false" targetId="6774-96a7-6b23-f8c1" primary="false"/>
+        <categoryLink id="7f35-0c47-ddd0-0415" name="Expendable" hidden="false" targetId="ae03-d304-ee68-582c" primary="false"/>
+        <categoryLink id="eac2-edb0-ceb7-077e" name="M41" hidden="false" targetId="a842-59be-7eae-8938" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="08cd-1356-2376-ccb4" name="Hormagaunt" hidden="false" collective="false" import="true" type="model">
@@ -1694,6 +1696,9 @@
       <categoryLinks>
         <categoryLink id="6863-78aa-e10b-1196" name="New CategoryLink" hidden="false" targetId="1966-eed8-9866-bcad" primary="true"/>
         <categoryLink id="5676-fba3-f1a1-6480" name="Non-Flyer" hidden="false" targetId="af97-c5ad-abb2-5b03" primary="false"/>
+        <categoryLink id="cb9b-8046-d525-8423" name="Assault" hidden="false" targetId="6774-96a7-6b23-f8c1" primary="false"/>
+        <categoryLink id="93b9-8aeb-fbda-52f9" name="Expendable" hidden="false" targetId="ae03-d304-ee68-582c" primary="false"/>
+        <categoryLink id="4f40-1c8d-36c5-f9ae" name="M41" hidden="false" targetId="a842-59be-7eae-8938" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="e44e-06b2-922f-a50d" name="Termagant" hidden="false" collective="false" import="true" type="model">
@@ -2421,7 +2426,6 @@
         <categoryLink id="3133-3447-70df-1143" name="M41" hidden="false" targetId="a842-59be-7eae-8938" primary="false"/>
         <categoryLink id="245a-62ce-b825-e324" name="Swarmlord" hidden="false" targetId="34b9-96fd-efd8-5aef" primary="false"/>
         <categoryLink id="6a41-4d1d-7488-468b" name="Unique" hidden="false" targetId="cceb-40d0-f980-ef2a" primary="false"/>
-        <categoryLink id="e36c-78a1-a475-d383" name="Monster" hidden="false" targetId="4637-0878-f0cb-b11a" primary="false"/>
         <categoryLink id="7035-3e93-9e92-d5cb" name="Non-Flyer" hidden="false" targetId="af97-c5ad-abb2-5b03" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
