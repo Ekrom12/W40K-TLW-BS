@@ -60,15 +60,15 @@
           <modifiers>
             <modifier type="increment" field="e567-e417-6132-7215" value="3.0">
               <comment>Assault wave Requisite</comment>
-              <repeats>
-                <repeat field="7ba4-038e-f27f-d5ad" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="false"/>
-              </repeats>
               <conditions>
                 <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="eaf3-bb8a-cca1-476f" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="e567-e417-6132-7215" value="3.0">
               <comment>Assault wave Requisite</comment>
+              <repeats>
+                <repeat field="7ba4-038e-f27f-d5ad" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="false"/>
+              </repeats>
               <conditions>
                 <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="eaf3-bb8a-cca1-476f" type="equalTo"/>
               </conditions>
@@ -3885,7 +3885,7 @@ Benefits:
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="bc13-871c-0b33-2332" name="Weapon Options" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="bc13-871c-0b33-2332" name="Weapon Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="ea49-5ce6-9650-27ee">
           <modifiers>
             <modifier type="increment" field="04fd-c322-fa8a-14fc" value="1.0">
               <repeats>
@@ -5449,7 +5449,6 @@ counts as an Instant death attack).</characteristic>
         <categoryLink id="69e5-54f5-174b-bfd1" name="Character" hidden="false" targetId="6c3c-8de9-b6e7-a88a" primary="false"/>
         <categoryLink id="aa14-6209-8825-8028" name="Synapse" hidden="false" targetId="1364-b259-2825-f472" primary="false"/>
         <categoryLink id="c725-2388-bae4-3445" name="M41" hidden="false" targetId="a842-59be-7eae-8938" primary="false"/>
-        <categoryLink id="fa49-4427-bbd1-a184" name="Monster" hidden="false" targetId="4637-0878-f0cb-b11a" primary="false"/>
         <categoryLink id="8b23-4afd-a264-3eef" name="Non-Flyer" hidden="false" targetId="af97-c5ad-abb2-5b03" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
@@ -5529,7 +5528,6 @@ counts as an Instant death attack).</characteristic>
         <categoryLink id="5749-d117-22f7-75ae" name="Synapse" hidden="false" targetId="1364-b259-2825-f472" primary="false"/>
         <categoryLink id="05d6-5269-4c15-df40" name="M41" hidden="false" targetId="a842-59be-7eae-8938" primary="false"/>
         <categoryLink id="81cc-20b6-bbba-5859" name="Norn Assimilator" hidden="false" targetId="95be-a42f-0937-afa8" primary="false"/>
-        <categoryLink id="00bb-9fe0-6991-2f43" name="Monster" hidden="false" targetId="4637-0878-f0cb-b11a" primary="false"/>
         <categoryLink id="6d35-ddf2-cb68-67d3" name="Non-Flyer" hidden="false" targetId="af97-c5ad-abb2-5b03" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
