@@ -865,9 +865,11 @@
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9de-802b-b97b-2081" type="max"/>
       </constraints>
-      <entryLinks>
-        <entryLink id="f549-7fcb-9bd7-424a" name="Machine Rites" hidden="false" collective="false" import="true" targetId="2305-16e3-5ef0-2316" type="selectionEntryGroup"/>
-      </entryLinks>
+      <infoLinks>
+        <infoLink id="d30a-68da-4a97-d8e8" name="Rite of Repair (Movement phase)" hidden="false" targetId="5e09-4681-80e3-fe2c" type="profile"/>
+        <infoLink id="4399-5253-2ad4-4365" name="Rite of Immolation (Any phase)" hidden="false" targetId="52ae-4d03-f54c-4623" type="profile"/>
+        <infoLink id="d2ed-3072-52a2-3d39" name="Rite of Benevolence (Shooting Phase)" hidden="false" targetId="1598-407d-0e72-64af" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
       </costs>
@@ -876,9 +878,11 @@
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7aa1-b2fe-9c5b-3229" type="max"/>
       </constraints>
-      <entryLinks>
-        <entryLink id="1d64-f28a-f58a-c61e" name="Litanies of Faith" hidden="false" collective="false" import="true" targetId="005f-8d78-c949-76bb" type="selectionEntryGroup"/>
-      </entryLinks>
+      <infoLinks>
+        <infoLink id="e39c-2f9b-c7c5-f9ff" name="Litany of Faith (Any phase)" hidden="false" targetId="dddf-2a15-46ee-68b5" type="profile"/>
+        <infoLink id="81cd-d3c1-7e66-d900" name="Litany of Hatred (Combat phase)" hidden="false" targetId="e001-33eb-e642-cbdb" type="profile"/>
+        <infoLink id="d54b-76f1-6a95-0fe1" name="Recitation of Focus (Shooting Phase)" hidden="false" targetId="a592-de87-5ea8-6471" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
       </costs>
@@ -887,9 +891,11 @@
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9b7-e773-ff44-0ded" type="max"/>
       </constraints>
-      <entryLinks>
-        <entryLink id="525d-173b-d357-0708" name="Librarius Psychic Powers" hidden="false" collective="false" import="true" targetId="6b2f-847f-3468-8bae" type="selectionEntryGroup"/>
-      </entryLinks>
+      <infoLinks>
+        <infoLink id="69ef-d06f-31f9-7071" name="Might of Heroes (Combat phase)" hidden="false" targetId="019d-8273-34c3-bdd1" type="profile"/>
+        <infoLink id="cb12-333a-98ee-4223" name="Psychic Fortress (Shooting phase)" hidden="false" targetId="be99-bbd7-88db-25ee" type="profile"/>
+        <infoLink id="d335-2aa0-1351-0bca" name="Veil of Time (Movement Phase)" hidden="false" targetId="42d1-009e-c032-d163" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
       </costs>
@@ -1307,7 +1313,11 @@ Strikes special rule.</characteristic>
       <infoLinks>
         <infoLink id="8474-0895-1e01-752f" name="Auto Bolt Rifle" hidden="false" targetId="0224-e59e-eb3f-ae0f" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
     </selectionEntry>
+    <selectionEntry id="f44c-5ae9-d30e-25c6" name="New SelectionEntry" hidden="false" collective="false" import="true" type="upgrade"/>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="f0d6-5755-bb8c-bcd1" name="Warlord Traits" hidden="true" collective="false" import="true">
@@ -1326,63 +1336,6 @@ Strikes special rule.</characteristic>
         <entryLink id="c711-cb7a-52f1-616e" name="Storm of Fire" hidden="false" collective="false" import="true" targetId="5bc7-f313-6b9e-7b49" type="selectionEntry"/>
         <entryLink id="4c89-f158-e79e-2b11" name="The Imperium’s Sword" hidden="false" collective="false" import="true" targetId="8e6f-10ea-69c1-78de" type="selectionEntry"/>
       </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="6b2f-847f-3468-8bae" name="Librarius Psychic Powers" hidden="false" collective="false" import="true">
-      <profiles>
-        <profile id="502d-cddb-8286-2f0f" name="Veil of Time (Movement Phase)" hidden="false" typeId="2a00-4329-9a3b-34a3" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Description" typeId="ff3c-7073-b33d-a1a4">Cast this power in your movement phase. When this power is cast, the Psyker and any unit he is attached to gain +1 to its Movement (M) and Initiative (I) Characteristic until the end of the phase.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="769d-a26d-2a9a-b310" name="Might of Heroes (Combat phase)" hidden="false" typeId="2a00-4329-9a3b-34a3" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Description" typeId="ff3c-7073-b33d-a1a4">Cast this power in your or your opponent’s Combat phase. When this power is cast, the Psyker gains +1 to its Strength (S) and Attacks (A) Characteristics until the end of the phase.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="c7c9-97c3-1973-08fe" name="Psychic Fortress (Shooting phase)" hidden="false" typeId="2a00-4329-9a3b-34a3" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Description" typeId="ff3c-7073-b33d-a1a4">Cast this power in your opponent’s Shooting phase. When this power is cast, the Psyker and any unit they are attached to gain a 5+ Invulnerable save until the end of the phase.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="005f-8d78-c949-76bb" name="Litanies of Faith" hidden="false" collective="false" import="true">
-      <profiles>
-        <profile id="99f0-89ee-fbee-431c" name="Litany of Hatred (Combat phase)" hidden="false" typeId="b5df-3fcb-880c-c4d7" typeName="Prayer">
-          <characteristics>
-            <characteristic name="Description" typeId="6a65-c34c-a211-d8b1">Chant this Litany in either player Combat phase. If this Litany is Inspiring, the Priest and any attached unit have the Rage (1) special rule until the end of the phase. If the unit already has Rage (x), increase the value of (x) by 1.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="2c11-5f88-99d2-3cd4" name="Litany of Faith (Any phase)" hidden="false" typeId="b5df-3fcb-880c-c4d7" typeName="Prayer">
-          <characteristics>
-            <characteristic name="Description" typeId="6a65-c34c-a211-d8b1">Chant this Litany in any phase, yours or your opponents. If this Litany is Inspiring, the Priest and any attached unit cannot be targeted by enemy Psychic Powers or Psychic weapons during that phase.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="5b3f-f671-3cbe-ba3c" name="Recitation of Focus (Shooting Phase)" hidden="false" typeId="b5df-3fcb-880c-c4d7" typeName="Prayer">
-          <characteristics>
-            <characteristic name="Description" typeId="6a65-c34c-a211-d8b1">Chant this Litany in your Shooting phase. If this Litany is Inspiring, The Priest and any attached unit count as having the Relentless special rule until the end of the phase.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="2305-16e3-5ef0-2316" name="Machine Rites" hidden="false" collective="false" import="true">
-      <profiles>
-        <profile id="b896-5095-8e6b-9585" name="Rite of Immolation (Any phase)" hidden="false" typeId="97c8-9959-2410-a2cb" typeName="Machine Rite">
-          <characteristics>
-            <characteristic name="Description" typeId="0217-f9ef-cd8e-7985">Perform this Rite in any phase, yours or your opponents. When this Rite is performed successfully, select 1 friendly Vehicle, Aircraft, Walker or Automata unit either within 18” or attached to the Tech Priest that is performing this rite. The Vehicle, Aircraft, Walker or Automata unit immediately explode per the Explodes result on the Vehicle damage chart (see Core rules).</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="f412-7665-f360-aeba" name="Rite of Benevolence (Shooting Phase)" hidden="false" typeId="97c8-9959-2410-a2cb" typeName="Machine Rite">
-          <characteristics>
-            <characteristic name="Description" typeId="0217-f9ef-cd8e-7985">Perform this Rite in your Opponents Shooting phase. When this Rite is performed successfully, select 1 Vehicle, Aircraft, Walker or Automata unit either within 3” or attached to the Tech Priest that is performing this rite. The target unit gains a 5+ Invulnerable save until the end of the phase.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="bdcf-445f-8a57-34be" name="Rite of Repair (Movement phase)" hidden="false" typeId="97c8-9959-2410-a2cb" typeName="Machine Rite">
-          <characteristics>
-            <characteristic name="Description" typeId="0217-f9ef-cd8e-7985">Perform this Rite in your Movement phase. When this Rite is performed successfully, select 1 Vehicle, Aircraft, Walker or Automata unit either within 3” or attached to the Tech Priest that is performing this rite. If that target is Vehicle or Aircraft, either repair 1 destroyed weapon it is equipped with or if the vehicle is immobilised, it is no longer immobilised. If the target is a Walker or Automata, it Heals 1 wound.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
     </selectionEntryGroup>
     <selectionEntryGroup id="15e1-d2e8-ec10-7a66" name="Captain Upgrades" hidden="false" collective="false" import="true">
       <constraints>
@@ -2725,6 +2678,51 @@ Strikes special rule.</characteristic>
     <profile id="00ba-f52f-cab9-f5a3" name="Searchlight" hidden="false" typeId="a36b-d7d4-4249-a209" typeName="3. Wargear">
       <characteristics>
         <characteristic name="Description" typeId="98c9-5aeb-b901-28d4">A model with this special rule gains the Night Vision special rule. Any unit that it targets in the Shooting Phase no longer gains the benefit of Night Fighting. Any attacks against this unit are not affected by Night Fighting.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="019d-8273-34c3-bdd1" name="Might of Heroes (Combat phase)" hidden="false" typeId="2a00-4329-9a3b-34a3" typeName="Psychic Power">
+      <characteristics>
+        <characteristic name="Description" typeId="ff3c-7073-b33d-a1a4">Cast this power in your or your opponent’s Combat phase. When this power is cast, the Psyker gains +1 to its Strength (S) and Attacks (A) Characteristics until the end of the phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="be99-bbd7-88db-25ee" name="Psychic Fortress (Shooting phase)" hidden="false" typeId="2a00-4329-9a3b-34a3" typeName="Psychic Power">
+      <characteristics>
+        <characteristic name="Description" typeId="ff3c-7073-b33d-a1a4">Cast this power in your opponent’s Shooting phase. When this power is cast, the Psyker and any unit they are attached to gain a 5+ Invulnerable save until the end of the phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="42d1-009e-c032-d163" name="Veil of Time (Movement Phase)" hidden="false" typeId="2a00-4329-9a3b-34a3" typeName="Psychic Power">
+      <characteristics>
+        <characteristic name="Description" typeId="ff3c-7073-b33d-a1a4">Cast this power in your movement phase. When this power is cast, the Psyker and any unit he is attached to gain +1 to its Movement (M) and Initiative (I) Characteristic until the end of the phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1598-407d-0e72-64af" name="Rite of Benevolence (Shooting Phase)" hidden="false" typeId="97c8-9959-2410-a2cb" typeName="Machine Rite">
+      <characteristics>
+        <characteristic name="Description" typeId="0217-f9ef-cd8e-7985">Perform this Rite in your Opponents Shooting phase. When this Rite is performed successfully, select 1 Vehicle, Aircraft, Walker or Automata unit either within 3” or attached to the Tech Priest that is performing this rite. The target unit gains a 5+ Invulnerable save until the end of the phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="52ae-4d03-f54c-4623" name="Rite of Immolation (Any phase)" hidden="false" typeId="97c8-9959-2410-a2cb" typeName="Machine Rite">
+      <characteristics>
+        <characteristic name="Description" typeId="0217-f9ef-cd8e-7985">Perform this Rite in any phase, yours or your opponents. When this Rite is performed successfully, select 1 friendly Vehicle, Aircraft, Walker or Automata unit either within 18” or attached to the Tech Priest that is performing this rite. The Vehicle, Aircraft, Walker or Automata unit immediately explode per the Explodes result on the Vehicle damage chart (see Core rules).</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5e09-4681-80e3-fe2c" name="Rite of Repair (Movement phase)" hidden="false" typeId="97c8-9959-2410-a2cb" typeName="Machine Rite">
+      <characteristics>
+        <characteristic name="Description" typeId="0217-f9ef-cd8e-7985">Perform this Rite in your Movement phase. When this Rite is performed successfully, select 1 Vehicle, Aircraft, Walker or Automata unit either within 3” or attached to the Tech Priest that is performing this rite. If that target is Vehicle or Aircraft, either repair 1 destroyed weapon it is equipped with or if the vehicle is immobilised, it is no longer immobilised. If the target is a Walker or Automata, it Heals 1 wound.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="dddf-2a15-46ee-68b5" name="Litany of Faith (Any phase)" hidden="false" typeId="b5df-3fcb-880c-c4d7" typeName="Prayer">
+      <characteristics>
+        <characteristic name="Description" typeId="6a65-c34c-a211-d8b1">Chant this Litany in any phase, yours or your opponents. If this Litany is Inspiring, the Priest and any attached unit cannot be targeted by enemy Psychic Powers or Psychic weapons during that phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e001-33eb-e642-cbdb" name="Litany of Hatred (Combat phase)" hidden="false" typeId="b5df-3fcb-880c-c4d7" typeName="Prayer">
+      <characteristics>
+        <characteristic name="Description" typeId="6a65-c34c-a211-d8b1">Chant this Litany in either player Combat phase. If this Litany is Inspiring, the Priest and any attached unit have the Rage (1) special rule until the end of the phase. If the unit already has Rage (x), increase the value of (x) by 1.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a592-de87-5ea8-6471" name="Recitation of Focus (Shooting Phase)" hidden="false" typeId="b5df-3fcb-880c-c4d7" typeName="Prayer">
+      <characteristics>
+        <characteristic name="Description" typeId="6a65-c34c-a211-d8b1">Chant this Litany in your Shooting phase. If this Litany is Inspiring, The Priest and any attached unit count as having the Relentless special rule until the end of the phase.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
