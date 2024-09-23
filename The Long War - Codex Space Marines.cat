@@ -3802,6 +3802,9 @@ model with this upgrade gains 1 additional Wound. This Wounds represents the Thu
       </costs>
     </selectionEntry>
     <selectionEntry id="f17c-b547-81cd-2478" name="Space Marine Command Squad" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a574-c80e-d7ec-b299" type="min"/>
+      </constraints>
       <profiles>
         <profile id="295f-3ec1-125e-337e" name="Company Specialists" hidden="false" typeId="c5b0-edc1-3954-f457" typeName="2. Special Rule">
           <characteristics>
