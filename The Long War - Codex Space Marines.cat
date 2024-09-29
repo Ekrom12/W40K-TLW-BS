@@ -6759,6 +6759,7 @@ model with this upgrade gains 1 additional Wound. This Wounds represents the Thu
                 <selectionEntryGroup id="9b8c-ebb5-feca-9c8c" name="Weapon Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="2631-7612-020c-4041">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b320-cd7c-8c00-6fc7" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="217b-a61a-9579-3a05" type="max"/>
                   </constraints>
                   <entryLinks>
                     <entryLink id="2631-7612-020c-4041" name="Assault Launchers" hidden="false" collective="false" import="true" targetId="903a-e1c1-575f-7f59" type="selectionEntry"/>
