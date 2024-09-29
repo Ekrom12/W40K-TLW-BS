@@ -153,7 +153,6 @@
     <entryLink id="6683-24c7-fcaf-6665" name="[Reference] Machine Rites" hidden="false" collective="false" import="true" targetId="68aa-ce74-c286-f89b" type="selectionEntry"/>
     <entryLink id="09d7-8ac3-66d1-8bfe" name="Space Marine Captain" hidden="false" collective="false" import="true" targetId="e746-bb41-a0ee-5cdf" type="selectionEntry"/>
     <entryLink id="fbba-42bd-4963-46b4" name="Lieutenant" hidden="false" collective="false" import="true" targetId="12c6-9122-fe20-c5e2" type="selectionEntry"/>
-    <entryLink id="46c3-1c34-d23f-216a" name="Tactical Squad" hidden="false" collective="false" import="true" targetId="7df2-b82e-4dea-c2bd" type="selectionEntry"/>
     <entryLink id="2501-4c73-63e8-0a72" name="Scout Squad" page="" hidden="false" collective="false" import="true" targetId="289e-ac4d-3f54-a4d8" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="b53c-23b8-26a3-8a17" name="New CategoryLink" hidden="false" targetId="1966-eed8-9866-bcad" primary="true"/>
