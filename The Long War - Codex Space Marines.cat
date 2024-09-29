@@ -6905,6 +6905,7 @@ model with this upgrade gains 1 additional Wound. This Wounds represents the Thu
                 <selectionEntryGroup id="4219-cc57-caf9-4c61" name="Weapon Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="6a76-dd73-2459-b471">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b14-68d3-4081-0c85" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16ef-d502-7083-91de" type="max"/>
                   </constraints>
                   <entryLinks>
                     <entryLink id="6a76-dd73-2459-b471" name="Assault Launchers" hidden="false" collective="false" import="true" targetId="903a-e1c1-575f-7f59" type="selectionEntry"/>
@@ -6992,7 +6993,7 @@ model with this upgrade gains 1 additional Wound. This Wounds represents the Thu
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="e8a7-d2ef-0837-6d16" name="1. Configuration" hidden="false" collective="false" import="true" defaultSelectionEntryId="b17e-b6d8-086f-2d18">
+        <selectionEntryGroup id="e8a7-d2ef-0837-6d16" name="1. Configuration" hidden="false" collective="false" import="true" defaultSelectionEntryId="c62a-a9ec-2f3e-1515">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4b2-f46e-24d9-5ad7" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c56-3a24-3b09-9306" type="max"/>
