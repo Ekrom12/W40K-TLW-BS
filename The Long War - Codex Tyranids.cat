@@ -5037,7 +5037,7 @@ counts as an Instant death attack).</characteristic>
                   <infoLinks>
                     <infoLink id="7de6-6f98-4e9b-b436" name="Firing Protocols (X)" hidden="false" targetId="d2c7-81dc-724a-074c" type="rule">
                       <modifiers>
-                        <modifier type="set" field="name" value="Firing Protocols (2)"/>
+                        <modifier type="set" field="name" value="Firing Protocols (All)"/>
                       </modifiers>
                     </infoLink>
                   </infoLinks>
@@ -6398,7 +6398,7 @@ Benefits:
                   <infoLinks>
                     <infoLink id="0749-cb23-b3b1-cf4c" name="Firing Protocols (X)" hidden="false" targetId="d2c7-81dc-724a-074c" type="rule">
                       <modifiers>
-                        <modifier type="set" field="name" value="Firing Protocols (2)"/>
+                        <modifier type="set" field="name" value="Firing Protocols (All)"/>
                       </modifiers>
                     </infoLink>
                   </infoLinks>
