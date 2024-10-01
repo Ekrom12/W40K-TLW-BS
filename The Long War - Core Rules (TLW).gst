@@ -754,6 +754,12 @@ If rolling to Penetrate against an Armour Value, the weapons attack against the 
           </modifiers>
         </infoLink>
         <infoLink id="cd38-ac95-cc6a-adf9" name="Relentless" hidden="false" targetId="86eb-a85f-ba32-6f33" type="rule"/>
+        <infoLink id="92b0-89b3-dd35-3a11" name="Firing Protocols (X)" hidden="false" targetId="d2c7-81dc-724a-074c" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Firing Protocols (All)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="bdb5-8882-53ba-8ec4" name="Fade &amp; Fire" hidden="false" targetId="7165-286e-2779-261a" type="rule"/>
       </infoLinks>
     </infoGroup>
     <infoGroup id="4035-e5f3-77ee-f5e5" name="Walker Special Rules" hidden="false">
@@ -764,6 +770,11 @@ If rolling to Penetrate against an Armour Value, the weapons attack against the 
           </modifiers>
         </infoLink>
         <infoLink id="d1ea-4c30-55dd-cd7a" name="Relentless" hidden="false" targetId="86eb-a85f-ba32-6f33" type="rule"/>
+        <infoLink id="fbc9-a875-626b-0b53" name="Firing Protocols (X)" hidden="false" targetId="d2c7-81dc-724a-074c" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Firing Protocols (All)"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
     </infoGroup>
   </sharedInfoGroups>
