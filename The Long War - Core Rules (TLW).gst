@@ -618,7 +618,7 @@ If rolling to Penetrate against an Armour Value, the weapons attack against the 
     </profile>
   </sharedProfiles>
   <sharedInfoGroups>
-    <infoGroup id="ce8c-6883-a39a-09b5" name="Aircraft Rules" hidden="false">
+    <infoGroup id="ce8c-6883-a39a-09b5" name="Aircraft Special Rules" hidden="false">
       <infoLinks>
         <infoLink id="fc57-7ca0-f52f-8d2e" name="Fleet" hidden="false" targetId="478d-e9f0-d019-b08a" type="rule"/>
         <infoLink id="f116-6586-a85b-d652" name="Hammer of Wrath (X)" hidden="false" targetId="5284-a442-b9a6-d0ce" type="rule">
@@ -628,16 +628,21 @@ If rolling to Penetrate against an Armour Value, the weapons attack against the 
         </infoLink>
         <infoLink id="2e31-b7b2-5dc8-00f0" name="Outflank" hidden="false" targetId="3a5f-a6dc-eef1-1cac" type="rule"/>
         <infoLink id="f8a7-7d71-b657-88bd" name="Relentless" hidden="false" targetId="86eb-a85f-ba32-6f33" type="rule"/>
+        <infoLink id="879e-3206-b71d-8b5f" name="Firing Protocols (X)" hidden="false" targetId="d2c7-81dc-724a-074c" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Firing Protocols (All)"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
     </infoGroup>
-    <infoGroup id="f511-7750-8719-33c5" name="Automata Rules" hidden="false">
+    <infoGroup id="f511-7750-8719-33c5" name="Automata Special Rules" hidden="false">
       <infoLinks>
         <infoLink id="1774-d0ea-84e3-0ac4" name="Move through Cover" hidden="false" targetId="6d38-c55d-ca21-accc" type="rule"/>
         <infoLink id="65a6-bd3f-32c9-45b7" name="Relentless" hidden="false" targetId="86eb-a85f-ba32-6f33" type="rule"/>
         <infoLink id="3b24-b6bf-4393-5ea9" name="Slow and purposeful" hidden="false" targetId="1051-745c-ab3e-2eee" type="rule"/>
       </infoLinks>
     </infoGroup>
-    <infoGroup id="4f30-5715-6687-37ce" name="Battlesuit Rules" hidden="false">
+    <infoGroup id="4f30-5715-6687-37ce" name="Battlesuit Special Rules" hidden="false">
       <infoLinks>
         <infoLink id="ce82-dfc3-9825-6d1f" name="Deep Strike" hidden="false" targetId="4094-e926-d058-9bc6" type="rule"/>
         <infoLink id="a159-a22a-7e2a-032a" name="Firing Protocols (X)" hidden="false" targetId="d2c7-81dc-724a-074c" type="rule">
@@ -652,7 +657,7 @@ If rolling to Penetrate against an Armour Value, the weapons attack against the 
         </infoLink>
       </infoLinks>
     </infoGroup>
-    <infoGroup id="70cb-485b-71c5-bec1" name="Beast Rules" hidden="false">
+    <infoGroup id="70cb-485b-71c5-bec1" name="Beast Special Rules" hidden="false">
       <infoLinks>
         <infoLink id="d73e-2a3a-87b0-2868" name="Fleet" hidden="false" targetId="478d-e9f0-d019-b08a" type="rule"/>
         <infoLink id="5282-5a42-86ca-d049" name="Hammer of Wrath (X)" hidden="false" targetId="5284-a442-b9a6-d0ce" type="rule">
@@ -668,7 +673,7 @@ If rolling to Penetrate against an Armour Value, the weapons attack against the 
         </infoLink>
       </infoLinks>
     </infoGroup>
-    <infoGroup id="66ba-1f3e-fc6c-3383" name="Bike Rules" hidden="false">
+    <infoGroup id="66ba-1f3e-fc6c-3383" name="Bike Special Rules" hidden="false">
       <infoLinks>
         <infoLink id="b65c-b173-67d3-5938" name="Fade &amp; Fire" hidden="false" targetId="7165-286e-2779-261a" type="rule"/>
         <infoLink id="9bc2-f1f3-e560-5ad6" name="Fleet" hidden="false" targetId="478d-e9f0-d019-b08a" type="rule"/>
