@@ -2429,6 +2429,17 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntry>
+        <selectionEntry id="39c1-c283-6f56-8c49" name="Personal Teleporters" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="909d-d5ef-6893-61f1" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="cdbf-64af-245a-6e05" name="Personal Teleporter" hidden="false" targetId="440b-8c7d-3572-63aa" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="25.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="070e-8a5f-38d9-0a18" name="Indomitus Terminator Armour" hidden="false" collective="false" import="true" targetId="9e6d-2917-0d3b-36d1" type="selectionEntry">
