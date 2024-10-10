@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9c56-38aa-1fbc-0c60" name="Codex: Imperial Agents - Grey Knights" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="5a96-11db-b761-54f0" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9c56-38aa-1fbc-0c60" name="Codex: Imperial Agents - Grey Knights" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="5a96-11db-b761-54f0" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="fb6f-b850-0bd9-3f72" name="Allegiance">
       <characteristicTypes>
@@ -136,8 +136,12 @@
       </constraints>
     </entryLink>
     <entryLink id="7c23-f594-3e83-5d8e" name="Grey Knights Purifier Squad" hidden="false" collective="false" import="true" targetId="5594-b23a-338b-afc7" type="selectionEntry"/>
-    <entryLink id="cb8d-dfb9-d8d1-25c1" name="Castraferrum Dreadnought" hidden="false" collective="false" import="true" targetId="ee31-c956-6f3f-320a" type="selectionEntry"/>
+    <entryLink id="cb8d-dfb9-d8d1-25c1" name="Grey Knight Castraferrum Dreadnought" hidden="false" collective="false" import="true" targetId="ee31-c956-6f3f-320a" type="selectionEntry"/>
     <entryLink id="f970-ff8c-3ed3-c806" name="Kaldor Draigo" hidden="false" collective="false" import="true" targetId="84a1-3898-9ca2-20c2" type="selectionEntry"/>
+    <entryLink id="ee49-eeaf-972b-b9b5" name="[Reference] Allegiance: Ordo Malleus" hidden="false" collective="false" import="true" targetId="35b0-3c19-fd45-01c6" type="selectionEntry"/>
+    <entryLink id="1298-38f7-bb26-4e7b" name="[Reference] Sanctic Psychic Powers" hidden="false" collective="false" import="true" targetId="02a8-b5fb-cecc-86b8" type="selectionEntry"/>
+    <entryLink id="29d5-5ad6-66c1-1cee" name="[Reference] 3. Litanies of Faith" hidden="false" collective="false" import="true" targetId="a8a2-4ef4-a813-8aeb" type="selectionEntry"/>
+    <entryLink id="35ab-4140-7200-b953" name="[Reference] 4. Machine Rites" hidden="false" collective="false" import="true" targetId="23fc-09aa-9cf5-deaa" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="db66-85e3-fb1c-7c12" name="Rhino APC" hidden="false" collective="false" import="true" type="upgrade">
@@ -272,6 +276,9 @@
                   </modifiers>
                 </infoLink>
               </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="2571-b884-f931-0bf2" name="Linked Assault Cannon" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
@@ -500,6 +507,9 @@
               </modifiers>
             </infoLink>
           </infoLinks>
+          <costs>
+            <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="d786-843b-7d6b-e223" name="Linked Heavy Bolter" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -513,6 +523,9 @@
               </modifiers>
             </infoLink>
           </infoLinks>
+          <costs>
+            <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -530,6 +543,9 @@
                   </modifiers>
                 </infoLink>
               </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="5450-e801-b190-7579" name="Combi-Flamer" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
@@ -544,6 +560,9 @@
                   </modifiers>
                 </infoLink>
               </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="d27f-4270-f9e8-ec31" name="Combi-Plasma" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
@@ -673,6 +692,9 @@
               </modifiers>
             </infoLink>
           </infoLinks>
+          <costs>
+            <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="29d3-8feb-5668-7ced" name="Linked Assault Cannon" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -686,6 +708,9 @@
               </modifiers>
             </infoLink>
           </infoLinks>
+          <costs>
+            <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -703,6 +728,9 @@
                   </modifiers>
                 </infoLink>
               </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="6499-d873-216f-1838" name="Combi-Flamer" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
@@ -717,6 +745,9 @@
                   </modifiers>
                 </infoLink>
               </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="85a5-5a45-1345-f6bc" name="Combi-Plasma" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
@@ -822,6 +853,7 @@
         <infoLink id="e1b8-a2ca-54bb-ac85" name="Marine Crew Weapons" hidden="false" targetId="81d0-9d0f-9b74-4878" type="profile"/>
         <infoLink id="1b80-1e7a-1446-c867" name="Smoke Launchers" hidden="false" targetId="f899-8f6c-25b5-6fc8" type="profile"/>
         <infoLink id="0924-7fed-9172-e5df" name="Searchlight" hidden="false" targetId="badb-54be-e2b1-e7b4" type="profile"/>
+        <infoLink id="c455-5baf-83ab-3fe8" name="Assault Launchers" hidden="false" targetId="e60b-f23b-6a63-3deb" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="e218-a479-bb87-d6cd" name="New CategoryLink" hidden="false" targetId="e9ef-7ff2-41ce-8166" primary="true"/>
@@ -846,6 +878,9 @@
               </modifiers>
             </infoLink>
           </infoLinks>
+          <costs>
+            <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="2c79-1034-a3c5-b09c" name="Linked Assault Cannon" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -859,6 +894,9 @@
               </modifiers>
             </infoLink>
           </infoLinks>
+          <costs>
+            <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -876,6 +914,9 @@
                   </modifiers>
                 </infoLink>
               </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="12e9-d271-a8bb-0b5c" name="Combi-Flamer" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
@@ -890,6 +931,9 @@
                   </modifiers>
                 </infoLink>
               </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="e783-37e5-7998-10ff" name="Combi-Plasma" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
@@ -1050,8 +1094,14 @@
         </infoLink>
         <infoLink id="eaf5-29df-3f30-ccaa" name="Relentless" hidden="false" targetId="86eb-a85f-ba32-6f33" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
     </selectionEntry>
-    <selectionEntry id="35b0-3c19-fd45-01c6" name="[Reference] Allegiance: Ordo Malleus" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="35b0-3c19-fd45-01c6" name="[Reference] 1. Allegiance: Ordo Malleus" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05cf-c27d-5037-433b" type="max"/>
+      </constraints>
       <profiles>
         <profile id="9286-9ff7-a525-21e8" name="[Reference] Allegiance: Ordo Malleus" hidden="false" typeId="fb6f-b850-0bd9-3f72" typeName="Allegiance">
           <characteristics>
@@ -1064,6 +1114,9 @@
       <categoryLinks>
         <categoryLink id="9910-18ae-bbf1-c25c" name="Configuration" hidden="false" targetId="1118-1114-130d-8a22" primary="true"/>
       </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="1997-66ba-fdf6-cfd0" name="Castellan Crowe" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -1104,6 +1157,7 @@
         <infoLink id="b8dc-5052-4220-4fbd" name="Frag Grenades" hidden="false" targetId="714e-55c7-e212-972d" type="profile"/>
         <infoLink id="44e7-261b-f0e3-0185" name="Krak Grenades" hidden="false" targetId="400b-808a-ed6a-3c7a" type="profile"/>
         <infoLink id="c80c-c3ba-1722-25fa" name="Purifying Flame" hidden="false" targetId="871b-1270-cbc4-6611" type="profile"/>
+        <infoLink id="cdd4-ccc6-bb5d-eaf5" name="Soul Strenght" hidden="false" targetId="011c-9721-eac0-7518" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="5908-8ded-9be1-a349" name="Imperium" hidden="false" targetId="cbbc-4b19-ba65-bc07" primary="false"/>
@@ -1374,46 +1428,73 @@
       <infoLinks>
         <infoLink id="46d2-25c8-c6e7-6cd7" name="Storm Bolter" hidden="false" targetId="0179-18cb-fe69-536b" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a7df-dbb1-42f6-7e87" name="Incinerator" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="a33e-9d6a-55ed-c160" name="Incinerator" hidden="false" targetId="5092-3b91-8c15-343f" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="7aff-f987-3401-4ce4" name="Psilencer" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="30d4-965d-c986-15da" name="Psilencer" hidden="false" targetId="fde5-6143-ad2d-f36c" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="7830-4c1b-dba9-27dc" name="Psycannon" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="65cc-415b-4807-e823" name="Psycannon" hidden="false" targetId="7c92-865d-1851-44bd" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b893-5fb1-1827-a132" name="Force Sword" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="9abb-05e4-61f2-f870" name="Force Sword" hidden="false" targetId="4838-eafd-323b-c307" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="ce22-09cb-e19e-df77" name="Force Halberd" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="1881-aca6-ba1d-5e41" name="Force Halberd" hidden="false" targetId="5952-228b-94aa-58fb" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="da33-8683-6be5-d9f6" name="Warding Stave" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="e307-212c-2139-bbd8" name="Warding Stave" hidden="false" targetId="815d-d68a-fd11-3fbb" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="c02d-5887-8265-5849" name="Nemesis Falchion" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="60b4-c315-b55d-6a2f" name="Nemesis Falchion" hidden="false" targetId="51e2-c383-0bd4-f1b4" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="77e8-2cdd-a561-3638" name="Nemesis Daemon Hammer" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="e0cf-7a81-f403-35d1" name="Nemesis Daemon Hammer" hidden="false" targetId="1640-f0a6-41d4-6ac3" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="ba51-a3d4-b018-a93e" name="Warlord" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -1429,21 +1510,33 @@
       <infoLinks>
         <infoLink id="45c6-39d1-bd5e-9810" name="Sanctic Will" hidden="false" targetId="88f5-85fb-cf66-ca98" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="02ab-a4dc-3817-d446" name="Daemon Slayer" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="7eac-3dd1-f085-7d49" name="Daemon Slayer" hidden="false" targetId="3957-c24b-2c69-b496" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="76ba-c3ba-7bb3-f850" name="Nemesis Lord" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="1298-a143-e83e-aecb" name="Nemesis Lord" hidden="false" targetId="232c-760e-5066-7192" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="4522-4263-56ab-3755" name="Psychic Epitome" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="7863-1b83-439e-24a2" name="Psychic Epitome" hidden="false" targetId="0938-df68-9718-d935" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="f206-3e39-fd3f-bf09" name="Grey Knights Strike Squad" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -1601,6 +1694,9 @@
               </selectionEntryGroups>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <costs>
+            <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="e6c5-0e29-1ec4-dbc3" name="Justiciar" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1677,6 +1773,9 @@
               </selectionEntryGroups>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <costs>
+            <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -1686,8 +1785,16 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9db-ab65-ca33-318a" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="2c2a-7c10-e82f-ee17" name="Strike Squad Configuration" hidden="false" collective="false" import="true" type="upgrade"/>
-            <selectionEntry id="96ee-ecb1-c536-3823" name="Purgation Squad Configuration" hidden="false" collective="false" import="true" type="upgrade"/>
+            <selectionEntry id="2c2a-7c10-e82f-ee17" name="Strike Squad Configuration" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="96ee-ecb1-c536-3823" name="Purgation Squad Configuration" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+              </costs>
+            </selectionEntry>
             <selectionEntry id="c532-f2d1-df54-c563" name="Interceptor Squad Configuration" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="af2b-44ef-1030-fbe0" name="Personal Teleporter" hidden="false" targetId="440b-8c7d-3572-63aa" type="profile"/>
@@ -1846,31 +1953,49 @@
       <infoLinks>
         <infoLink id="7d81-4a9c-97e8-93ef" name="Heavy Incinerator" hidden="false" targetId="b1a4-49ef-ae08-ad94" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="4f0c-4346-9cef-99a2" name="Gatling Psilencer" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="90b2-ffe7-8f57-1d7d" name="Gatling Psilencer" hidden="false" targetId="ece8-ac2b-9bdc-edca" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="bbe3-d4d9-cdbb-47e9" name="Heavy Psycannon" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="41f2-26c3-ddf9-3d81" name="Heavy Psycannon" hidden="false" targetId="7bdb-506c-a416-8fdf" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="61e3-e0d6-e99c-a698" name="Dreadnought CCW" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="06bb-475a-b02c-924d" name="Dreadnought Close Combat weapon" hidden="false" targetId="2b92-bfb6-ef31-746d" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9455-9b9d-8a8f-5ced" name="Nemesis Greatsword" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="127a-b70e-afb5-329d" name="Nemesis Greatsword" hidden="false" targetId="4c6a-9aeb-b49e-e1ca" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6094-476a-5355-f9eb" name="Nemesis Daemon Greathammer" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="9eb9-e483-9258-2502" name="Nemesis Daemon Greathammer" hidden="false" targetId="e8c0-2bf7-30e4-3019" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b74a-f84a-c897-7fae" name="Grey Knights Terminator Squad" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -1994,6 +2119,9 @@
               </constraints>
             </entryLink>
           </entryLinks>
+          <costs>
+            <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="eee6-3ef2-87d0-7d22" name="Terminator Justicar" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2031,6 +2159,9 @@
                   <infoLinks>
                     <infoLink id="3486-9ba0-f0f9-3fa8" name="Storm Bolter" hidden="false" targetId="0179-18cb-fe69-536b" type="profile"/>
                   </infoLinks>
+                  <costs>
+                    <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="ba72-8150-fde9-bba5" name="2. Librarian" hidden="false" collective="false" import="true" type="upgrade">
                   <profiles>
@@ -2275,6 +2406,9 @@
               </constraints>
             </entryLink>
           </entryLinks>
+          <costs>
+            <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -2284,7 +2418,7 @@
     <selectionEntry id="f3dc-6bd6-3d74-06aa" name="Grey Knights Paladin Squad" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="165c-5c48-14a3-2cb2" name="Space Marine Rules" hidden="false" targetId="99f9-d0b3-39c5-1277" type="infoGroup"/>
-        <infoLink id="1a6a-8baf-4de9-96d6" name="Psyker (x)" hidden="false" targetId="f292-d630-ac45-5b22" type="rule">
+        <infoLink id="1a6a-8baf-4de9-96d6" name="Psyker (x) " hidden="false" targetId="f292-d630-ac45-5b22" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Psyker (1)"/>
           </modifiers>
@@ -2428,6 +2562,9 @@
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <costs>
+            <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="39c1-c283-6f56-8c49" name="Personal Teleporters" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2462,6 +2599,7 @@
             <modifier type="set" field="name" value="Psyker (1)"/>
           </modifiers>
         </infoLink>
+        <infoLink id="157f-e67a-5294-5ff7" name="Soul Strenght" hidden="false" targetId="011c-9721-eac0-7518" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="0309-4019-fdc8-7590" name="Imperial Agents" hidden="false" targetId="8a0a-c224-5de1-5ea8" primary="false"/>
@@ -2603,6 +2741,9 @@
               </selectionEntryGroups>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <costs>
+            <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="940f-2f44-2c75-a3f0" name="Knight of the Flame" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2681,6 +2822,9 @@
               </selectionEntryGroups>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <costs>
+            <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -2691,16 +2835,25 @@
       <infoLinks>
         <infoLink id="0a8f-c0af-66c0-6ac6" name="Assault Cannon" hidden="false" targetId="2205-4254-4627-e41c" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="1237-132e-f6f2-4ad3" name="Multi-Melta" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="2d17-d19d-8caa-9b76" name="Multi-Melta" hidden="false" targetId="6e4e-a54f-4305-3dfe" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="4ee5-deac-7db4-3736" name="Plasma Cannon" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="42da-f06b-1a3e-daeb" name="Plasma Cannon" hidden="false" targetId="3a01-3f1b-7ad4-4f8f" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="ee31-c956-6f3f-320a" name="Grey Knight Castraferrum Dreadnought" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -2750,6 +2903,7 @@
           </constraints>
           <infoLinks>
             <infoLink id="7a6c-a311-05d4-84be" name="Purifying Flame" hidden="false" targetId="871b-1270-cbc4-6611" type="profile"/>
+            <infoLink id="348f-44fe-3ea6-c539" name="Soul Strenght" hidden="false" targetId="011c-9721-eac0-7518" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="10.0"/>
@@ -2929,36 +3083,57 @@
         <infoLink id="7db6-82e6-194f-fd3d" name="Cyclone Missile Launcher (Frag)" hidden="false" targetId="8a2e-b7a9-4d5a-87ce" type="profile"/>
         <infoLink id="3e6e-bd6f-f1d4-fab4" name="Cyclone Missile Launcher (Krak)" hidden="false" targetId="241a-25e9-8028-12f3" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="8223-78db-a2f3-27fd" name="Linked Lascannon" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="2c31-8359-383b-b683" name="Linked Lascannon" hidden="false" targetId="c7d5-7a1d-27df-c961" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="de24-3a7b-2fe1-3a1b" name="Heavy Flamer" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="cabd-0b89-5561-c7b9" name="Flamer" hidden="false" targetId="9ea8-6cb7-a7a6-cf2e" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="d633-c796-edaa-f7e2" name="Linked Autocannon" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="6eb4-6df5-fdfb-b4dc" name="Linked Autocannon" hidden="false" targetId="3eab-a3ee-9cfb-ebe7" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="5ace-9a6b-1e60-d748" name="Linked Heavy Bolter" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="2a64-31e0-6fe8-143b" name="Linked Heavy Bolter" hidden="false" targetId="a702-09f1-d072-08aa" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="4f86-e824-237c-9cbe" name="Seismic Hammer" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="c3f8-1866-69c1-07f7" name="Seismic Hammer" hidden="false" targetId="6758-1573-ecc2-8a41" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="cf5c-b47d-6457-800e" name="Hurricane Bolter" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="82a0-2796-e4c9-a632" name="Hurricane Bolter" hidden="false" targetId="4fed-a08f-d133-e835" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="84a1-3898-9ca2-20c2" name="Kaldor Draigo" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -3033,6 +3208,58 @@
         <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="180.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="02a8-b5fb-cecc-86b8" name="[Reference] 2. Sanctic Psychic Powers" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3b5-2936-d026-1938" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="ad98-6d37-2340-2831" name="Hammerhand" hidden="false" typeId="2a00-4329-9a3b-34a3" typeName="Psychic Power">
+          <characteristics>
+            <characteristic name="Description" typeId="ff3c-7073-b33d-a1a4">Cast this Psychic Power in either player Combat Phase. When this power is cast, the Psyker and their attached unit increase the value of (x) on all Force (x) weapons they have by 1 to a max of (2+) until the end of the phase. If they do not have the Force (x) special rule, they gain +1 to their Strength (S) characteristic until the end of the phase.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="fe22-5bd3-39f5-1a08" name="Armoured Resilience" hidden="false" typeId="2a00-4329-9a3b-34a3" typeName="Psychic Power">
+          <characteristics>
+            <characteristic name="Description" typeId="ff3c-7073-b33d-a1a4">Cast this Psychic power in your opponent’s Shooting Phase. When this power is cast, the Psyker and any attached unit can re-roll failed saves (Armour Saves only) until the end of the phase.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1934-7fa3-0888-9589" name="Astral Aim" hidden="false" typeId="2a00-4329-9a3b-34a3" typeName="Psychic Power">
+          <characteristics>
+            <characteristic name="Description" typeId="ff3c-7073-b33d-a1a4">Cast this Psychic Power in your Shooting Phase. When this power is cast, the Psyker and any attached unit gain the Linked Special rule on all Shooting
+weapons they are equipped with until the end of the Phase.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="ce03-4058-ae60-1505" name="New CategoryLink" hidden="false" targetId="1118-1114-130d-8a22" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="a8a2-4ef4-a813-8aeb" name="[Reference] 3. Litanies of Faith" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d3c-861f-dfdf-461f" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="50bf-511c-e3c8-0774" name="Litany of Faith (Any phase)" hidden="false" targetId="7037-7fef-d567-92fc" type="profile"/>
+        <infoLink id="495a-633b-dc7d-edfd" name="Recitation of Focus (Shooting Phase)" hidden="false" targetId="216e-0dbb-f65c-f9d2" type="profile"/>
+        <infoLink id="48f0-8562-1f77-1268" name="Litany of Hatred (Combat phase)" hidden="false" targetId="d2f8-cc06-bdf2-3191" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8042-69ee-4296-c9ce" name="New CategoryLink" hidden="false" targetId="1118-1114-130d-8a22" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="23fc-09aa-9cf5-deaa" name="[Reference] 4. Machine Rites" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac85-dd7f-3842-ea5a" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="5d3b-ad26-f936-e185" name="Rite of Benevolence (Shooting Phase)" hidden="false" targetId="d1a6-a6c9-693a-68ea" type="profile"/>
+        <infoLink id="c045-fe25-290a-a336" name="Rite of Repair (Movement phase)" hidden="false" targetId="21a9-b053-26b3-dd86" type="profile"/>
+        <infoLink id="7f76-c8e6-a454-74fc" name="Rite of Immolation (Any phase)" hidden="false" targetId="fc56-2060-e991-0927" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="e783-63e9-7fe5-da6f" name="New CategoryLink" hidden="false" targetId="1118-1114-130d-8a22" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
     <rule id="2c4a-4d02-b4f3-3578" name="And they shall know no Fear" hidden="false">
@@ -3042,6 +3269,9 @@
     </rule>
     <rule id="f22c-00a2-e986-e0d8" name="Angels of Death" hidden="false">
       <description>If Space Marine units with this rule are in combat with an enemy unit that has a lower Leadership (LD) Characteristic, the space marine units have the Fear (1) special rule.</description>
+    </rule>
+    <rule id="011c-9721-eac0-7518" name="Soul Strenght" hidden="false">
+      <description>The Strength of this weapon is equal to the models Leadership (LD) characteristic.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -3613,6 +3843,41 @@
         <characteristic name="Strength" typeId="7207-63c6-bac0-ee4b">+4</characteristic>
         <characteristic name="AP" typeId="b78f-cbd6-e399-76db">3</characteristic>
         <characteristic name="Rules" typeId="a64f-633d-92d0-587c">Unwieldy, Concussive. Crushing (4+).</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e60b-f23b-6a63-3deb" name="Assault Launchers" hidden="false" typeId="a36b-d7d4-4249-a209" typeName="3. Wargear">
+      <characteristics>
+        <characteristic name="Description" typeId="98c9-5aeb-b901-28d4">A model equipped with this Wargear can make 1 additional Hammer of Wrath Attack.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d1a6-a6c9-693a-68ea" name="Rite of Benevolence (Shooting Phase)" hidden="false" typeId="97c8-9959-2410-a2cb" typeName="Machine Rite">
+      <characteristics>
+        <characteristic name="Description" typeId="0217-f9ef-cd8e-7985">Perform this Rite in your Opponents Shooting phase. When this Rite is performed successfully, select 1 Vehicle, Aircraft, Walker or Automata unit either within 3” or attached to the Tech Priest that is performing this rite. The target unit gains a 5+ Invulnerable save until the end of the phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="fc56-2060-e991-0927" name="Rite of Immolation (Any phase)" hidden="false" typeId="97c8-9959-2410-a2cb" typeName="Machine Rite">
+      <characteristics>
+        <characteristic name="Description" typeId="0217-f9ef-cd8e-7985">Perform this Rite in any phase, yours or your opponents. When this Rite is performed successfully, select 1 friendly Vehicle, Aircraft, Walker or Automata unit either within 18” or attached to the Tech Priest that is performing this rite. The Vehicle, Aircraft, Walker or Automata unit immediately explode per the Explodes result on the Vehicle damage chart (see Core rules).</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="21a9-b053-26b3-dd86" name="Rite of Repair (Movement phase)" hidden="false" typeId="97c8-9959-2410-a2cb" typeName="Machine Rite">
+      <characteristics>
+        <characteristic name="Description" typeId="0217-f9ef-cd8e-7985">Perform this Rite in your Movement phase. When this Rite is performed successfully, select 1 Vehicle, Aircraft, Walker or Automata unit either within 3” or attached to the Tech Priest that is performing this rite. If that target is Vehicle or Aircraft, either repair 1 destroyed weapon it is equipped with or if the vehicle is immobilised, it is no longer immobilised. If the target is a Walker or Automata, it Heals 1 wound.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7037-7fef-d567-92fc" name="Litany of Faith (Any phase)" hidden="false" typeId="b5df-3fcb-880c-c4d7" typeName="Prayer">
+      <characteristics>
+        <characteristic name="Description" typeId="6a65-c34c-a211-d8b1">Chant this Litany in any phase, yours or your opponents. If this Litany is Inspiring, the Priest and any attached unit cannot be targeted by enemy Psychic Powers or Psychic weapons during that phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d2f8-cc06-bdf2-3191" name="Litany of Hatred (Combat phase)" hidden="false" typeId="b5df-3fcb-880c-c4d7" typeName="Prayer">
+      <characteristics>
+        <characteristic name="Description" typeId="6a65-c34c-a211-d8b1">Chant this Litany in either player Combat phase. If this Litany is Inspiring, the Priest and any attached unit have the Rage (1) special rule until the end of the phase. If the unit already has Rage (x), increase the value of (x) by 1.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="216e-0dbb-f65c-f9d2" name="Recitation of Focus (Shooting Phase)" hidden="false" typeId="b5df-3fcb-880c-c4d7" typeName="Prayer">
+      <characteristics>
+        <characteristic name="Description" typeId="6a65-c34c-a211-d8b1">Chant this Litany in your Shooting phase. If this Litany is Inspiring, The Priest and any attached unit count as having the Relentless special rule until the end of the phase.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
