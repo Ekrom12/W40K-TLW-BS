@@ -50,7 +50,7 @@
         <characteristicType id="becb-d682-0b85-040f" name="Description"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="e769-cf83-70bf-e39b" name="4. Weapon">
+    <profileType id="e769-cf83-70bf-e39b" name="4.1 Ranged Weapon">
       <characteristicTypes>
         <characteristicType id="e073-8376-b400-62a1" name="Type"/>
         <characteristicType id="adb6-ae76-701b-28cb" name="Range"/>
@@ -86,6 +86,15 @@
     <profileType id="c5b0-edc1-3954-f457" name="2. Special Rule">
       <characteristicTypes>
         <characteristicType id="7625-b45b-2ec6-2bfe" name="Description"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType id="aee3-6e54-942d-9406" name="4.2 Melee Weapon">
+      <characteristicTypes>
+        <characteristicType id="94d4-e42f-3ef5-684b" name="Type"/>
+        <characteristicType id="88bf-9bf9-3672-1398" name="Range"/>
+        <characteristicType id="7207-63c6-bac0-ee4b" name="Strength"/>
+        <characteristicType id="b78f-cbd6-e399-76db" name="AP"/>
+        <characteristicType id="a64f-633d-92d0-587c" name="Rules"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
@@ -607,13 +616,13 @@ If rolling to Penetrate against an Armour Value, the weapons attack against the 
         <characteristic name="Special Rules" typeId="c619-02a3-6669-f4ad">Psychic Weapon</characteristic>
       </characteristics>
     </profile>
-    <profile id="b814-6941-df17-3d2b" name="Close Combat Weapon" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="b814-6941-df17-3d2b" name="Close Combat Weapon" hidden="false" typeId="aee3-6e54-942d-9406" typeName="4.2 Melee Weapon">
       <characteristics>
-        <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
-        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
-        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">User</characteristic>
-        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">-</characteristic>
-        <characteristic name="Rules" typeId="c3ab-1087-e246-484a">-</characteristic>
+        <characteristic name="Type" typeId="94d4-e42f-3ef5-684b">Melee</characteristic>
+        <characteristic name="Range" typeId="88bf-9bf9-3672-1398">Melee</characteristic>
+        <characteristic name="Strength" typeId="7207-63c6-bac0-ee4b">User</characteristic>
+        <characteristic name="AP" typeId="b78f-cbd6-e399-76db">-</characteristic>
+        <characteristic name="Rules" typeId="a64f-633d-92d0-587c">-</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
