@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9c56-38aa-1fbc-0c60" name="Codex: Imperial Agents - Grey Knights" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="5a96-11db-b761-54f0" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9c56-38aa-1fbc-0c60" name="Codex: Imperial Agents - Grey Knights" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="5a96-11db-b761-54f0" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="fb6f-b850-0bd9-3f72" name="Allegiance">
       <characteristicTypes>
@@ -3233,6 +3233,9 @@ weapons they are equipped with until the end of the Phase.</characteristic>
       <categoryLinks>
         <categoryLink id="ce03-4058-ae60-1505" name="New CategoryLink" hidden="false" targetId="1118-1114-130d-8a22" primary="true"/>
       </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a8a2-4ef4-a813-8aeb" name="[Reference] 3. Litanies of Faith" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -3246,6 +3249,9 @@ weapons they are equipped with until the end of the Phase.</characteristic>
       <categoryLinks>
         <categoryLink id="8042-69ee-4296-c9ce" name="New CategoryLink" hidden="false" targetId="1118-1114-130d-8a22" primary="true"/>
       </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="23fc-09aa-9cf5-deaa" name="[Reference] 4. Machine Rites" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -3259,6 +3265,9 @@ weapons they are equipped with until the end of the Phase.</characteristic>
       <categoryLinks>
         <categoryLink id="e783-63e9-7fe5-da6f" name="New CategoryLink" hidden="false" targetId="1118-1114-130d-8a22" primary="true"/>
       </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
