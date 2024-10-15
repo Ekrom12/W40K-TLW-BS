@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="bbd8-a540-427c-19d1" name="The Long War - Codex Tyranids" revision="7" battleScribeVersion="2.03" authorName="Thanathoum" authorContact="" library="false" gameSystemId="5a96-11db-b761-54f0" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="bbd8-a540-427c-19d1" name="Codex :Tyranids" revision="8" battleScribeVersion="2.03" authorName="Thanathoum" authorContact="" library="false" gameSystemId="5a96-11db-b761-54f0" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="6ce0-fd6b-2a83-a367" name="The Long War - Codex Tyranids v3.0" shortName="Codex Tyranids"/>
   </publications>
@@ -2974,7 +2974,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="811a-cf2a-286e-ac79" type="max"/>
           </constraints>
           <profiles>
-            <profile id="fc22-bb02-f23c-5776" name="Spinemaws" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+            <profile id="fc22-bb02-f23c-5776" name="Spinemaws" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
               <characteristics>
                 <characteristic name="Type" typeId="e073-8376-b400-62a1">Pistol 4</characteristic>
                 <characteristic name="Range" typeId="adb6-ae76-701b-28cb">6&quot;</characteristic>
@@ -3170,7 +3170,7 @@
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3215-4a54-b3a0-a569" type="min"/>
       </constraints>
       <profiles>
-        <profile id="578b-5a67-9822-c021" name="Warp Blast" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+        <profile id="578b-5a67-9822-c021" name="Warp Blast" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
           <characteristics>
             <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 1</characteristic>
             <characteristic name="Range" typeId="adb6-ae76-701b-28cb">18&quot;</characteristic>
@@ -4294,7 +4294,7 @@ Benefits:
                 <characteristic name="Sv" typeId="4740-fde6-c158-c099">6+</characteristic>
               </characteristics>
             </profile>
-            <profile id="cc55-add4-bda5-9f74" name="Blinding Venom" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+            <profile id="cc55-add4-bda5-9f74" name="Blinding Venom" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
               <characteristics>
                 <characteristic name="Type" typeId="e073-8376-b400-62a1">Pistol 1</characteristic>
                 <characteristic name="Range" typeId="adb6-ae76-701b-28cb">6&quot;</characteristic>
@@ -4373,7 +4373,7 @@ Benefits:
             <characteristic name="Description" typeId="7625-b45b-2ec6-2bfe">This unit cannot contest objectives or count for scoring VP. Models in his unit have a 3” Movement (M) characteristic.</characteristic>
           </characteristics>
         </profile>
-        <profile id="411c-b700-1e31-a08c" name="Living Explosive" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+        <profile id="411c-b700-1e31-a08c" name="Living Explosive" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
           <characteristics>
             <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
             <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
@@ -4439,7 +4439,7 @@ Benefits:
             <characteristic name="Description" typeId="7625-b45b-2ec6-2bfe">This unit cannot contest objectives or count for scoring VP. Models in his unit have a 3” Movement (M) characteristic.</characteristic>
           </characteristics>
         </profile>
-        <profile id="3942-9528-bf86-ae07" name="Living Explosive" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+        <profile id="3942-9528-bf86-ae07" name="Living Explosive" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
           <characteristics>
             <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
             <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
@@ -4855,7 +4855,7 @@ counts as an Instant death attack).</characteristic>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b65-5c49-3958-a367" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="0cb1-5cd2-9692-2feb" name="Wrecker Claws and Bio Flail" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+                    <profile id="0cb1-5cd2-9692-2feb" name="Wrecker Claws and Bio Flail" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
                       <characteristics>
                         <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
                         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
@@ -5495,7 +5495,7 @@ counts as an Instant death attack).</characteristic>
             <characteristic name="Description" typeId="7625-b45b-2ec6-2bfe">This unit may re-roll failed hit rolls of 1 against the enemy Warlord. If the Enemy Warlord is slain by this unit, you gain 1 Victory Point. If this unit is slain, you lose 1 Victory Point.</characteristic>
           </characteristics>
         </profile>
-        <profile id="fdc5-1417-90f1-9392" name="Toxinjector Harpoons" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+        <profile id="fdc5-1417-90f1-9392" name="Toxinjector Harpoons" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
           <characteristics>
             <characteristic name="Type" typeId="e073-8376-b400-62a1">Pistol 2</characteristic>
             <characteristic name="Range" typeId="adb6-ae76-701b-28cb">24&quot;</characteristic>
@@ -5645,7 +5645,7 @@ counts as an Instant death attack).</characteristic>
             <characteristic name="Sv" typeId="4740-fde6-c158-c099">2+</characteristic>
           </characteristics>
         </profile>
-        <profile id="a33c-18f9-d0d7-81ab" name="Impaling Tendrils" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+        <profile id="a33c-18f9-d0d7-81ab" name="Impaling Tendrils" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
           <characteristics>
             <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
             <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
@@ -6216,7 +6216,7 @@ Benefits:
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4aab-afa1-49d0-1a00" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="2cdf-59b0-42f0-8c9d" name="Wrecker Claws and Bio Flail" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+                    <profile id="2cdf-59b0-42f0-8c9d" name="Wrecker Claws and Bio Flail" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
                       <characteristics>
                         <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
                         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
@@ -6754,7 +6754,7 @@ Elite &gt; HQ</comment>
                 <characteristic name="Sv" typeId="4740-fde6-c158-c099">6+</characteristic>
               </characteristics>
             </profile>
-            <profile id="7fe5-6d1d-a81e-4e27" name="Blinding Venom" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+            <profile id="7fe5-6d1d-a81e-4e27" name="Blinding Venom" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
               <characteristics>
                 <characteristic name="Type" typeId="e073-8376-b400-62a1">Pistol 1</characteristic>
                 <characteristic name="Range" typeId="adb6-ae76-701b-28cb">6&quot;</characteristic>
@@ -7156,7 +7156,7 @@ Elite &gt; HQ</comment>
             <characteristic name="Description" typeId="7625-b45b-2ec6-2bfe"> Each time this unit attacks in the combat phase, after resolving all of this unit&apos;s attacks, if it inflicted at least 1 wound, you may summon 1 unit of Ripper Swarms within 3” of this unit. At the start of your movement phase, this unit may summon 1 unit of Ripper Swarms per game within 3” of it and more than 3” away from any enemy models.</characteristic>
           </characteristics>
         </profile>
-        <profile id="668e-6f7d-95d4-3c4a" name="Injector Tail" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+        <profile id="668e-6f7d-95d4-3c4a" name="Injector Tail" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
           <characteristics>
             <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
             <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
@@ -7676,7 +7676,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Description" typeId="98c9-5aeb-b901-28d4">The largest organisms akin to walking tanks have Armoured shells with a consistency to Armoured ceramite that absorb impacts and heat. It confers a 2+ save.</characteristic>
       </characteristics>
     </profile>
-    <profile id="56fc-b0fd-b321-54fe" name="Spine Fists" publicationId="6ce0-fd6b-2a83-a367" page="8" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="56fc-b0fd-b321-54fe" name="Spine Fists" publicationId="6ce0-fd6b-2a83-a367" page="8" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Pistol X</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">12&quot;</characteristic>
@@ -7685,7 +7685,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Spine Launcher</characteristic>
       </characteristics>
     </profile>
-    <profile id="b6a2-47f4-1b0b-ad60" name="Fleshborer" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="b6a2-47f4-1b0b-ad60" name="Fleshborer" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 1</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">24&quot;</characteristic>
@@ -7694,7 +7694,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a"/>
       </characteristics>
     </profile>
-    <profile id="0e6a-f512-c9f3-6ba1" name="Devourer" publicationId="6ce0-fd6b-2a83-a367" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="0e6a-f512-c9f3-6ba1" name="Devourer" publicationId="6ce0-fd6b-2a83-a367" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 3</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">18&quot;</characteristic>
@@ -7703,7 +7703,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a"/>
       </characteristics>
     </profile>
-    <profile id="0b71-0785-7f60-6163" name="Deathspitter" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="0b71-0785-7f60-6163" name="Deathspitter" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 3</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">36&quot;</characteristic>
@@ -7712,7 +7712,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Pinning</characteristic>
       </characteristics>
     </profile>
-    <profile id="d572-3c9d-4f18-5181" name="Spike Rifle" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="d572-3c9d-4f18-5181" name="Spike Rifle" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Rapid Fire 1</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">24&quot;</characteristic>
@@ -7721,7 +7721,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a"/>
       </characteristics>
     </profile>
-    <profile id="fdfc-2d0e-f9d1-ea24" name="Flesh Hooks" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="fdfc-2d0e-f9d1-ea24" name="Flesh Hooks" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Pistol 2</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">6&quot;</characteristic>
@@ -7730,7 +7730,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a"/>
       </characteristics>
     </profile>
-    <profile id="e43e-0a2f-d4e5-ada5" name="Shardlauncher" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="e43e-0a2f-d4e5-ada5" name="Shardlauncher" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Heavy 1</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">18&quot;</characteristic>
@@ -7739,7 +7739,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Indirect Fire</characteristic>
       </characteristics>
     </profile>
-    <profile id="6b3c-67ec-a149-9b46" name="Deathspitters with Slimer Maggots" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="6b3c-67ec-a149-9b46" name="Deathspitters with Slimer Maggots" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 3</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">24&quot;</characteristic>
@@ -7748,7 +7748,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Pinning, Rending (5+)</characteristic>
       </characteristics>
     </profile>
-    <profile id="dce7-bca7-cd56-b339" name="Devourers with Brainleech worms" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="dce7-bca7-cd56-b339" name="Devourers with Brainleech worms" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 6</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">12&quot;</characteristic>
@@ -7757,7 +7757,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Pinning, Shred</characteristic>
       </characteristics>
     </profile>
-    <profile id="c1e7-8a6e-ae2c-3b2f" name="Stinger Salvo" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="c1e7-8a6e-ae2c-3b2f" name="Stinger Salvo" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 3</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">24&quot;</characteristic>
@@ -7766,7 +7766,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a"/>
       </characteristics>
     </profile>
-    <profile id="11d1-e047-0cfd-e6b1" name="Barblauncher" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="11d1-e047-0cfd-e6b1" name="Barblauncher" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Heavy 3</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">24&quot;</characteristic>
@@ -7775,7 +7775,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Pinning, Indirect Fire</characteristic>
       </characteristics>
     </profile>
-    <profile id="4069-03d3-39c3-2415" name="Bio Cannon" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="4069-03d3-39c3-2415" name="Bio Cannon" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Heavy 2</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">48&quot;</characteristic>
@@ -7784,7 +7784,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Linked</characteristic>
       </characteristics>
     </profile>
-    <profile id="d5ca-adff-a60f-5b6e" name="Fleshborer Hive" page="" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="d5ca-adff-a60f-5b6e" name="Fleshborer Hive" page="" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Rapid Fire 5</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">24&quot;</characteristic>
@@ -7793,7 +7793,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Pinning</characteristic>
       </characteristics>
     </profile>
-    <profile id="7d0f-7e93-b7ff-d7d0" name="Impaler Cannon" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="7d0f-7e93-b7ff-d7d0" name="Impaler Cannon" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Heavy 2</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">36&quot;</characteristic>
@@ -7802,7 +7802,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Ignores Cover, Indirect Fire</characteristic>
       </characteristics>
     </profile>
-    <profile id="9b47-d3e0-69a9-d7ac" name="Tentaclids" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="9b47-d3e0-69a9-d7ac" name="Tentaclids" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 4</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">36&quot;</characteristic>
@@ -7811,7 +7811,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Skyfire, Haywire (4+)</characteristic>
       </characteristics>
     </profile>
-    <profile id="b39a-4910-54a3-fd00" name="Spore Mine Launcher (Ground)" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="b39a-4910-54a3-fd00" name="Spore Mine Launcher (Ground)" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Heavy 1</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">48&quot;</characteristic>
@@ -7820,7 +7820,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Blast, Ignores Cover, Indirect Fire, Variable</characteristic>
       </characteristics>
     </profile>
-    <profile id="2be7-1912-f82d-300c" name="Spore Mine Launcher (Air)" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="2be7-1912-f82d-300c" name="Spore Mine Launcher (Air)" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Heavy 1</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">48&quot;</characteristic>
@@ -7829,7 +7829,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Skyfire, Ignores Cover, Indirect Fire, Variable</characteristic>
       </characteristics>
     </profile>
-    <profile id="bcad-5c6e-31cd-8713" name="Strangleweb" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="bcad-5c6e-31cd-8713" name="Strangleweb" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 1</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">24&quot;</characteristic>
@@ -7838,7 +7838,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Pinning</characteristic>
       </characteristics>
     </profile>
-    <profile id="c560-5e30-4887-aaa3" name="Barbed Strangler" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="c560-5e30-4887-aaa3" name="Barbed Strangler" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 1</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">36&quot;</characteristic>
@@ -7847,7 +7847,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Blast, Pinning</characteristic>
       </characteristics>
     </profile>
-    <profile id="96e5-46ba-b012-7470" name="Stranglethorn Cannon" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="96e5-46ba-b012-7470" name="Stranglethorn Cannon" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 1</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">48&quot;</characteristic>
@@ -7856,7 +7856,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Large Blast, Pinning</characteristic>
       </characteristics>
     </profile>
-    <profile id="ff94-26ec-3253-6168" name="Flamespurt" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="ff94-26ec-3253-6168" name="Flamespurt" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 1</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">12&quot;</characteristic>
@@ -7865,7 +7865,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Spray</characteristic>
       </characteristics>
     </profile>
-    <profile id="1c42-c239-57a6-ccca" name="Acid Maw" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="1c42-c239-57a6-ccca" name="Acid Maw" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
@@ -7874,7 +7874,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a"/>
       </characteristics>
     </profile>
-    <profile id="f0a6-9cfa-269c-33ce" name="Drool Cannon" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="f0a6-9cfa-269c-33ce" name="Drool Cannon" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 1</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">12&quot;</characteristic>
@@ -7883,7 +7883,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Spray</characteristic>
       </characteristics>
     </profile>
-    <profile id="5681-9b29-234c-0561" name="Monstrous Acid Maw" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="5681-9b29-234c-0561" name="Monstrous Acid Maw" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
@@ -7892,7 +7892,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a"/>
       </characteristics>
     </profile>
-    <profile id="743d-5747-eda8-db32" name="Acid Spray" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="743d-5747-eda8-db32" name="Acid Spray" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 1</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">12&quot;</characteristic>
@@ -7901,7 +7901,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Spray, Shred</characteristic>
       </characteristics>
     </profile>
-    <profile id="3bd3-1521-38b7-618a" name="Bio Acid Spray" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="3bd3-1521-38b7-618a" name="Bio Acid Spray" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 1</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">18&quot;</characteristic>
@@ -7910,7 +7910,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Spray, Shred</characteristic>
       </characteristics>
     </profile>
-    <profile id="ea9a-729d-0514-7565" name="Venom Cannon" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="ea9a-729d-0514-7565" name="Venom Cannon" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 2</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">36&quot;</characteristic>
@@ -7919,7 +7919,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a"/>
       </characteristics>
     </profile>
-    <profile id="19aa-0d7f-7046-729b" name="Heavy Venom Cannon" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="19aa-0d7f-7046-729b" name="Heavy Venom Cannon" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 2</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">36&quot;</characteristic>
@@ -7928,7 +7928,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a"/>
       </characteristics>
     </profile>
-    <profile id="3c2f-0ca5-7a98-0492" name="Bio-Plasmic Cannon" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="3c2f-0ca5-7a98-0492" name="Bio-Plasmic Cannon" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Heavy 4</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">36&quot;</characteristic>
@@ -7937,7 +7937,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Linked</characteristic>
       </characteristics>
     </profile>
-    <profile id="7c94-7798-0b5f-41e8" name="Rupture Cannon" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="7c94-7798-0b5f-41e8" name="Rupture Cannon" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Heavy 2</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">48&quot;</characteristic>
@@ -7946,7 +7946,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Linked, Sunder</characteristic>
       </characteristics>
     </profile>
-    <profile id="7987-8965-d592-c615" name="Bio Plasma" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="7987-8965-d592-c615" name="Bio Plasma" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 1</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">18&quot;</characteristic>
@@ -7955,7 +7955,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Blast</characteristic>
       </characteristics>
     </profile>
-    <profile id="da55-bd45-95d2-6dc9" name="Scything Talons" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="da55-bd45-95d2-6dc9" name="Scything Talons" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
@@ -7964,7 +7964,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Reach</characteristic>
       </characteristics>
     </profile>
-    <profile id="4140-98ea-1103-9490" name="Monstrous Scything Talons" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="4140-98ea-1103-9490" name="Monstrous Scything Talons" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
@@ -7973,7 +7973,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Reach</characteristic>
       </characteristics>
     </profile>
-    <profile id="ae9e-110b-2ee4-3f5b" name="Rending Claws" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="ae9e-110b-2ee4-3f5b" name="Rending Claws" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
@@ -7982,7 +7982,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Rending (5+)</characteristic>
       </characteristics>
     </profile>
-    <profile id="8f01-64a1-a7ee-9800" name="Monstrous Rending Claws" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="8f01-64a1-a7ee-9800" name="Monstrous Rending Claws" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
@@ -7991,7 +7991,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Rending (4+), Shred</characteristic>
       </characteristics>
     </profile>
-    <profile id="b619-5e9f-5deb-dfc9" name="Bone Sword" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="b619-5e9f-5deb-dfc9" name="Bone Sword" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
@@ -8000,7 +8000,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a"/>
       </characteristics>
     </profile>
-    <profile id="855b-2195-370a-0e99" name="Monstrous Bone Sword" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="855b-2195-370a-0e99" name="Monstrous Bone Sword" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
@@ -8009,7 +8009,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a"/>
       </characteristics>
     </profile>
-    <profile id="81ea-3cdb-e339-b0aa" name="Lash Whip" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="81ea-3cdb-e339-b0aa" name="Lash Whip" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
@@ -8018,7 +8018,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Swift Strike, Reach</characteristic>
       </characteristics>
     </profile>
-    <profile id="8157-d924-082c-a37e" name="Grasping Talons" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="8157-d924-082c-a37e" name="Grasping Talons" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
@@ -8027,7 +8027,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Precision Strikes, Rending (4+)</characteristic>
       </characteristics>
     </profile>
-    <profile id="fcd1-30a2-a7e8-d45f" name="Crushing Claws" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="fcd1-30a2-a7e8-d45f" name="Crushing Claws" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
@@ -8036,7 +8036,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Unwieldy, Crushing (6+), Specialist Weapon</characteristic>
       </characteristics>
     </profile>
-    <profile id="eeac-9cbf-a060-e2d5" name="Monstrous Crushing Claws" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="eeac-9cbf-a060-e2d5" name="Monstrous Crushing Claws" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
@@ -8045,7 +8045,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Unwieldy, Crushing (5+), Specialist Weapon</characteristic>
       </characteristics>
     </profile>
-    <profile id="0310-e00b-0c31-6c7a" name="Ravenous Maw" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="0310-e00b-0c31-6c7a" name="Ravenous Maw" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
@@ -8054,7 +8054,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Master-Crafted, Unwieldy, Specialist Weapon</characteristic>
       </characteristics>
     </profile>
-    <profile id="90ee-de58-3952-cea5" name="Shovelling Claws" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="90ee-de58-3952-cea5" name="Shovelling Claws" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
@@ -8063,7 +8063,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Unwieldy, Sweeping</characteristic>
       </characteristics>
     </profile>
-    <profile id="d7f0-b614-1bea-bd85" name="Grasping Tongue" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="d7f0-b614-1bea-bd85" name="Grasping Tongue" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
@@ -8072,7 +8072,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Reach</characteristic>
       </characteristics>
     </profile>
-    <profile id="de92-b6d8-ddde-69c0" name="Hierodule Scything Talons" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="de92-b6d8-ddde-69c0" name="Hierodule Scything Talons" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
@@ -8081,7 +8081,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Specialist Weapon</characteristic>
       </characteristics>
     </profile>
-    <profile id="9277-1e33-a8e2-39e4" name="Bone Sabres" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="9277-1e33-a8e2-39e4" name="Bone Sabres" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
@@ -8090,7 +8090,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Bane, Master-Crafted, Parry</characteristic>
       </characteristics>
     </profile>
-    <profile id="b71d-b018-9317-a2c5" name="Powerful Limbs" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="b71d-b018-9317-a2c5" name="Powerful Limbs" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
@@ -8099,7 +8099,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a"/>
       </characteristics>
     </profile>
-    <profile id="fe64-df5b-2e99-0ae8" name="Scything Wings" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="fe64-df5b-2e99-0ae8" name="Scything Wings" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
@@ -8108,7 +8108,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a"/>
       </characteristics>
     </profile>
-    <profile id="c612-da8a-2b4d-651f" name="Distensible Jaw" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="c612-da8a-2b4d-651f" name="Distensible Jaw" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
@@ -8117,7 +8117,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Sunder</characteristic>
       </characteristics>
     </profile>
-    <profile id="ded9-b605-d278-8234" name="Prehensile Tail" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="ded9-b605-d278-8234" name="Prehensile Tail" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
@@ -8126,7 +8126,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a"/>
       </characteristics>
     </profile>
-    <profile id="0078-614d-0621-aab5" name="Grasping Tail" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="0078-614d-0621-aab5" name="Grasping Tail" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
@@ -8135,7 +8135,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Poison (3+), Shred</characteristic>
       </characteristics>
     </profile>
-    <profile id="0a2b-f425-ba81-df50" name="Wicked Spur" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="0a2b-f425-ba81-df50" name="Wicked Spur" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
@@ -8144,7 +8144,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a"/>
       </characteristics>
     </profile>
-    <profile id="1678-5378-b418-7534" name="Toxin Spike" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="1678-5378-b418-7534" name="Toxin Spike" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
@@ -8153,7 +8153,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Poison (2+)</characteristic>
       </characteristics>
     </profile>
-    <profile id="3c3a-5847-cecc-b7af" name="Bio Static Rattle" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="3c3a-5847-cecc-b7af" name="Bio Static Rattle" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
@@ -8162,7 +8162,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Arcing (6+)</characteristic>
       </characteristics>
     </profile>
-    <profile id="4443-7d07-82a1-9160" name="Bone Mace" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="4443-7d07-82a1-9160" name="Bone Mace" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
@@ -8171,7 +8171,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Crushing (5+)</characteristic>
       </characteristics>
     </profile>
-    <profile id="612b-a338-627c-8f9c" name="Thresher Scythe" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="612b-a338-627c-8f9c" name="Thresher Scythe" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
@@ -8180,7 +8180,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Sweeping (1)</characteristic>
       </characteristics>
     </profile>
-    <profile id="182d-f836-dbbd-818c" name="Shock Cannon" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="182d-f836-dbbd-818c" name="Shock Cannon" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 2</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">24&quot;</characteristic>
@@ -8189,7 +8189,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Haywire (4+)</characteristic>
       </characteristics>
     </profile>
-    <profile id="5a60-b1fb-fd9f-d2b8" name="Bio Electric Pulse" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="5a60-b1fb-fd9f-d2b8" name="Bio Electric Pulse" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 6</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">12&quot;</characteristic>
@@ -8198,7 +8198,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Arcing (5+)</characteristic>
       </characteristics>
     </profile>
-    <profile id="273c-84ed-3d72-97fd" name="Toxic Lashes (Shooting)" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="273c-84ed-3d72-97fd" name="Toxic Lashes (Shooting)" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Pistol 6</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">6&quot;</characteristic>
@@ -8207,7 +8207,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Poison (4+)</characteristic>
       </characteristics>
     </profile>
-    <profile id="3322-d37f-3250-1acd" name="Toxic Lashes (Melee)" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="3322-d37f-3250-1acd" name="Toxic Lashes (Melee)" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
@@ -8216,7 +8216,7 @@ afford them some protection against small arms fire. This confers a 6+ save.</ch
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Poison (4+), Specialist Weapon</characteristic>
       </characteristics>
     </profile>
-    <profile id="fc90-2767-13e7-4db8" name="Choking Spores" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="fc90-2767-13e7-4db8" name="Choking Spores" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 1</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">12&quot;</characteristic>
@@ -8279,7 +8279,7 @@ automatically Rally when this power is resolved</characteristic>
         <characteristic name="Description" typeId="98c9-5aeb-b901-28d4">This unit has a 4+ Invulnerable Save.</characteristic>
       </characteristics>
     </profile>
-    <profile id="900b-a582-c184-18ce" name="Venomthorn Cannon" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="900b-a582-c184-18ce" name="Venomthorn Cannon" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 1</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">36&quot;</characteristic>
@@ -8288,7 +8288,7 @@ automatically Rally when this power is resolved</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Blast, Barrage (2)</characteristic>
       </characteristics>
     </profile>
-    <profile id="70da-a676-30dd-fa78" name="Scythes of Tyran" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="70da-a676-30dd-fa78" name="Scythes of Tyran" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
