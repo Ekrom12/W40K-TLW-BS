@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4cc4-a4d8-2687-e4d0" name="Codex: Space Marines" revision="9" battleScribeVersion="2.03" library="false" gameSystemId="5a96-11db-b761-54f0" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4cc4-a4d8-2687-e4d0" name="Codex: Space Marines" revision="10" battleScribeVersion="2.03" library="false" gameSystemId="5a96-11db-b761-54f0" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="c5fc-783d-2432-dcab" name="Chapter">
       <characteristicTypes>
@@ -325,6 +325,7 @@
       </constraints>
     </categoryEntry>
     <categoryEntry id="42ea-4eaf-ab52-f5c0" name="Pride of the Chapter Compulsory Choice" hidden="false"/>
+    <categoryEntry id="a242-0cf0-c2b9-c832" name="No Force Org. Slot" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="9679-4097-56bd-8395" name="Crusade Detachment" hidden="false">
@@ -466,6 +467,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="444e-06cb-63e4-30a8" type="max"/>
           </constraints>
         </categoryLink>
+        <categoryLink id="578e-ce51-cd2a-eea6" name="No Force Org. Slot" hidden="false" targetId="a242-0cf0-c2b9-c832" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
@@ -1319,6 +1321,17 @@
         <categoryLink id="52d8-86dc-b654-b71e" name="Configuration" hidden="false" targetId="1118-1114-130d-8a22" primary="false"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="7702-7f9a-8eed-a34d" name="Reiver Squad" hidden="true" collective="false" import="true" targetId="4a10-d6ba-84b4-467d" type="selectionEntry">
+      <modifiers>
+        <modifier type="set-primary" field="category" value="a242-0cf0-c2b9-c832"/>
+        <modifier type="remove" field="category" value="8518-3f3b-d289-d9aa"/>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c28d-527c-af6e-12ea" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="8da8-e0d3-db7a-2c0f" name="Combi-Flamer" hidden="false" collective="false" import="true" type="upgrade">
@@ -1749,6 +1762,9 @@
                       </conditionGroups>
                     </modifier>
                   </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1179-405b-37d5-a896" type="max"/>
+                  </constraints>
                   <entryLinks>
                     <entryLink id="d0a0-9a0a-6c44-0321" name="Hand Flamer" hidden="false" collective="false" import="true" targetId="a527-e32f-7367-d3fc" type="selectionEntry">
                       <costs>
@@ -1806,6 +1822,9 @@
                       </conditionGroups>
                     </modifier>
                   </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="65f3-5074-a42f-8029" type="max"/>
+                  </constraints>
                   <entryLinks>
                     <entryLink id="4655-83f4-7725-9079" name="Lightning Claw" hidden="false" collective="false" import="true" targetId="0f49-a8ec-97ca-c802" type="selectionEntry">
                       <costs>
@@ -1883,6 +1902,7 @@
                       </modifiers>
                       <constraints>
                         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1755-95d9-4698-3e71" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="53b1-0b51-a89c-e4a9" type="max"/>
                       </constraints>
                       <entryLinks>
                         <entryLink id="ef09-d940-48d1-a102" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="260f-f908-21ea-01a0" type="selectionEntry">
@@ -1918,6 +1938,9 @@
                       </entryLinks>
                     </selectionEntryGroup>
                     <selectionEntryGroup id="7639-cd86-5cf5-2ef6" name="Special Weapons" hidden="false" collective="false" import="true">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="032d-2297-c113-c431" type="max"/>
+                      </constraints>
                       <entryLinks>
                         <entryLink id="88a6-4834-08bf-078d" name="Combi-Flamer" hidden="false" collective="false" import="true" targetId="8da8-e0d3-db7a-2c0f" type="selectionEntry">
                           <costs>
@@ -1947,6 +1970,9 @@
                       </entryLinks>
                     </selectionEntryGroup>
                     <selectionEntryGroup id="2b6c-277c-a243-0122" name="Shields" hidden="false" collective="false" import="true">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9037-908f-cb43-febd" type="max"/>
+                      </constraints>
                       <entryLinks>
                         <entryLink id="5b93-9b58-3203-b137" name="Storm Shield" hidden="false" collective="false" import="true" targetId="c2e8-6c0d-8a93-8ea0" type="selectionEntry">
                           <costs>
@@ -1961,6 +1987,9 @@
                       </entryLinks>
                     </selectionEntryGroup>
                     <selectionEntryGroup id="e914-9c85-7ed3-afb4" name="Bolt Weapons" hidden="false" collective="false" import="true">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0930-984c-18c1-be06" type="max"/>
+                      </constraints>
                       <entryLinks>
                         <entryLink id="431f-b1b2-bb16-b2fa" name="Auto Bolt Rifle" hidden="false" collective="false" import="true" targetId="3ec0-880d-7ca7-af0d" type="selectionEntry">
                           <costs>
@@ -1982,6 +2011,9 @@
                       </entryLinks>
                     </selectionEntryGroup>
                     <selectionEntryGroup id="0309-e107-dda6-8eea" name="Melee Weapons" hidden="false" collective="false" import="true">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ed3d-2865-a8b3-9a4b" type="max"/>
+                      </constraints>
                       <selectionEntries>
                         <selectionEntry id="fb84-88ee-2d71-70f9" name="2 Lightning Claws" hidden="false" collective="false" import="true" type="upgrade">
                           <infoLinks>
@@ -2372,6 +2404,9 @@ without taking up a force organisation slot. This unit gains the Master of Comma
       <infoLinks>
         <infoLink id="9256-b14b-8e98-ef92" name="Heavy Flamer" hidden="false" targetId="06d1-ec0c-9fbb-3da3" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="f41c-4862-9ead-0354" name="Lascannon" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -2552,34 +2587,6 @@ without taking up a force organisation slot. This unit gains the Master of Comma
     </selectionEntry>
     <selectionEntry id="12c6-9122-fe20-c5e2" name="Lieutenant" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
-        <modifier type="add" field="category" value="98ab-ea56-630a-ae63">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="12c6-9122-fe20-c5e2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1f99-da41-483d-88b6" type="equalTo"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier type="add" field="category" value="cedb-ec01-49ed-a531">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="12c6-9122-fe20-c5e2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="054d-e56a-730f-64e8" type="equalTo"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier type="add" field="category" value="8a3e-7f2b-e2bf-f163">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="12c6-9122-fe20-c5e2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="162c-d189-88aa-53d5" type="equalTo"/>
-                <condition field="selections" scope="12c6-9122-fe20-c5e2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d67d-1661-a353-5407" type="equalTo"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
         <modifier type="set" field="c897-5d3e-c9b3-735d" value="1.0">
           <conditions>
             <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="450b-a82a-f685-2a1e" type="equalTo"/>
@@ -2620,6 +2627,49 @@ without taking up a force organisation slot. This unit gains the Master of Comma
               <conditions>
                 <condition field="selections" scope="12c6-9122-fe20-c5e2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1f99-da41-483d-88b6" type="equalTo"/>
               </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+        <modifierGroup>
+          <comment>Categories</comment>
+          <modifiers>
+            <modifier type="add" field="category" value="98ab-ea56-630a-ae63">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="12c6-9122-fe20-c5e2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1f99-da41-483d-88b6" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="add" field="category" value="8a3e-7f2b-e2bf-f163">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="12c6-9122-fe20-c5e2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="162c-d189-88aa-53d5" type="equalTo"/>
+                    <condition field="selections" scope="12c6-9122-fe20-c5e2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d67d-1661-a353-5407" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="add" field="category" value="cedb-ec01-49ed-a531">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="12c6-9122-fe20-c5e2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="054d-e56a-730f-64e8" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="add" field="category" value="9a8b-8336-8396-d543">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="12c6-9122-fe20-c5e2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c28d-527c-af6e-12ea" type="equalTo"/>
+                    <condition field="selections" scope="12c6-9122-fe20-c5e2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="050c-557e-b68a-d26a" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
         </modifierGroup>
@@ -2828,6 +2878,7 @@ without taking up a force organisation slot. This unit gains the Master of Comma
                   <modifiers>
                     <modifier type="set" field="6e72-80fb-fb66-1e70" value="0.0"/>
                     <modifier type="set" field="c19b-425a-22d9-0560" value="0.0"/>
+                    <modifier type="set" field="hidden" value="true"/>
                   </modifiers>
                 </modifierGroup>
               </modifierGroups>
@@ -2844,6 +2895,9 @@ without taking up a force organisation slot. This unit gains the Master of Comma
                       </conditions>
                     </modifier>
                   </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8448-8511-194a-ec34" type="max"/>
+                  </constraints>
                   <selectionEntries>
                     <selectionEntry id="dd38-7fea-d234-a264" name="Storm Bolter (Secondary)" hidden="true" collective="false" import="true" type="upgrade">
                       <modifierGroups>
@@ -3059,7 +3113,6 @@ without taking up a force organisation slot. This unit gains the Master of Comma
                       <conditions>
                         <condition field="selections" scope="12c6-9122-fe20-c5e2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1f99-da41-483d-88b6" type="equalTo"/>
                         <condition field="selections" scope="12c6-9122-fe20-c5e2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="050c-557e-b68a-d26a" type="equalTo"/>
-                        <condition field="selections" scope="12c6-9122-fe20-c5e2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c28d-527c-af6e-12ea" type="equalTo"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -3073,13 +3126,42 @@ without taking up a force organisation slot. This unit gains the Master of Comma
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4550-8d9f-e4a9-6579" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c282-cd8c-8c23-1010" type="min"/>
               </constraints>
+              <selectionEntries>
+                <selectionEntry id="ebee-cf5d-3694-41db" name="Shock Grenades &amp; Heavy Bolt Pistol" hidden="true" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="12c6-9122-fe20-c5e2" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c28d-527c-af6e-12ea" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="cacb-f9b0-f11e-791d" value="1.0">
+                      <conditions>
+                        <condition field="selections" scope="12c6-9122-fe20-c5e2" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c28d-527c-af6e-12ea" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="58c0-8202-6da4-ac29" type="max"/>
+                    <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cacb-f9b0-f11e-791d" type="min"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="6841-74dc-5166-e568" name="Heavy Bolt Pistol" hidden="false" targetId="ab9e-f7e3-f25e-e76b" type="profile"/>
+                    <infoLink id="877a-0891-335e-8f71" name="Shock Grenades" hidden="false" targetId="fa1e-ef61-e240-e83f" type="profile"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
               <selectionEntryGroups>
                 <selectionEntryGroup id="666c-0f3e-cfbf-fa4a" name="Main Weapon Swap" hidden="true" collective="false" import="true">
                   <modifiers>
                     <modifier type="set" field="hidden" value="false">
-                      <conditions>
-                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8116-a95c-3edd-b361" type="equalTo"/>
-                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ebee-cf5d-3694-41db" type="equalTo"/>
+                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8116-a95c-3edd-b361" type="equalTo"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
                     </modifier>
                   </modifiers>
                   <constraints>
@@ -3570,10 +3652,9 @@ without taking up a force organisation slot. This unit gains the Master of Comma
     </selectionEntry>
     <selectionEntry id="c28d-527c-af6e-12ea" name="Reiver Commander" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="183f-db9f-b23f-3d4e" name="Reiver Commander" hidden="false" typeId="c5b0-edc1-3954-f457" typeName="2. Special Rule">
+        <profile id="183f-db9f-b23f-3d4e" name="Terror Commander" hidden="false" typeId="c5b0-edc1-3954-f457" typeName="2. Special Rule">
           <characteristics>
-            <characteristic name="Description" typeId="7625-b45b-2ec6-2bfe">If your army includes a model with this special rule  you may include 1 Reiver unit without taking up a force organization slot. In addition, the model with this special rule and any
-attached Reiver unit gains the Rending (6+) special rule on all melee weapons they are equipped with.</characteristic>
+            <characteristic name="Description" typeId="7625-b45b-2ec6-2bfe">If your army includes a model with this special rule  you may include 1 Reiver unit without taking up a force organization slot. In addition, the model with this special rule and any attached Reiver unit gains the Rending (6+) special rule on all melee weapons they are equipped with.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3583,8 +3664,6 @@ attached Reiver unit gains the Rending (6+) special rule on all melee weapons th
             <modifier type="set" field="name" value="Fear (2)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="1cad-3fc8-147f-5106" name="Shock Grenades" hidden="false" targetId="fa1e-ef61-e240-e83f" type="profile"/>
-        <infoLink id="a29f-40f2-9696-7ed2" name="Heavy Bolt Pistol" hidden="false" targetId="ab9e-f7e3-f25e-e76b" type="profile"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="929f-2fa2-9a2b-5ceb" name="Phobos Armour" hidden="false" collective="false" import="true" targetId="524a-1948-3a87-f3fb" type="selectionEntry">
@@ -4761,6 +4840,9 @@ model with this upgrade gains 1 additional Wound. This Wounds represents the Thu
                       </conditions>
                     </modifier>
                   </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6e11-4a5e-6b51-5c5c" type="max"/>
+                  </constraints>
                   <entryLinks>
                     <entryLink id="3411-ff8c-530c-1452" name="Lightning Claw" hidden="false" collective="false" import="true" targetId="0f49-a8ec-97ca-c802" type="selectionEntry">
                       <costs>
@@ -4834,6 +4916,7 @@ model with this upgrade gains 1 additional Wound. This Wounds represents the Thu
                       </modifiers>
                       <constraints>
                         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0769-7f0c-74cd-e249" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7717-2991-d266-6106" type="max"/>
                       </constraints>
                       <entryLinks>
                         <entryLink id="3f82-1bec-e677-bf41" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="260f-f908-21ea-01a0" type="selectionEntry">
@@ -4874,6 +4957,9 @@ model with this upgrade gains 1 additional Wound. This Wounds represents the Thu
                       </entryLinks>
                     </selectionEntryGroup>
                     <selectionEntryGroup id="372c-1e47-2130-ca2b" name="Special Weapons" hidden="false" collective="false" import="true">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2e5b-ce1e-b5f8-785d" type="max"/>
+                      </constraints>
                       <entryLinks>
                         <entryLink id="4b15-e58d-246c-bb54" name="Combi-Flamer" hidden="false" collective="false" import="true" targetId="8da8-e0d3-db7a-2c0f" type="selectionEntry">
                           <costs>
@@ -4903,6 +4989,9 @@ model with this upgrade gains 1 additional Wound. This Wounds represents the Thu
                       </entryLinks>
                     </selectionEntryGroup>
                     <selectionEntryGroup id="116c-3339-8c36-a9f4" name="Shields" hidden="false" collective="false" import="true">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c012-cfa2-e722-8653" type="max"/>
+                      </constraints>
                       <entryLinks>
                         <entryLink id="c8d5-0e87-a7d7-7e16" name="Storm Shield" hidden="false" collective="false" import="true" targetId="c2e8-6c0d-8a93-8ea0" type="selectionEntry">
                           <costs>
@@ -4912,6 +5001,9 @@ model with this upgrade gains 1 additional Wound. This Wounds represents the Thu
                       </entryLinks>
                     </selectionEntryGroup>
                     <selectionEntryGroup id="66b8-32f3-2e91-8d9b" name="Melee Weapons" hidden="false" collective="false" import="true">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2335-6d1e-bcbc-5537" type="max"/>
+                      </constraints>
                       <entryLinks>
                         <entryLink id="e3e3-a860-e5e2-4bf9" name="Chainsword" hidden="false" collective="false" import="true" targetId="ff04-821c-2ea6-5d0d" type="selectionEntry"/>
                         <entryLink id="58c6-c7bf-dd8b-c61b" name="Power Axe" hidden="false" collective="false" import="true" targetId="64d3-3823-5b75-0546" type="selectionEntry">
@@ -10667,6 +10759,9 @@ model with this upgrade gains 1 additional Wound. This Wounds represents the Thu
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="1055-02cb-12f2-fee3" name="Deep Strike" hidden="false" targetId="4094-e926-d058-9bc6" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="8ad8-2851-2392-c78f" name="Imperium" hidden="false" targetId="655c-2e15-a788-4573" primary="false"/>
         <categoryLink id="c87c-69fc-5d2a-1189" name="Space Marines" hidden="false" targetId="7b9e-ef99-0fb4-5270" primary="false"/>
@@ -10921,6 +11016,9 @@ model with this upgrade gains 1 additional Wound. This Wounds represents the Thu
                       </modifiers>
                     </infoLink>
                   </infoLinks>
+                  <costs>
+                    <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="817a-3b1f-0a6d-702a" name="2 Fragstorm Grenade Launchers" hidden="false" collective="false" import="true" type="upgrade">
                   <infoLinks>
@@ -18457,8 +18555,7 @@ rule. The Allegiance: Carcharodon special rule consists of the following rules:
       <profiles>
         <profile id="9356-fcb7-84f3-22d1" name="Raptors" hidden="false" typeId="c5fc-783d-2432-dcab" typeName="Chapter">
           <characteristics>
-            <characteristic name="Description" typeId="828b-20cc-09e2-21f5">All Space Marine units change their [Chapter] keyword to Raptor. All units with the Raptor Keyword gain the Allegiance: Raptor special rule. The Allegiance:
-Raptor special rule consists of the following rules:
+            <characteristic name="Description" typeId="828b-20cc-09e2-21f5">All Space Marine units change their [Chapter] keyword to Raptor. All units with the Raptor Keyword gain the Allegiance: Raptor special rule. The Allegiance: Raptor special rule consists of the following rules:
 
 • Raptor Hunt: Raptor Vanguard units gain +1 to their Ballistic Skill (BS) Characteristic. Raptor units in your army when performing a Retreat Move in the Movement Phase, move an additional 3”.
 
@@ -19603,7 +19700,6 @@ Benefits:
     <selectionEntryGroup id="15e1-d2e8-ec10-7a66" name="Captain Upgrades" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ac6-29a1-e292-4849" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e515-c310-9228-50ee" type="max"/>
       </constraints>
       <entryLinks>
         <entryLink id="801a-c1ff-346b-0085" name="Master of the Arsenal" hidden="false" collective="false" import="true" targetId="eefb-9d17-dc2e-4a92" type="selectionEntry">
@@ -19621,13 +19717,40 @@ Benefits:
               </conditionGroups>
             </modifier>
           </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8ba3-f685-e702-ff35" type="max"/>
+          </constraints>
         </entryLink>
-        <entryLink id="1bb9-74a4-c6e2-4b0b" name="Master of the Fleet" hidden="false" collective="false" import="true" targetId="5395-b3c9-d24b-8523" type="selectionEntry"/>
-        <entryLink id="c1cc-fdbf-3dd5-03f5" name="Master of the Watch" hidden="false" collective="false" import="true" targetId="3d97-ed8f-0d30-4afd" type="selectionEntry"/>
-        <entryLink id="e9ac-b928-8480-04a5" name="Master of the Marches" hidden="false" collective="false" import="true" targetId="d0e5-f266-5942-b906" type="selectionEntry"/>
-        <entryLink id="1808-e7fd-a0c9-7943" name="Master of the Rites" hidden="false" collective="false" import="true" targetId="1ed0-9ada-bcf2-e2dc" type="selectionEntry"/>
-        <entryLink id="61de-12b9-5a6c-c3a7" name="Master of Executions" hidden="false" collective="false" import="true" targetId="2638-f755-eb76-e75e" type="selectionEntry"/>
-        <entryLink id="020e-c26b-8fad-43d6" name="Master of Relics" hidden="false" collective="false" import="true" targetId="88ec-d237-8999-3c92" type="selectionEntry"/>
+        <entryLink id="1bb9-74a4-c6e2-4b0b" name="Master of the Fleet" hidden="false" collective="false" import="true" targetId="5395-b3c9-d24b-8523" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1a8b-0720-168a-6aad" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="c1cc-fdbf-3dd5-03f5" name="Master of the Watch" hidden="false" collective="false" import="true" targetId="3d97-ed8f-0d30-4afd" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4683-4191-3641-38c2" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="e9ac-b928-8480-04a5" name="Master of the Marches" hidden="false" collective="false" import="true" targetId="d0e5-f266-5942-b906" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="52f5-1f5b-af37-f34a" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="1808-e7fd-a0c9-7943" name="Master of the Rites" hidden="false" collective="false" import="true" targetId="1ed0-9ada-bcf2-e2dc" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3c10-41f0-697d-9d6d" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="61de-12b9-5a6c-c3a7" name="Master of Executions" hidden="false" collective="false" import="true" targetId="2638-f755-eb76-e75e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e35e-b594-240b-9fcb" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="020e-c26b-8fad-43d6" name="Master of Relics" hidden="false" collective="false" import="true" targetId="88ec-d237-8999-3c92" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8374-6781-7ea6-5454" type="max"/>
+          </constraints>
+        </entryLink>
         <entryLink id="fd55-7f70-1621-9658" name="Master of Recruits" hidden="false" collective="false" import="true" targetId="e576-3b9e-115f-6599" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
@@ -19645,8 +19768,15 @@ Benefits:
               </conditionGroups>
             </modifier>
           </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b82b-29c3-60e0-3a49" type="max"/>
+          </constraints>
         </entryLink>
-        <entryLink id="b22f-fe1f-5cc2-9efe" name="Chapter Master" hidden="false" collective="false" import="true" targetId="ec93-e744-494f-029a" type="selectionEntry"/>
+        <entryLink id="b22f-fe1f-5cc2-9efe" name="Chapter Master" hidden="false" collective="false" import="true" targetId="ec93-e744-494f-029a" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a743-de4b-2aa7-2866" type="max"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="ec15-5ce4-401d-9268" name="1.1 Additional Warlord Traits" hidden="true" collective="false" import="true">
@@ -20657,19 +20787,13 @@ Benefits:
         <characteristic name="Rules" typeId="a64f-633d-92d0-587c">Shred</characteristic>
       </characteristics>
     </profile>
-    <profile id="6b73-28f1-751e-fae1" name="Chain Fist" hidden="false" typeId="cea3-63fd-613a-6008" typeName="1. Unit">
+    <profile id="6b73-28f1-751e-fae1" name="Chain Fist" hidden="false" typeId="aee3-6e54-942d-9406" typeName="4.2 Melee Weapon">
       <characteristics>
-        <characteristic name="Unit Type" typeId="c15a-7470-6874-3870"/>
-        <characteristic name="M" typeId="fe85-ee8f-d2d9-ad7c"/>
-        <characteristic name="WS" typeId="bc88-26c6-13a7-8652"/>
-        <characteristic name="BS" typeId="a155-55b2-af8d-3d7f"/>
-        <characteristic name="S" typeId="11d3-3c6c-79a0-5b88"/>
-        <characteristic name="T" typeId="ee17-ac8b-a4ce-3713"/>
-        <characteristic name="W" typeId="b5f2-2a18-a740-edfa"/>
-        <characteristic name="A" typeId="0b22-edd2-dfa9-b0a9"/>
-        <characteristic name="I" typeId="73ed-811c-821a-28a3"/>
-        <characteristic name="Ld" typeId="1a83-3556-dd65-614d"/>
-        <characteristic name="Sv" typeId="4740-fde6-c158-c099"/>
+        <characteristic name="Type" typeId="94d4-e42f-3ef5-684b">Melee</characteristic>
+        <characteristic name="Range" typeId="88bf-9bf9-3672-1398">Melee</characteristic>
+        <characteristic name="Strength" typeId="7207-63c6-bac0-ee4b">x2</characteristic>
+        <characteristic name="AP" typeId="b78f-cbd6-e399-76db">1</characteristic>
+        <characteristic name="Rules" typeId="a64f-633d-92d0-587c">Unwieldy, Shred, Specialist Weapon</characteristic>
       </characteristics>
     </profile>
     <profile id="8307-b7b2-18c4-c6a5" name="Fragstorm Grenade Launcher" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">

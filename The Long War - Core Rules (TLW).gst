@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="5a96-11db-b761-54f0" name="The Long War (TLW)" revision="3" battleScribeVersion="2.03" authorName="Thanathoum" authorContact="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="5a96-11db-b761-54f0" name="The Long War (TLW)" revision="5" battleScribeVersion="2.03" authorName="Thanathoum" authorContact="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="7ba4-038e-f27f-d5ad" name="Pts" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
@@ -323,7 +323,18 @@
     <categoryEntry id="689c-14c0-e2aa-7ad8" name="Transport" hidden="false"/>
   </categoryEntries>
   <forceEntries>
-    <forceEntry id="5b0c-3748-26fd-7498" name="Unbound Army" hidden="true"/>
+    <forceEntry id="5b0c-3748-26fd-7498" name="Unbound Army" hidden="true">
+      <categoryLinks>
+        <categoryLink id="f673-2aa0-137d-879e" name="HQ" hidden="false" targetId="87db-dd77-43c7-2283" primary="false"/>
+        <categoryLink id="05d2-de54-3211-928e" name="Troops" hidden="false" targetId="1966-eed8-9866-bcad" primary="false"/>
+        <categoryLink id="3fd6-bf28-43ff-5bc7" name="Elite" hidden="false" targetId="e2ce-2e0b-e92f-3060" primary="false"/>
+        <categoryLink id="2997-24e2-3314-c1b3" name="Fast Attack" hidden="false" targetId="8518-3f3b-d289-d9aa" primary="false"/>
+        <categoryLink id="b3cf-d9ce-abf7-ff26" name="Heavy Support" hidden="false" targetId="e9ef-7ff2-41ce-8166" primary="false"/>
+        <categoryLink id="9ca0-1175-4950-cc06" name="Flyer" hidden="false" targetId="5b95-9566-207a-c690" primary="false"/>
+        <categoryLink id="3763-7869-f303-d377" name="Dedicated Transport" hidden="false" targetId="e936-2227-6105-665c" primary="false"/>
+        <categoryLink id="4659-b983-e69e-76bc" name="Lord Of War" hidden="false" targetId="96ed-6242-175c-50f2" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
   </forceEntries>
   <sharedSelectionEntries>
     <selectionEntry id="fa82-ca73-f268-7856" name="Close Combat Weapon" hidden="false" collective="false" import="true" type="upgrade">
@@ -728,6 +739,11 @@ If rolling to Penetrate against an Armour Value, the weapons attack against the 
         </infoLink>
         <infoLink id="276c-e9d6-323b-0728" name="Outflank" hidden="false" targetId="3a5f-a6dc-eef1-1cac" type="rule"/>
         <infoLink id="d1f3-b5cb-4040-ea31" name="Relentless" hidden="false" targetId="86eb-a85f-ba32-6f33" type="rule"/>
+        <infoLink id="e967-4f87-445e-e149" name="Firing Protocols (X)" hidden="false" targetId="d2c7-81dc-724a-074c" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Firing Protocols (2)"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
     </infoGroup>
     <infoGroup id="930f-b9ca-f865-cc25" name="Knight Special Rules" hidden="false">
