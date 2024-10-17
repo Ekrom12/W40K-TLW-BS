@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4cc4-a4d8-2687-e4d0" name="Codex: Space Marines" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="5a96-11db-b761-54f0" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4cc4-a4d8-2687-e4d0" name="Codex: Space Marines" revision="9" battleScribeVersion="2.03" library="false" gameSystemId="5a96-11db-b761-54f0" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="c5fc-783d-2432-dcab" name="Chapter">
       <characteristicTypes>
@@ -264,8 +264,8 @@
         </modifierGroup>
       </modifierGroups>
       <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff6d-de21-d133-0352" type="min"/>
-        <constraint field="selections" scope="parent" value="99.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2354-7966-0bf3-d350" type="max"/>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff6d-de21-d133-0352" type="min"/>
+        <constraint field="selections" scope="force" value="99.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2354-7966-0bf3-d350" type="max"/>
       </constraints>
     </categoryEntry>
     <categoryEntry id="53e7-13da-f166-1d19" name="Close Support Infantry" hidden="false"/>
@@ -306,7 +306,7 @@
     </categoryEntry>
     <categoryEntry id="bdac-3f27-c1d1-2539" name="Vanguard Support Compulsory Choice" hidden="false">
       <modifiers>
-        <modifier type="set" field="c543-864e-0f9f-42f7" value="2.0">
+        <modifier type="increment" field="c543-864e-0f9f-42f7" value="1.0">
           <repeats>
             <repeat field="7ba4-038e-f27f-d5ad" scope="force" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="false"/>
           </repeats>
@@ -314,9 +314,14 @@
             <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1e27-ed48-38ef-0f75" type="equalTo"/>
           </conditions>
         </modifier>
+        <modifier type="increment" field="c543-864e-0f9f-42f7" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1e27-ed48-38ef-0f75" type="equalTo"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c543-864e-0f9f-42f7" type="min"/>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c543-864e-0f9f-42f7" type="min"/>
       </constraints>
     </categoryEntry>
     <categoryEntry id="42ea-4eaf-ab52-f5c0" name="Pride of the Chapter Compulsory Choice" hidden="false"/>
@@ -577,9 +582,14 @@
     <entryLink id="0106-2ec3-b835-4cbe" name="Sabre Strike Tank" hidden="false" collective="false" import="true" targetId="56d7-6c4f-5817-5d58" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8083-3243-70d8-e6f3" type="equalTo"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8083-3243-70d8-e6f3" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1e27-ed48-38ef-0f75" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
     </entryLink>
@@ -606,54 +616,84 @@
     <entryLink id="a74e-be57-4d8e-b264" name="Predator MBT" hidden="false" collective="false" import="true" targetId="7b81-5ee4-eeb7-f405" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8083-3243-70d8-e6f3" type="equalTo"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8083-3243-70d8-e6f3" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1e27-ed48-38ef-0f75" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
     </entryLink>
     <entryLink id="6de6-3373-bc3e-c0d5" name="Vindicator Siege Tank" hidden="false" collective="false" import="true" targetId="3577-c68a-ae69-c72e" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8083-3243-70d8-e6f3" type="equalTo"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8083-3243-70d8-e6f3" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1e27-ed48-38ef-0f75" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
     </entryLink>
     <entryLink id="c814-f565-83c6-8260" name="Whirlwind Artillery Tank" hidden="false" collective="false" import="true" targetId="d2c1-93b6-ce4f-5bae" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8083-3243-70d8-e6f3" type="equalTo"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8083-3243-70d8-e6f3" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1e27-ed48-38ef-0f75" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
     </entryLink>
     <entryLink id="a674-8794-2472-9f55" name="Hunter Artillery Tank" hidden="false" collective="false" import="true" targetId="84fa-ba93-7393-6cfd" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8083-3243-70d8-e6f3" type="equalTo"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8083-3243-70d8-e6f3" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1e27-ed48-38ef-0f75" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
     </entryLink>
     <entryLink id="46c9-5746-7dcb-a66d" name="Stalker AA Tank" hidden="false" collective="false" import="true" targetId="b9f7-8677-23f9-7923" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8083-3243-70d8-e6f3" type="equalTo"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8083-3243-70d8-e6f3" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1e27-ed48-38ef-0f75" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
     </entryLink>
     <entryLink id="3f94-d48c-59d7-68fc" name="Land Raider" hidden="false" collective="false" import="true" targetId="55d4-8d47-342e-8aa1" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8083-3243-70d8-e6f3" type="equalTo"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8083-3243-70d8-e6f3" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1e27-ed48-38ef-0f75" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
@@ -663,9 +703,14 @@
     <entryLink id="ab01-5fdf-fa51-5aee" name="Land Raider Crusader" hidden="false" collective="false" import="true" targetId="baec-9037-fcc0-fb2c" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8083-3243-70d8-e6f3" type="equalTo"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8083-3243-70d8-e6f3" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1e27-ed48-38ef-0f75" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
@@ -675,9 +720,14 @@
     <entryLink id="a07f-6eea-5118-dccc" name="Land Raider Redeemer" hidden="false" collective="false" import="true" targetId="a155-33da-7902-948b" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8083-3243-70d8-e6f3" type="equalTo"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8083-3243-70d8-e6f3" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1e27-ed48-38ef-0f75" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
@@ -687,9 +737,14 @@
     <entryLink id="eb6e-91dc-4e56-0d59" name="Gladiator Assault Tank" hidden="false" collective="false" import="true" targetId="3279-95cd-6c6f-f101" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8083-3243-70d8-e6f3" type="equalTo"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8083-3243-70d8-e6f3" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1e27-ed48-38ef-0f75" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
     </entryLink>
@@ -720,9 +775,14 @@
     <entryLink id="52dc-809c-dd80-d7c9" name="Sicaran Heavy Tank" hidden="false" collective="false" import="true" targetId="c0ff-d3d5-0cbb-b552" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8083-3243-70d8-e6f3" type="equalTo"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8083-3243-70d8-e6f3" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1e27-ed48-38ef-0f75" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
@@ -742,9 +802,14 @@
     <entryLink id="dacb-b6f0-9424-5ba2" name="Kratos Super Heavy Tank" hidden="false" collective="false" import="true" targetId="9718-3bda-e205-a1c8" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8083-3243-70d8-e6f3" type="equalTo"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8083-3243-70d8-e6f3" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1e27-ed48-38ef-0f75" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
@@ -810,9 +875,14 @@
     <entryLink id="ca11-8a1b-4fe6-fee0" name="Astraeus" hidden="false" collective="false" import="true" targetId="0364-9013-24f1-a56a" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8083-3243-70d8-e6f3" type="equalTo"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8083-3243-70d8-e6f3" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1e27-ed48-38ef-0f75" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
@@ -831,9 +901,14 @@
     <entryLink id="e09f-503b-73c9-4570" name="Cerberus" hidden="false" collective="false" import="true" targetId="ac49-7aac-2e01-4a8e" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8083-3243-70d8-e6f3" type="equalTo"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8083-3243-70d8-e6f3" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1e27-ed48-38ef-0f75" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
@@ -853,9 +928,14 @@
     <entryLink id="106e-682f-aabe-0477" name="Falchion" hidden="false" collective="false" import="true" targetId="3e5a-ef35-0e78-9681" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8083-3243-70d8-e6f3" type="equalTo"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8083-3243-70d8-e6f3" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1e27-ed48-38ef-0f75" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <categoryLinks>
@@ -872,9 +952,14 @@
     <entryLink id="c862-e9b9-5ffb-51ae" name="Fellblade" hidden="false" collective="false" import="true" targetId="0910-54e1-1fed-27d1" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8083-3243-70d8-e6f3" type="equalTo"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8083-3243-70d8-e6f3" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1e27-ed48-38ef-0f75" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <categoryLinks>
@@ -913,9 +998,14 @@
     <entryLink id="bef5-2800-5eba-c47b" name="Typhon Siege Tank" hidden="false" collective="false" import="true" targetId="108a-891f-ac15-5eb8" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8083-3243-70d8-e6f3" type="equalTo"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8083-3243-70d8-e6f3" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1e27-ed48-38ef-0f75" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
@@ -1031,9 +1121,14 @@
     <entryLink id="c60f-f24d-7a60-9ef3" name="Vindicator Laser Destroyer" hidden="false" collective="false" import="true" targetId="1ece-4810-8388-e35d" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8083-3243-70d8-e6f3" type="equalTo"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8083-3243-70d8-e6f3" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1e27-ed48-38ef-0f75" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
     </entryLink>
@@ -2277,9 +2372,6 @@ without taking up a force organisation slot. This unit gains the Master of Comma
       <infoLinks>
         <infoLink id="9256-b14b-8e98-ef92" name="Heavy Flamer" hidden="false" targetId="06d1-ec0c-9fbb-3da3" type="profile"/>
       </infoLinks>
-      <costs>
-        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="5.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="f41c-4862-9ead-0354" name="Lascannon" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -2494,6 +2586,44 @@ without taking up a force organisation slot. This unit gains the Master of Comma
           </conditions>
         </modifier>
       </modifiers>
+      <modifierGroups>
+        <modifierGroup>
+          <comment>Name changes
+</comment>
+          <modifiers>
+            <modifier type="set" field="name" value="Chaplain">
+              <conditions>
+                <condition field="selections" scope="12c6-9122-fe20-c5e2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="054d-e56a-730f-64e8" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="name" value="Chief Librarian">
+              <conditions>
+                <condition field="selections" scope="12c6-9122-fe20-c5e2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="162c-d189-88aa-53d5" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="name" value="Vanguard Commander">
+              <conditions>
+                <condition field="selections" scope="12c6-9122-fe20-c5e2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="050c-557e-b68a-d26a" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="name" value="Reiver Commander">
+              <conditions>
+                <condition field="selections" scope="12c6-9122-fe20-c5e2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c28d-527c-af6e-12ea" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="name" value="Librarian">
+              <conditions>
+                <condition field="selections" scope="12c6-9122-fe20-c5e2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d67d-1661-a353-5407" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="name" value="Tech Marine">
+              <conditions>
+                <condition field="selections" scope="12c6-9122-fe20-c5e2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1f99-da41-483d-88b6" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
       <constraints>
         <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c897-5d3e-c9b3-735d" type="min"/>
       </constraints>
@@ -3199,6 +3329,7 @@ without taking up a force organisation slot. This unit gains the Master of Comma
               </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d91e-d925-570c-6e6e" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba28-3cf5-0a36-6399" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -4841,6 +4972,42 @@ model with this upgrade gains 1 additional Wound. This Wounds represents the Thu
             <entryLink id="a2d1-f4c0-3055-37ed" name="Additional Warlord Trait" hidden="false" collective="false" import="true" targetId="bf63-3be7-d357-ed9f" type="selectionEntry"/>
             <entryLink id="6551-06aa-5dab-e00f" name="Additional Warlord Traits" hidden="false" collective="false" import="true" targetId="ec15-5ce4-401d-9268" type="selectionEntryGroup"/>
             <entryLink id="63ff-ab98-0746-6711" name="Rites of Battle Slot Selection" hidden="false" collective="false" import="true" targetId="f12c-2ac5-ddbb-495b" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="6ca7-5e2c-2a67-9b98" name="Equipment" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="2641-3180-3209-14d5" name="Auspex Scanner" hidden="false" collective="false" import="true" targetId="390b-feb7-35e9-ee6d" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2854-6960-214d-f774" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="aaaf-319a-9435-0326" name="Digital Weapons" hidden="false" collective="false" import="true" targetId="6643-d2ec-c97d-cdab" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52bb-77be-05bd-b26e" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="92de-246c-2d74-441a" name="Melta Bomb" hidden="false" collective="false" import="true" targetId="d8cd-64c3-40ec-66cf" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac0c-4771-ba1f-e33d" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="8b45-ca52-7a6f-e420" name="Teleport Homer" hidden="false" collective="false" import="true" targetId="e485-2cc0-1d30-fa25" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7aca-9b89-ffb4-29ac" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="5.0"/>
+              </costs>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -10643,11 +10810,6 @@ model with this upgrade gains 1 additional Wound. This Wounds represents the Thu
             <characteristic name="Description" typeId="7625-b45b-2ec6-2bfe">This unit can transport 6 Space Marine Infantry models. It cannot Transport models with the Bulky (x) special rule.</characteristic>
           </characteristics>
         </profile>
-        <profile id="2830-f665-c8da-f24c" name="Orbital Array" hidden="false" typeId="c5b0-edc1-3954-f457" typeName="2. Special Rule">
-          <characteristics>
-            <characteristic name="Description" typeId="7625-b45b-2ec6-2bfe">This unit is equipped with the Orbital bombardment weapon.</characteristic>
-          </characteristics>
-        </profile>
       </profiles>
       <infoLinks>
         <infoLink id="e8b0-db44-580f-45b7" name="Space Marine Rules" hidden="false" targetId="4f97-2018-b1cb-a61e" type="infoGroup"/>
@@ -10664,7 +10826,7 @@ model with this upgrade gains 1 additional Wound. This Wounds represents the Thu
         <categoryLink id="e623-f9a2-fe5c-76a3" name="Transport" hidden="false" targetId="685f-2025-faba-faae" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="9b5c-f1b3-2e79-3252" name="Impulsor Options" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="9b5c-f1b3-2e79-3252" name="Additional Options" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="259e-3cae-1783-4468" type="max"/>
           </constraints>
@@ -10725,6 +10887,56 @@ model with this upgrade gains 1 additional Wound. This Wounds represents the Thu
               </costs>
             </selectionEntry>
           </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="c334-e7d2-7667-3cc7" name="Weapon Options" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="ee49-be16-581a-7ef4" name="Heavy Stubber (S)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ff1-bee0-7b92-a85c" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="a04e-a662-2ed4-c33b" name="Heavy Stubber" hidden="false" targetId="689d-79fd-e5f6-0a09" type="profile">
+                  <modifiers>
+                    <modifier type="append" field="name" value=" (S)"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="5.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="f74d-ab97-aef9-11de" name="Side Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="791e-ea62-1146-4dac">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="446f-a83c-947c-92ff" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b66-eca0-79cf-93af" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="791e-ea62-1146-4dac" name="2 Storm Bolters" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="bfe0-fa80-5c0f-ae56" name="Storm Bolter" hidden="false" targetId="e4df-2404-cae6-9710" type="profile">
+                      <modifiers>
+                        <modifier type="set" field="name" value="2 Storm Bolters (S)"/>
+                      </modifiers>
+                    </infoLink>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry id="817a-3b1f-0a6d-702a" name="2 Fragstorm Grenade Launchers" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="e9b3-57f7-4644-edf9" name="Fragstorm Grenade Launcher" hidden="false" targetId="8307-b7b2-18c4-c6a5" type="profile">
+                      <modifiers>
+                        <modifier type="set" field="name" value="2 Fragstorm Grenade Launchers (S)"/>
+                      </modifiers>
+                    </infoLink>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="10.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -15401,6 +15613,7 @@ model with this upgrade gains 1 additional Wound. This Wounds represents the Thu
         <categoryLink id="abe2-7f1c-ec9c-4d45" name="Tank" hidden="false" targetId="2f59-b3b6-f65b-6d2a" primary="false"/>
         <categoryLink id="cf20-cc37-a828-2838" name="M31" hidden="false" targetId="33d4-e291-4081-737b" primary="false"/>
         <categoryLink id="0caf-6502-293a-9985" name="Transport" hidden="false" targetId="685f-2025-faba-faae" primary="false"/>
+        <categoryLink id="c61e-3fab-e23e-5a4a" name="Fire Support Vehicle" hidden="false" targetId="5cb4-77f9-e5b7-1d9c" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="b506-f80c-e014-e68f" name="2 Linked Lascannons" hidden="false" collective="false" import="true" type="upgrade">
@@ -15437,7 +15650,7 @@ model with this upgrade gains 1 additional Wound. This Wounds represents the Thu
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="0307-3b05-b3af-44b8" name="Pintle Weapon" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="0307-3b05-b3af-44b8" name="Pintle Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="f07f-fe83-e08f-0c69">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1740-29bc-4e41-3ddc" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6e1-943c-e277-bbee" type="max"/>
@@ -15588,6 +15801,7 @@ model with this upgrade gains 1 additional Wound. This Wounds represents the Thu
         <categoryLink id="b75e-5959-bf01-930b" name="Tank" hidden="false" targetId="2f59-b3b6-f65b-6d2a" primary="false"/>
         <categoryLink id="ea6f-8f21-208c-7c4f" name="M37+" hidden="false" targetId="27b5-ffc7-9c1d-1640" primary="false"/>
         <categoryLink id="5c3e-5840-552a-2f96" name="Transport" hidden="false" targetId="685f-2025-faba-faae" primary="false"/>
+        <categoryLink id="13d1-e67e-0e38-5519" name="Fire Support Vehicle" hidden="false" targetId="5cb4-77f9-e5b7-1d9c" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="f57b-3242-5fbe-db7f" name="2 Heavy Flamers" hidden="false" collective="false" import="true" type="upgrade">
@@ -15624,7 +15838,7 @@ model with this upgrade gains 1 additional Wound. This Wounds represents the Thu
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="db1a-e225-7597-fc06" name="Pintle Weapon" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="db1a-e225-7597-fc06" name="Pintle Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="57bd-0210-e164-bdf7">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6428-f2ce-5a60-3dde" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cccf-85ad-c86b-afe7" type="max"/>
@@ -15776,6 +15990,7 @@ model with this upgrade gains 1 additional Wound. This Wounds represents the Thu
         <categoryLink id="28d4-461f-9146-e18c" name="M37+" hidden="false" targetId="27b5-ffc7-9c1d-1640" primary="false"/>
         <categoryLink id="830a-6ce5-0a40-ef1f" name="Land Raider Crusader" hidden="false" targetId="b09a-e56d-50aa-a5bf" primary="false"/>
         <categoryLink id="4f5d-5abc-76ab-a5b1" name="Transport" hidden="false" targetId="685f-2025-faba-faae" primary="false"/>
+        <categoryLink id="398e-9284-0f90-1d10" name="Fire Support Vehicle" hidden="false" targetId="5cb4-77f9-e5b7-1d9c" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="588e-b7a5-f272-16b6" name="2 Hurricane Bolter" hidden="false" collective="false" import="true" type="upgrade">
@@ -15812,7 +16027,7 @@ model with this upgrade gains 1 additional Wound. This Wounds represents the Thu
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="1aea-5ef1-1b90-abf1" name="Pintle Weapon" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="1aea-5ef1-1b90-abf1" name="Pintle Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="8b53-469a-657c-6a24">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e335-0ffe-aba3-f715" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e935-71f1-60b7-cd60" type="max"/>
@@ -19513,7 +19728,15 @@ Benefits:
         <entryLink id="09af-6636-4c55-71f0" name="Armoured Support" hidden="false" collective="false" import="true" targetId="b663-2595-e57d-8d03" type="selectionEntry"/>
         <entryLink id="91a9-02d9-80c0-2731" name="Mechanised Assault" hidden="false" collective="false" import="true" targetId="c3bb-67b0-a4ff-3358" type="selectionEntry"/>
         <entryLink id="a216-ef90-fa82-8dea" name="Vanguard Support" hidden="false" collective="false" import="true" targetId="1e27-ed48-38ef-0f75" type="selectionEntry"/>
-        <entryLink id="9e60-2f1d-5948-4bbf" name="Pride of the Chapter" hidden="false" collective="false" import="true" targetId="e2e3-e8d5-0204-2ecd" type="selectionEntry"/>
+        <entryLink id="9e60-2f1d-5948-4bbf" name="Pride of the Chapter" hidden="false" collective="false" import="true" targetId="e2e3-e8d5-0204-2ecd" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e98b-3f7e-46ed-4346" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
