@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4cc4-a4d8-2687-e4d0" name="Codex: Space Marines" revision="10" battleScribeVersion="2.03" library="false" gameSystemId="5a96-11db-b761-54f0" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4cc4-a4d8-2687-e4d0" name="Codex: Space Marines" revision="11" battleScribeVersion="2.03" library="false" gameSystemId="5a96-11db-b761-54f0" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="c5fc-783d-2432-dcab" name="Chapter">
       <characteristicTypes>
@@ -2804,6 +2804,28 @@ without taking up a force organisation slot. This unit gains the Master of Comma
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="e12e-277e-f169-a3f0" name="Equipment" hidden="false" collective="false" import="true">
+          <selectionEntryGroups>
+            <selectionEntryGroup id="47c6-9d88-cf66-0f4a" name="Reiver Lieutenant Equipment" hidden="true" collective="false" import="true">
+              <selectionEntries>
+                <selectionEntry id="d5d1-91f2-a761-b763" name="Grapple Hooks" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="52e2-ac80-38cf-ee9e" name="Grapple Hooks" hidden="false" targetId="98f7-b22c-0ea5-1752" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="5.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="61e6-036d-c0c4-5568" name="Grav Chutes" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="3ed9-b88e-44c8-ea94" name="Grav Chute" hidden="false" targetId="0b37-6361-0db4-d606" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="10.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
           <entryLinks>
             <entryLink id="c5aa-a9a3-c776-44e8" name="Digital Weapons" hidden="false" collective="false" import="true" targetId="6643-d2ec-c97d-cdab" type="selectionEntry">
               <constraints>
@@ -3148,6 +3170,9 @@ without taking up a force organisation slot. This unit gains the Master of Comma
                     <infoLink id="6841-74dc-5166-e568" name="Heavy Bolt Pistol" hidden="false" targetId="ab9e-f7e3-f25e-e76b" type="profile"/>
                     <infoLink id="877a-0891-335e-8f71" name="Shock Grenades" hidden="false" targetId="fa1e-ef61-e240-e83f" type="profile"/>
                   </infoLinks>
+                  <costs>
+                    <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups>
