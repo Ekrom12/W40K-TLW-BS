@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2fcc-e495-688c-abd8" name="Codex Aeldari Craftworlds" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="5a96-11db-b761-54f0" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2fcc-e495-688c-abd8" name="Codex: Aeldari Craftworlds" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="5a96-11db-b761-54f0" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="164c-1580-2071-6612" name="Battle Focus">
       <characteristicTypes>
@@ -12,6 +12,9 @@
       <infoLinks>
         <infoLink id="e65b-1b88-2fcb-da57" name="Battle Focus" hidden="false" targetId="e4e7-7136-0fe3-f912" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="657a-8bdb-a9bb-abae" name="Jump Pack" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -59,6 +62,9 @@
           </modifiers>
         </infoLink>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b7e6-de0e-24c8-3641" name="Shroud Runner Jetbike:" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -69,6 +75,9 @@
           </modifiers>
         </infoLink>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
@@ -205,7 +214,7 @@ from Heavy Cover, it gains a 4+ Cover save.</characteristic>
 Linked Shuriken Catapults.</characteristic>
       </characteristics>
     </profile>
-    <profile id="60da-3900-8164-7d9e" name="Linked Shuriken Catapults" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="60da-3900-8164-7d9e" name="Linked Shuriken Catapults" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 3</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">12&quot;</characteristic>
@@ -220,7 +229,7 @@ Linked Shuriken Catapults.</characteristic>
 equipped with Scatter Laser.</characteristic>
       </characteristics>
     </profile>
-    <profile id="8972-df05-d1d8-58fa" name="Scatter Laser" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="8972-df05-d1d8-58fa" name="Scatter Laser" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Heavy 5</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">36&quot;</characteristic>
@@ -244,7 +253,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Description" typeId="98c9-5aeb-b901-28d4">A model with this wargear gains the Deep Strike special rule.</characteristic>
       </characteristics>
     </profile>
-    <profile id="2d6d-5765-8dc3-bb10" name="Shuriken Pistol" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="2d6d-5765-8dc3-bb10" name="Shuriken Pistol" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Pistol 2</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">12&quot;</characteristic>
@@ -253,7 +262,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="14a1-b8ae-62ab-4c87" name="Shuriken Cannon" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="14a1-b8ae-62ab-4c87" name="Shuriken Cannon" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 3</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">24&quot;</characteristic>
@@ -262,7 +271,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Pinning, Rending (5+)</characteristic>
       </characteristics>
     </profile>
-    <profile id="0ac1-84f2-cb81-6d33" name="Avenger Shuriken Catapult" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="0ac1-84f2-cb81-6d33" name="Avenger Shuriken Catapult" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 3</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">24&quot;</characteristic>
@@ -271,7 +280,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="75f8-006d-a9e1-8cc6" name="Shuriken Catapult" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="75f8-006d-a9e1-8cc6" name="Shuriken Catapult" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 3</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">18&quot;</characteristic>
@@ -280,7 +289,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="dcdb-9cc9-6d25-708e" name="Linked Shuriken Cannon" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="dcdb-9cc9-6d25-708e" name="Linked Shuriken Cannon" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 3</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">24&quot;</characteristic>
@@ -289,7 +298,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Linked, Pinning, Rending (5+)</characteristic>
       </characteristics>
     </profile>
-    <profile id="8237-6790-d5d9-a3b5" name="Fusion Pistol" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="8237-6790-d5d9-a3b5" name="Fusion Pistol" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Pistol 1</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">12&quot;</characteristic>
@@ -298,7 +307,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Melta</characteristic>
       </characteristics>
     </profile>
-    <profile id="f8cf-da50-a08a-08b0" name="Fusion Gun" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="f8cf-da50-a08a-08b0" name="Fusion Gun" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 1</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">18&quot;</characteristic>
@@ -307,7 +316,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Melta</characteristic>
       </characteristics>
     </profile>
-    <profile id="9b7e-9c0f-72a7-4264" name="Fire Pike" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="9b7e-9c0f-72a7-4264" name="Fire Pike" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 1</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">24&quot;</characteristic>
@@ -316,7 +325,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Melta</characteristic>
       </characteristics>
     </profile>
-    <profile id="bd7a-6981-2c6c-616b" name="Flamer" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="bd7a-6981-2c6c-616b" name="Flamer" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 1</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">12&quot;</characteristic>
@@ -325,7 +334,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Spray</characteristic>
       </characteristics>
     </profile>
-    <profile id="9dfb-85a1-23c0-7b39" name="Dragon&apos;s Breath Flamer" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="9dfb-85a1-23c0-7b39" name="Dragon&apos;s Breath Flamer" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 1</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">12&quot;</characteristic>
@@ -334,7 +343,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Spray</characteristic>
       </characteristics>
     </profile>
-    <profile id="a0e7-3fb9-910e-12ff" name="D-Scythe" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="a0e7-3fb9-910e-12ff" name="D-Scythe" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 1</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">8&quot;</characteristic>
@@ -343,7 +352,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Bane, Ignores Cover</characteristic>
       </characteristics>
     </profile>
-    <profile id="9735-b718-4bb2-3c37" name="Wraith Cannon" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="9735-b718-4bb2-3c37" name="Wraith Cannon" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 1</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">12&quot;</characteristic>
@@ -352,7 +361,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Bane</characteristic>
       </characteristics>
     </profile>
-    <profile id="b532-990f-667a-a96d" name="Heavy Wraith Cannon" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="b532-990f-667a-a96d" name="Heavy Wraith Cannon" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Heavy 1</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">36&quot;</characteristic>
@@ -361,7 +370,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Bane</characteristic>
       </characteristics>
     </profile>
-    <profile id="c84f-2f8e-05e8-f57f" name="D-Cannon" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="c84f-2f8e-05e8-f57f" name="D-Cannon" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Heavy 1</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">36&quot;</characteristic>
@@ -370,7 +379,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Bane, Blast</characteristic>
       </characteristics>
     </profile>
-    <profile id="fa8c-459f-d3f5-0c39" name="Las Blaster" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="fa8c-459f-d3f5-0c39" name="Las Blaster" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 3</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">24&quot;</characteristic>
@@ -379,7 +388,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="f45d-8019-1ff2-b763" name="Bright Lance" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="f45d-8019-1ff2-b763" name="Bright Lance" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Heavy 1</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">48&quot;</characteristic>
@@ -388,7 +397,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="0854-23b1-175e-b0fb" name="Prism Cannon (Dispersed)" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="0854-23b1-175e-b0fb" name="Prism Cannon (Dispersed)" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Heavy 1</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">48&quot;</characteristic>
@@ -397,7 +406,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Blast, Variable</characteristic>
       </characteristics>
     </profile>
-    <profile id="ab0b-7ab3-9dfd-c921" name="Prism Cannon (Focused)" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="ab0b-7ab3-9dfd-c921" name="Prism Cannon (Focused)" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Heavy 1</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">48&quot;</characteristic>
@@ -424,7 +433,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Special Rules" typeId="c619-02a3-6669-f4ad">Blind</characteristic>
       </characteristics>
     </profile>
-    <profile id="963f-61d9-bafe-93bf" name="Pulse Laser" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="963f-61d9-bafe-93bf" name="Pulse Laser" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Heavy 2</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">36&quot;</characteristic>
@@ -433,7 +442,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="fd04-8845-4130-c0a4" name="Linked Bright Lance" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="fd04-8845-4130-c0a4" name="Linked Bright Lance" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Heavy 1</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">48&quot;</characteristic>
@@ -442,7 +451,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Linked</characteristic>
       </characteristics>
     </profile>
-    <profile id="c2e9-3a85-28b2-a89a" name="Linked Scatter Laser" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="c2e9-3a85-28b2-a89a" name="Linked Scatter Laser" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Heavy 5</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">36&quot;</characteristic>
@@ -451,7 +460,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Pinning, Linked</characteristic>
       </characteristics>
     </profile>
-    <profile id="8cff-1ba0-2d3f-7179" name="Prism Rifle (Focused)" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="8cff-1ba0-2d3f-7179" name="Prism Rifle (Focused)" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 2</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">24&quot;</characteristic>
@@ -460,7 +469,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Melta</characteristic>
       </characteristics>
     </profile>
-    <profile id="bd89-a2ca-c8f0-3daa" name="Prism Rifle (Dispersed)" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="bd89-a2ca-c8f0-3daa" name="Prism Rifle (Dispersed)" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 1</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">12&quot;</characteristic>
@@ -469,7 +478,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Spray, Blind</characteristic>
       </characteristics>
     </profile>
-    <profile id="0985-a457-9104-283d" name="Prism Blaster" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="0985-a457-9104-283d" name="Prism Blaster" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 1</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">36&quot;</characteristic>
@@ -478,7 +487,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Melta, Blind</characteristic>
       </characteristics>
     </profile>
-    <profile id="d109-b6c8-1150-1b78" name="Laser Lance (Melee)" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="d109-b6c8-1150-1b78" name="Laser Lance (Melee)" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
@@ -487,7 +496,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Crushing (5+), Cumbersome, Reach</characteristic>
       </characteristics>
     </profile>
-    <profile id="f670-1db4-0d74-7f3e" name="Laser Lance (Shooting)" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="f670-1db4-0d74-7f3e" name="Laser Lance (Shooting)" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Pistol 1</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">12&quot;</characteristic>
@@ -496,7 +505,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="8af8-db0b-c6d8-3149" name="Aeldari Missile Launcher (Sunburst)" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="8af8-db0b-c6d8-3149" name="Aeldari Missile Launcher (Sunburst)" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Heavy 1</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">48&quot;</characteristic>
@@ -505,7 +514,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Blast, Variable</characteristic>
       </characteristics>
     </profile>
-    <profile id="b0df-ca00-db42-03f6" name="Aeldari Missile Launcher (Starshot)" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="b0df-ca00-db42-03f6" name="Aeldari Missile Launcher (Starshot)" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Heavy 1</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">48&quot;</characteristic>
@@ -514,7 +523,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Variable</characteristic>
       </characteristics>
     </profile>
-    <profile id="3008-455b-3bbd-b1ec" name="Reaper Launcher (Starshot)" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="3008-455b-3bbd-b1ec" name="Reaper Launcher (Starshot)" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Heavy 1</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">36&quot;</characteristic>
@@ -523,7 +532,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Variable</characteristic>
       </characteristics>
     </profile>
-    <profile id="6116-eef2-b26e-4ec5" name="Reaper Launcher (Starswarm)" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="6116-eef2-b26e-4ec5" name="Reaper Launcher (Starswarm)" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 3</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">36&quot;</characteristic>
@@ -532,7 +541,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Variable</characteristic>
       </characteristics>
     </profile>
-    <profile id="0161-0d8d-d0cf-1a8d" name="Tempest Launcher" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="0161-0d8d-d0cf-1a8d" name="Tempest Launcher" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Heavy 1</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">48&quot;</characteristic>
@@ -541,7 +550,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Large Blast, Indirect Fire</characteristic>
       </characteristics>
     </profile>
-    <profile id="dad7-f85d-cc57-cc41" name="Death Spinner" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="dad7-f85d-cc57-cc41" name="Death Spinner" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Rapid Fire 1</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">24&quot;</characteristic>
@@ -550,7 +559,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Monofilament</characteristic>
       </characteristics>
     </profile>
-    <profile id="fa7a-4feb-b5ef-4398" name="Doom Weaver" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="fa7a-4feb-b5ef-4398" name="Doom Weaver" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Heavy 6</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">48&quot;</characteristic>
@@ -559,7 +568,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Indirect Fire, Monofilament</characteristic>
       </characteristics>
     </profile>
-    <profile id="18e4-7c11-3b99-1fb1" name="Shadow Weaver" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="18e4-7c11-3b99-1fb1" name="Shadow Weaver" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Heavy 3</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">48&quot;</characteristic>
@@ -568,7 +577,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Indirect Fire, Monofilament</characteristic>
       </characteristics>
     </profile>
-    <profile id="4e42-7991-5a65-dc11" name="Spinneret Rifle" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="4e42-7991-5a65-dc11" name="Spinneret Rifle" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Rapid Fire 1</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">48&quot;</characteristic>
@@ -577,7 +586,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Monofilament</characteristic>
       </characteristics>
     </profile>
-    <profile id="3d9a-ea24-78a6-951d" name="Star Cannon" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="3d9a-ea24-78a6-951d" name="Star Cannon" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Heavy 3</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">36&quot;</characteristic>
@@ -586,7 +595,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="75cd-55f6-bcbf-28f1" name="Sun Cannon" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="75cd-55f6-bcbf-28f1" name="Sun Cannon" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Heavy 6</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">36&quot;</characteristic>
@@ -595,7 +604,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="6651-5296-d055-79c7" name="Linked Star Cannon" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="6651-5296-d055-79c7" name="Linked Star Cannon" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Heavy 3</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">36&quot;</characteristic>
@@ -604,7 +613,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Linked</characteristic>
       </characteristics>
     </profile>
-    <profile id="3df1-9543-2262-6d25" name="Eldar Crew Weapon" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="3df1-9543-2262-6d25" name="Eldar Crew Weapon" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
@@ -613,7 +622,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="9720-bcf2-7078-ad35" name="Singing Spear (Melee)" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="9720-bcf2-7078-ad35" name="Singing Spear (Melee)" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
@@ -622,7 +631,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Force (4+), Reach</characteristic>
       </characteristics>
     </profile>
-    <profile id="f7be-598f-010b-2687" name="Singing Spear (Shooting)" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="f7be-598f-010b-2687" name="Singing Spear (Shooting)" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 1</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">12&quot;</characteristic>
@@ -631,7 +640,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Force (2+), Bane</characteristic>
       </characteristics>
     </profile>
-    <profile id="8a63-f55a-eb49-0fe0" name="Biting Blade" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="8a63-f55a-eb49-0fe0" name="Biting Blade" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
@@ -640,7 +649,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Shred, Arcing (5+)</characteristic>
       </characteristics>
     </profile>
-    <profile id="7f8a-e206-2af8-ea97" name="Chainsword" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="7f8a-e206-2af8-ea97" name="Chainsword" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
@@ -649,7 +658,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Shred</characteristic>
       </characteristics>
     </profile>
-    <profile id="a686-20a7-ec0b-1a86" name="Dire Sword" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="a686-20a7-ec0b-1a86" name="Dire Sword" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
@@ -658,7 +667,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Rending (4+)</characteristic>
       </characteristics>
     </profile>
-    <profile id="aeda-dadf-827a-a8f2" name="Paragon Sabre" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="aeda-dadf-827a-a8f2" name="Paragon Sabre" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
@@ -667,7 +676,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Master-Crafted</characteristic>
       </characteristics>
     </profile>
-    <profile id="085e-a968-6ecb-93d7" name="Witch Blade" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="085e-a968-6ecb-93d7" name="Witch Blade" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
@@ -676,7 +685,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Force (4+)</characteristic>
       </characteristics>
     </profile>
-    <profile id="7c5d-f050-59bd-ed66" name="Power Sword" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="7c5d-f050-59bd-ed66" name="Power Sword" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
@@ -685,7 +694,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Rending (6+)</characteristic>
       </characteristics>
     </profile>
-    <profile id="a8ed-5026-4902-a427" name="Power Lance" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="a8ed-5026-4902-a427" name="Power Lance" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
@@ -694,7 +703,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Reach</characteristic>
       </characteristics>
     </profile>
-    <profile id="6384-f554-5739-557f" name="Executioner" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="6384-f554-5739-557f" name="Executioner" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
@@ -703,7 +712,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Unwieldy, Reach</characteristic>
       </characteristics>
     </profile>
-    <profile id="6545-1825-c96b-30a1" name="Power Axe" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="6545-1825-c96b-30a1" name="Power Axe" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
@@ -712,7 +721,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Unwieldy</characteristic>
       </characteristics>
     </profile>
-    <profile id="4c14-78a2-7fb5-f931" name="Ghost Glaive" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="4c14-78a2-7fb5-f931" name="Ghost Glaive" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
@@ -721,7 +730,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Crushing (5+), Sweeping (2)</characteristic>
       </characteristics>
     </profile>
-    <profile id="0c8c-fe14-f49b-55bd" name="Mirror Sword" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="0c8c-fe14-f49b-55bd" name="Mirror Sword" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
@@ -730,7 +739,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Rending (6+), Specialist Weapon</characteristic>
       </characteristics>
     </profile>
-    <profile id="1b44-da62-79fd-187b" name="Power Blade" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="1b44-da62-79fd-187b" name="Power Blade" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
@@ -739,7 +748,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Swift Strike</characteristic>
       </characteristics>
     </profile>
-    <profile id="5d53-e25f-4b18-4f01" name="Titanic Ghost Glaive" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="5d53-e25f-4b18-4f01" name="Titanic Ghost Glaive" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
@@ -748,7 +757,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Crushing (4+), Sweeping (3)</characteristic>
       </characteristics>
     </profile>
-    <profile id="f14d-f574-bbc2-fa33" name="Scorpion&apos;s Claw (Melee)" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="f14d-f574-bbc2-fa33" name="Scorpion&apos;s Claw (Melee)" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
@@ -757,7 +766,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Crushing (5+)</characteristic>
       </characteristics>
     </profile>
-    <profile id="08bd-d50c-1507-1844" name="Scorpion&apos;s Claw (Shooting)" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="08bd-d50c-1507-1844" name="Scorpion&apos;s Claw (Shooting)" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Pistol 2</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">12&quot;</characteristic>
@@ -766,7 +775,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="d778-375b-1249-8a48" name="Plasma Grenade" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="d778-375b-1249-8a48" name="Plasma Grenade" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Grenade 1</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">12&quot;</characteristic>
@@ -775,7 +784,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Blast</characteristic>
       </characteristics>
     </profile>
-    <profile id="6732-fd66-e6b1-9b02" name="Haywire Grenade" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="6732-fd66-e6b1-9b02" name="Haywire Grenade" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Grenade 1</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">12&quot;</characteristic>
@@ -784,7 +793,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Haywire (4+)</characteristic>
       </characteristics>
     </profile>
-    <profile id="4c14-9218-e4c7-f032" name="Ranger Long Rifle" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="4c14-9218-e4c7-f032" name="Ranger Long Rifle" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Heavy 1</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">48&quot;</characteristic>
@@ -793,7 +802,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Precision Strikes, Rending (4+)</characteristic>
       </characteristics>
     </profile>
-    <profile id="8794-abd4-706f-4877" name="Triskele" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="8794-abd4-706f-4877" name="Triskele" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 3</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">12&quot;</characteristic>
@@ -802,7 +811,7 @@ equipped with Scatter Laser.</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Arcing (5+)</characteristic>
       </characteristics>
     </profile>
-    <profile id="aade-0b94-a1af-085d" name="Vibro Cannon" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4. Weapon">
+    <profile id="aade-0b94-a1af-085d" name="Vibro Cannon" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Heavy 3</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">48&quot;</characteristic>
