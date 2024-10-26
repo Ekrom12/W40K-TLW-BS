@@ -1556,9 +1556,21 @@ Champion in your army without taking up a Force Organization slot.</characterist
                 <constraint field="selections" scope="ddf0-765e-0121-c730" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bd65-f83b-c19d-f231" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="b61b-056f-83be-d86f" name="Medipack" hidden="false" collective="false" import="true" targetId="9e1a-13c1-4e90-191d" type="selectionEntry"/>
-                <entryLink id="b8a9-b1c2-7a84-105c" name="Multiweave Comms Array" hidden="false" collective="false" import="true" targetId="949b-818a-b25f-5007" type="selectionEntry"/>
-                <entryLink id="be4e-e7a8-d9ab-1109" name="Pan Spectral Scanner" hidden="false" collective="false" import="true" targetId="2ad7-4ea2-44cc-2dcb" type="selectionEntry"/>
+                <entryLink id="b61b-056f-83be-d86f" name="Medipack" hidden="false" collective="false" import="true" targetId="9e1a-13c1-4e90-191d" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="10.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="b8a9-b1c2-7a84-105c" name="Multiweave Comms Array" hidden="false" collective="false" import="true" targetId="949b-818a-b25f-5007" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="5.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="be4e-e7a8-d9ab-1109" name="Pan Spectral Scanner" hidden="false" collective="false" import="true" targetId="2ad7-4ea2-44cc-2dcb" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="5.0"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -2460,30 +2472,12 @@ Champion in your army without taking up a Force Organization slot.</characterist
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="1bc0-4db1-ddd2-c04c" name="Pioneer" hidden="false" collective="false" import="true" type="model">
-          <modifiers>
-            <modifier type="append" field="name" value=" Gunner">
-              <conditions>
-                <condition field="selections" scope="1bc0-4db1-ddd2-c04c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="88f5-b63b-539c-6697" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0269-7f40-a87e-2522" type="min"/>
-            <constraint field="selections" scope="parent" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7ab-2f89-1545-11a6" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0269-7f40-a87e-2522" type="min"/>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7ab-2f89-1545-11a6" type="max"/>
           </constraints>
           <profiles>
             <profile id="fece-b505-7e55-9e0a" name="Pioneer" hidden="false" typeId="cea3-63fd-613a-6008" typeName="1. Unit">
-              <modifierGroups>
-                <modifierGroup>
-                  <conditions>
-                    <condition field="selections" scope="1bc0-4db1-ddd2-c04c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="88f5-b63b-539c-6697" type="equalTo"/>
-                  </conditions>
-                  <modifiers>
-                    <modifier type="set" field="b5f2-2a18-a740-edfa" value="2"/>
-                    <modifier type="set" field="0b22-edd2-dfa9-b0a9" value="2"/>
-                  </modifiers>
-                </modifierGroup>
-              </modifierGroups>
               <characteristics>
                 <characteristic name="Unit Type" typeId="c15a-7470-6874-3870">Bike</characteristic>
                 <characteristic name="M" typeId="fe85-ee8f-d2d9-ad7c">12&quot;</characteristic>
@@ -2512,33 +2506,8 @@ Champion in your army without taking up a Force Organization slot.</characterist
               </modifiers>
             </infoLink>
           </infoLinks>
-          <selectionEntries>
-            <selectionEntry id="88f5-b63b-539c-6697" name="Gunner" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="increment" field="f27d-d568-0d6f-259d" value="1.0">
-                  <repeats>
-                    <repeat field="selections" scope="2d47-2e12-d60c-5f3c" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c521-91ce-2d10-a479" type="max"/>
-                <constraint field="selections" scope="2d47-2e12-d60c-5f3c" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f27d-d568-0d6f-259d" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="40.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
           <selectionEntryGroups>
             <selectionEntryGroup id="a43a-6f5f-4195-0fac" name="Equipment" hidden="false" collective="false" import="true">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="1bc0-4db1-ddd2-c04c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="88f5-b63b-539c-6697" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
               <entryLinks>
                 <entryLink id="0ce0-4faf-94f3-66c0" name="Multiweave Comms Array" hidden="false" collective="false" import="true" targetId="949b-818a-b25f-5007" type="selectionEntry">
                   <constraints>
@@ -2558,25 +2527,62 @@ Champion in your army without taking up a Force Organization slot.</characterist
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="d9cc-860a-a8cd-03d0" name="Gunner Weapon" hidden="true" collective="false" import="true" defaultSelectionEntryId="bee3-36c3-753f-c321">
-              <modifierGroups>
-                <modifierGroup>
-                  <conditions>
-                    <condition field="selections" scope="1bc0-4db1-ddd2-c04c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="88f5-b63b-539c-6697" type="equalTo"/>
-                  </conditions>
-                  <modifiers>
-                    <modifier type="set" field="cff0-c138-4f41-5984" value="1.0"/>
-                    <modifier type="set" field="hidden" value="false"/>
-                  </modifiers>
-                </modifierGroup>
-              </modifierGroups>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8682-ce14-0597-dd37" name="Pioneer Gunner" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="increment" field="ea4b-fe12-f2c4-cd48" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="2d47-2e12-d60c-5f3c" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1bc0-4db1-ddd2-c04c" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e20a-a200-1fbc-b516" type="min"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea4b-fe12-f2c4-cd48" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="2adf-1179-0955-99f2" name="Pioneer Gunner" hidden="false" typeId="cea3-63fd-613a-6008" typeName="1. Unit">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="c15a-7470-6874-3870">Bike</characteristic>
+                <characteristic name="M" typeId="fe85-ee8f-d2d9-ad7c">12&quot;</characteristic>
+                <characteristic name="WS" typeId="bc88-26c6-13a7-8652">3</characteristic>
+                <characteristic name="BS" typeId="a155-55b2-af8d-3d7f">3</characteristic>
+                <characteristic name="S" typeId="11d3-3c6c-79a0-5b88">3</characteristic>
+                <characteristic name="T" typeId="ee17-ac8b-a4ce-3713">5</characteristic>
+                <characteristic name="W" typeId="b5f2-2a18-a740-edfa">2</characteristic>
+                <characteristic name="A" typeId="0b22-edd2-dfa9-b0a9">2</characteristic>
+                <characteristic name="I" typeId="73ed-811c-821a-28a3">2</characteristic>
+                <characteristic name="Ld" typeId="1a83-3556-dd65-614d">7</characteristic>
+                <characteristic name="Sv" typeId="4740-fde6-c158-c099">4+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="7c0c-1569-0f87-abc8" name="Bolt Pistol" hidden="false" targetId="f10d-bcb5-8415-1bc6" type="profile"/>
+            <infoLink id="c690-4877-8336-35c3" name="Shotgun" hidden="false" targetId="5af8-5f3e-e38c-5922" type="profile"/>
+            <infoLink id="c8cb-63e8-7088-87fe" name="Void Hardened Armour" hidden="false" targetId="d473-cc14-3dad-863d" type="profile"/>
+            <infoLink id="b5b7-bc15-0762-a7cc" name="Close Combat Weapon" hidden="false" targetId="b814-6941-df17-3d2b" type="profile"/>
+            <infoLink id="0e07-f8a1-32fa-c80d" name="Searchlight" hidden="false" targetId="ea78-a1f4-fda8-b436" type="profile"/>
+            <infoLink id="6694-ac9f-3e3d-d5e9" name="Frag Grenades" hidden="false" targetId="3535-f3b4-4dff-07ea" type="profile"/>
+            <infoLink id="72c3-bb38-86f1-8035" name="Heavy Stubber" hidden="false" targetId="8040-6a52-356d-cc83" type="profile">
+              <modifiers>
+                <modifier type="append" field="name" value=" (Trike)"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="22a3-d746-f264-80b5" name="Gunner Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="f63f-3652-be5e-7a6a">
               <constraints>
-                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cff0-c138-4f41-5984" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c10-b9d3-68bd-8eff" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18e7-6877-a691-1966" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bfe6-20c3-74a2-055e" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="bee3-36c3-753f-c321" name="HyLas Rotary Cannon" hidden="false" collective="false" import="true" targetId="c045-6645-bae0-e915" type="selectionEntry"/>
-                <entryLink id="c30e-4aa1-f6e3-2e60" name="Ion Beamer" hidden="false" collective="false" import="true" targetId="c706-898f-2f21-ac5d" type="selectionEntry">
+                <entryLink id="f63f-3652-be5e-7a6a" name="HyLas Rotary Cannon" hidden="false" collective="false" import="true" targetId="c045-6645-bae0-e915" type="selectionEntry"/>
+                <entryLink id="20dd-a24a-7bfe-df31" name="Ion Beamer" hidden="false" collective="false" import="true" targetId="c706-898f-2f21-ac5d" type="selectionEntry">
                   <costs>
                     <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="5.0"/>
                   </costs>
@@ -2590,7 +2596,7 @@ Champion in your army without taking up a Force Organization slot.</characterist
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="-10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c706-898f-2f21-ac5d" name="Ion Beamer" hidden="false" collective="false" import="true" type="upgrade">
@@ -2945,9 +2951,9 @@ Champion in your army without taking up a Force Organization slot.</characterist
         <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a872-0cd6-528f-5bbe" name="Flayre" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="a872-0cd6-528f-5bbe" name="Flâyre" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="51e6-645a-c208-885e" name="Flayre" hidden="false" typeId="aee3-6e54-942d-9406" typeName="4.2 Melee Weapon">
+        <profile id="51e6-645a-c208-885e" name="Flâyre" hidden="false" typeId="aee3-6e54-942d-9406" typeName="4.2 Melee Weapon">
           <characteristics>
             <characteristic name="Type" typeId="94d4-e42f-3ef5-684b">Melee</characteristic>
             <characteristic name="Range" typeId="88bf-9bf9-3672-1398">Melee</characteristic>
@@ -3158,6 +3164,9 @@ a Fortification type unit with an Armour value of 10 on all sides. The terrain p
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="2424-4f83-6bc5-d8be" name="Pioneer Expedition" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -3177,6 +3186,9 @@ Benefits:
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="8d4f-9aab-eccf-a2b6" name="Grudgeband" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -3195,6 +3207,9 @@ Benefits:
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="dbba-0225-d030-1f2a" name="[Reference] Skeinwrought Psychic Powers" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -3205,6 +3220,9 @@ Benefits:
       <categoryLinks>
         <categoryLink id="1609-aa2f-2d1f-9b9b" name="New CategoryLink" hidden="false" targetId="1118-1114-130d-8a22" primary="true"/>
       </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="22e2-2f03-377a-254f" name="[Reference] Iron-Smith Artifices" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -3215,6 +3233,9 @@ Benefits:
       <categoryLinks>
         <categoryLink id="dbb6-82cb-a9e5-15ca" name="New CategoryLink" hidden="false" targetId="1118-1114-130d-8a22" primary="true"/>
       </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
