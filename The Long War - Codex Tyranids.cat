@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="bbd8-a540-427c-19d1" name="Codex :Tyranids" revision="8" battleScribeVersion="2.03" authorName="Thanathoum" authorContact="" library="false" gameSystemId="5a96-11db-b761-54f0" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="bbd8-a540-427c-19d1" name="Codex :Tyranids" revision="8" battleScribeVersion="2.03" authorName="Thanathoum" authorContact="" library="false" gameSystemId="5a96-11db-b761-54f0" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="6ce0-fd6b-2a83-a367" name="The Long War - Codex Tyranids v3.0" shortName="Codex Tyranids"/>
   </publications>
@@ -2071,8 +2071,8 @@
           <characteristics>
             <characteristic name="Unit Type" typeId="c15a-7470-6874-3870">Infantry</characteristic>
             <characteristic name="M" typeId="fe85-ee8f-d2d9-ad7c">6&quot;</characteristic>
-            <characteristic name="WS" typeId="bc88-26c6-13a7-8652">4</characteristic>
-            <characteristic name="BS" typeId="a155-55b2-af8d-3d7f">4</characteristic>
+            <characteristic name="WS" typeId="bc88-26c6-13a7-8652">5</characteristic>
+            <characteristic name="BS" typeId="a155-55b2-af8d-3d7f">5</characteristic>
             <characteristic name="S" typeId="11d3-3c6c-79a0-5b88">5</characteristic>
             <characteristic name="T" typeId="ee17-ac8b-a4ce-3713">5</characteristic>
             <characteristic name="W" typeId="b5f2-2a18-a740-edfa">3</characteristic>
@@ -5203,7 +5203,7 @@ counts as an Instant death attack).</characteristic>
         </profile>
         <profile id="cc6f-8771-0c22-9dc6" name="Hyper Toxic Miasma" hidden="false" typeId="c5b0-edc1-3954-f457" typeName="2. Special Rule">
           <characteristics>
-            <characteristic name="Description" typeId="7625-b45b-2ec6-2bfe">At the end of each Charge Phase, Each enemy unit within 12” of this unit takes D6 automatic hits. Those hits are resolved at strength 1, AP ‘-‘ with the Poison (4+) special rule. Armour saves may be made as normal but Invulnerable saves and Cover saves may not be taken against these hits.</characteristic>
+            <characteristic name="Description" typeId="7625-b45b-2ec6-2bfe">Enemy units within 3” of this unit reduce their Toughness (T) characteristic by 1. In addition, at the end of each Charge Phase, each enemy unit within 12” takes D6 Automatic Wounds. Saves may be taken a normal against these wounds (except Cover Saves).</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5502,6 +5502,11 @@ counts as an Instant death attack).</characteristic>
             <characteristic name="Strength" typeId="3d6f-6114-326f-1301">7</characteristic>
             <characteristic name="AP" typeId="f25d-3bdc-8893-2344">3</characteristic>
             <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Poison (4+), Pinning, Concussive, Rending (5+)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="09f2-0bec-92c1-02af" name="Prey Grasp" hidden="false" typeId="c5b0-edc1-3954-f457" typeName="2. Special Rule">
+          <characteristics>
+            <characteristic name="Description" typeId="7625-b45b-2ec6-2bfe">Enemy units within 3” of a unit equipped with this special rule may not make Retreat moves in the Movement phase. If a unit in combat with this unit would fail a Panic test at the end of the Combat phase, the unit does not move and instead, simply takes 1 automatic wound. When a unit with this special rule attempts to charge a unit hit by this models Toxinjector Harpoon, this unit has +1 to its Charge roll.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7016,7 +7021,7 @@ Elite &gt; HQ</comment>
         </profile>
         <profile id="9f92-08c3-beee-e703" name="Onslaught (Shooting Phase)" hidden="false" typeId="2a00-4329-9a3b-34a3" typeName="Psychic Power">
           <characteristics>
-            <characteristic name="Description" typeId="ff3c-7073-b33d-a1a4">Cast this Psychic power in your Shooting phase. When this Power is cast select a single friendly unit within 18&quot; of the Psyker that made a Normal move in the Movement Phase. That unit is counted as having remained stationary until the end of the Phase</characteristic>
+            <characteristic name="Description" typeId="ff3c-7073-b33d-a1a4">Cast this Psychic power in your Shooting phase. When this Power is cast select a single friendly unit within 18&quot; of the Psyker that made an Advance move in the Movement Phase. That unit may make Shooting attacks this phase, resolving attacks as Snap shots.</characteristic>
           </characteristics>
         </profile>
         <profile id="d194-0425-254c-9def" name="Psychic Scream (Shooting Phase)" hidden="false" typeId="2a00-4329-9a3b-34a3" typeName="Psychic Power">
@@ -7302,7 +7307,7 @@ Elite &gt; HQ</comment>
         </profile>
         <profile id="01fe-475c-f2c7-b878" name="Psychic Absorption" hidden="false" typeId="c5b0-edc1-3954-f457" typeName="2. Special Rule">
           <characteristics>
-            <characteristic name="Description" typeId="7625-b45b-2ec6-2bfe">Each time this unit kills any enemy models with a Psychic Power, it heals 1 wound. If this unit kills a Psyker, it learns all Psychic Powers known by the enemy Psyker.</characteristic>
+            <characteristic name="Description" typeId="7625-b45b-2ec6-2bfe">Each time this unit kills any enemy models with a Psychic Power, it heals 1 wound. If this unit kills a Psyker, it learns all Psychic Powers and psychic weapons known by the enemy Psyker.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8334,12 +8339,12 @@ automatically Rally when this power is resolved</characteristic>
     </profile>
     <profile id="13bc-6826-b882-2d5d" name="Shrouding Spores" hidden="false" typeId="c5b0-edc1-3954-f457" typeName="2. Special Rule">
       <characteristics>
-        <characteristic name="Description" typeId="7625-b45b-2ec6-2bfe">This unit and any attached unit always gain the benefits of Light Cover. If this unit and any attached unit are already gaining the benefit of Light Cover, they gain the benefit of Heavy Cover instead.</characteristic>
+        <characteristic name="Description" typeId="7625-b45b-2ec6-2bfe">This unit and any unit within 6” gain the benefits of Light Cover. If a unit is already gaining the benefit of Light Cover, they gain the benefit of Heavy Cover instead.</characteristic>
       </characteristics>
     </profile>
     <profile id="0d82-f628-d176-ff04" name="Toxic Miasma" hidden="false" typeId="c5b0-edc1-3954-f457" typeName="2. Special Rule">
       <characteristics>
-        <characteristic name="Description" typeId="7625-b45b-2ec6-2bfe">This unit and any attached unit gain the Poison (4+) special rule on their melee weapons. If they already have the Poison (x) special rule, improve the value of (x) to a max of 3+.</characteristic>
+        <characteristic name="Description" typeId="7625-b45b-2ec6-2bfe">Enemy units within 3” of this unit reduce their Toughness (T) characteristic by 1.</characteristic>
       </characteristics>
     </profile>
     <profile id="4561-910c-86dd-9b0c" name="Venom Cluster" hidden="false" typeId="c5b0-edc1-3954-f457" typeName="2. Special Rule">
