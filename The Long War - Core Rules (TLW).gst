@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="5a96-11db-b761-54f0" name="The Long War (TLW)" revision="5" battleScribeVersion="2.03" authorName="Thanathoum" authorContact="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="5a96-11db-b761-54f0" name="The Long War (TLW)" revision="6" battleScribeVersion="2.03" authorName="Thanathoum" authorContact="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="7ba4-038e-f27f-d5ad" name="Pts" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
