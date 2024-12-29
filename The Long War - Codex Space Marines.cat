@@ -11252,8 +11252,13 @@ model with this upgrade gains 1 additional Wound. This Wounds represents the Thu
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="6493-9381-2164-de00" name="Aircraft Rules" hidden="false" targetId="ce8c-6883-a39a-09b5" type="infoGroup"/>
+        <infoLink id="6493-9381-2164-de00" name="Aircraft Special Rules" hidden="false" targetId="ce8c-6883-a39a-09b5" type="infoGroup"/>
         <infoLink id="2061-f912-c0f5-1955" name="Space Marine Rules" hidden="false" targetId="4f97-2018-b1cb-a61e" type="infoGroup"/>
+        <infoLink id="a46a-1cc9-6cde-c9eb" name="Linked Assault Cannon" hidden="false" targetId="67ca-d276-ed3a-f804" type="profile">
+          <modifiers>
+            <modifier type="append" field="name" value=" (P)"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="bc25-588b-dfd9-a08a" name="Fly" hidden="false" targetId="011e-85a1-b276-91fb" primary="false"/>

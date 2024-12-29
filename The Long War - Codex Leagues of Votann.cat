@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0b54-0bf6-c5b6-93d4" name="Codex: Leagues of Votann" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="5a96-11db-b761-54f0" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0b54-0bf6-c5b6-93d4" name="Codex: Leagues of Votann" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="5a96-11db-b761-54f0" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="5fa4-a02b-a918-f2b6" name="League">
       <characteristicTypes>
@@ -269,7 +269,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink id="e6ff-a5d4-9207-1d8b" name="Hernkyn Pioneers" hidden="false" collective="false" import="true" targetId="3d09-25fe-d3d1-6898" type="selectionEntry"/>
+    <entryLink id="e6ff-a5d4-9207-1d8b" name="Hernkyn Yaegirs" hidden="false" collective="false" import="true" targetId="3d09-25fe-d3d1-6898" type="selectionEntry"/>
     <entryLink id="bd68-78e4-87c0-08f7" name="Einhyr Hearthguard" hidden="false" collective="false" import="true" targetId="5dfe-72c7-5212-af2a" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
@@ -1860,11 +1860,11 @@ Champion in your army without taking up a Force Organization slot.</characterist
         <infoLink id="a2b7-7ecc-4b1a-7885" name="Infiltrate" hidden="false" targetId="db1b-5a5f-2104-445d" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="3c55-a8ed-7560-bab7" name="New CategoryLink" hidden="false" targetId="1966-eed8-9866-bcad" primary="true"/>
         <categoryLink id="d965-9684-b3d1-3828" name="Squats" hidden="false" targetId="e3a3-8e96-aca8-6776" primary="false"/>
         <categoryLink id="ef72-41da-96ee-bc90" name="Leagues of Votann" hidden="false" targetId="3579-baab-de60-6d58" primary="false"/>
         <categoryLink id="7b48-4152-521d-8562" name="[LEAGUE]" hidden="false" targetId="7f09-d777-e5d9-23a2" primary="false"/>
         <categoryLink id="1d7c-2ea1-1738-ad75" name="Hernkyn Yaegirs" hidden="false" targetId="aa4e-17c9-7cc4-9875" primary="false"/>
+        <categoryLink id="edaa-9c41-cb6c-5ae1" name="New CategoryLink" hidden="false" targetId="e2ce-2e0b-e92f-3060" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="d062-b18e-c1e1-3d01" name="Yaegir" hidden="false" collective="false" import="true" type="model">
