@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0b54-0bf6-c5b6-93d4" name="Codex: Leagues of Votann" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="5a96-11db-b761-54f0" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0b54-0bf6-c5b6-93d4" name="Codex: Leagues of Votann" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="5a96-11db-b761-54f0" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="5fa4-a02b-a918-f2b6" name="League">
       <characteristicTypes>
@@ -1977,6 +1977,11 @@ Champion in your army without taking up a Force Organization slot.</characterist
                     <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="5.0"/>
                   </costs>
                 </entryLink>
+                <entryLink id="f54e-f39c-7e85-686c" name="H.E. Mines" hidden="false" collective="false" import="true" targetId="5b05-d9d4-724e-05e3" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="5.0"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -3026,11 +3031,7 @@ Champion in your army without taking up a Force Organization slot.</characterist
             <characteristic name="Description" typeId="8a76-c6f0-9033-40bc">All Votann units change their [League] keyword to YMYR Conglomerate. All units with the YMYR Conglomerate Keyword gain the Allegiance: YMYR Conglomerate special rule. The Allegiance: YMYR Conglomerate special rule consists of the following rules:
 
 • Wealth is Power: A YMYR Conglomerate army may take Einhyr Hearthguard as Troops choices.
-
-• Cost Benefit Ratio: YMYR Conglomerate Hearthkyn Warrior units gain the Expendable Keyword.
-• Ruthless Efficiency: Greater Thurian units always count as controlling an objective regardless of how many models are contesting the objective.
-
-• Grim &amp; Methodical: Greater Thurian units in your army have the Slow &amp; Purposeful special rule</characteristic>
+• Cost Benefit Ratio: YMYR Conglomerate Hearthkyn Warrior units gain the Expendable Keyword.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3236,6 +3237,15 @@ Benefits:
       <costs>
         <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="5b05-d9d4-724e-05e3" name="H.E. Mines" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="59c9-2de4-c23c-d5d9" name="H.E. Mines" hidden="false" typeId="a36b-d7d4-4249-a209" typeName="3. Wargear">
+          <characteristics>
+            <characteristic name="Description" typeId="98c9-5aeb-b901-28d4">Instead of setting to Overwatch, a unit that includes a model with this wargear may Set to Plant Mines. When a unit Sets to Plant Mines, place a Mine marker within 3” of this unit at the end of the Shooting phase. Any enemy unit that ends its Movement Phase within 5” of a Mine Marker takes D6+1, Strength 4, AP5 Automatic hits. Wounds and saves are made as normal.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -3499,7 +3509,7 @@ o All Votann units gain the benefits of the Hatred special rule when targeting a
       <characteristics>
         <characteristic name="Type" typeId="e073-8376-b400-62a1">Rapid Fire 1</characteristic>
         <characteristic name="Range" typeId="adb6-ae76-701b-28cb">48&quot;</characteristic>
-        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">8</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">6</characteristic>
         <characteristic name="AP" typeId="f25d-3bdc-8893-2344">1</characteristic>
         <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Ignores Cover, Crushing (6+)</characteristic>
       </characteristics>
