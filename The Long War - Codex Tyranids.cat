@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="bbd8-a540-427c-19d1" name="Codex :Tyranids" revision="8" battleScribeVersion="2.03" authorName="Thanathoum" authorContact="" library="false" gameSystemId="5a96-11db-b761-54f0" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="bbd8-a540-427c-19d1" name="Codex :Tyranids" revision="9" battleScribeVersion="2.03" authorName="Thanathoum" authorContact="" library="false" gameSystemId="5a96-11db-b761-54f0" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="6ce0-fd6b-2a83-a367" name="The Long War - Codex Tyranids v3.0" shortName="Codex Tyranids"/>
   </publications>
@@ -2096,11 +2096,9 @@
             <modifier type="set" field="name" value="Bulky (2)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="7f3f-f784-2bf1-bb89" name="Smite" hidden="false" targetId="5eaf-9c4a-985c-9222" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="13ba-becf-7e7d-13e1" name="New CategoryLink" hidden="false" targetId="87db-dd77-43c7-2283" primary="true"/>
-        <categoryLink id="d462-0734-7e32-cede" name="Psyker" hidden="false" targetId="8a3e-7f2b-e2bf-f163" primary="false"/>
         <categoryLink id="1f19-2281-829d-4c4c" name="Command" hidden="false" targetId="5562-0fe2-5931-3760" primary="false"/>
         <categoryLink id="12ec-0660-075f-3003" name="Synapse" hidden="false" targetId="1364-b259-2825-f472" primary="false"/>
         <categoryLink id="28f4-3970-56ec-dfe5" name="M41" hidden="false" targetId="a842-59be-7eae-8938" primary="false"/>
@@ -2247,7 +2245,7 @@
         <entryLink id="cfe3-d92a-6586-d896" name="Bio Artifacts" hidden="false" collective="false" import="true" targetId="55c5-66c8-d895-3505" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="55.0"/>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="40.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f531-e799-42b4-eaa7" name="Flesh Hooks" hidden="false" collective="false" import="true" type="upgrade">
@@ -2277,7 +2275,7 @@
         </profile>
         <profile id="a70f-1f76-73ba-5579" name="Synapse Nodes" hidden="false" typeId="c5b0-edc1-3954-f457" typeName="2. Special Rule">
           <characteristics>
-            <characteristic name="Description" typeId="7625-b45b-2ec6-2bfe">Each time this unit suffers a Perils of the Warp, you may remove a Neuroloid model from this unit instead. Neuroloids cannot cast Psychic Powers. The Neuroloids do not count for majority Weapon Skill (WS) and Toughness (T) toughness characteristic for this unit.</characteristic>
+            <characteristic name="Description" typeId="7625-b45b-2ec6-2bfe">Each time this unit suffers a Perils of the Warp, you may remove a Neuroloid model from this unit instead. Neuroloids cannot cast Psychic Powers. The Neuroloids do not count for majority Weapon Skill (WS) and Toughness (T) characteristic for this unit.</characteristic>
           </characteristics>
         </profile>
         <profile id="9d59-6320-1df6-8fcc" name="Synapse Conduit" hidden="false" typeId="c5b0-edc1-3954-f457" typeName="2. Special Rule">
@@ -2300,7 +2298,6 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="b4e4-0480-f7f4-d82b" name="New CategoryLink" hidden="false" targetId="87db-dd77-43c7-2283" primary="true"/>
-        <categoryLink id="4f62-99a0-3a1b-232e" name="Command" hidden="false" targetId="5562-0fe2-5931-3760" primary="false"/>
         <categoryLink id="b354-ba2d-97df-3aa6" name="Psyker" hidden="false" targetId="8a3e-7f2b-e2bf-f163" primary="false"/>
         <categoryLink id="3640-7904-909b-043b" name="Synapse" hidden="false" targetId="1364-b259-2825-f472" primary="false"/>
         <categoryLink id="2c01-fff7-5131-336a" name="Character" hidden="false" targetId="6c3c-8de9-b6e7-a88a" primary="false"/>
@@ -2782,49 +2779,44 @@
             <categoryLink id="4bdf-b990-5a33-2a68" name="M41" hidden="false" targetId="a842-59be-7eae-8938" primary="false"/>
           </categoryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup id="2729-a876-3e32-1eac" name="Weapon Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="c65f-f53f-a08b-0475">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee0e-fcc3-5677-6572" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4dad-a1a4-3c8f-afd9" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="e847-f62e-fb42-201a" name="2x Rending Claws" hidden="false" collective="false" import="true" type="upgrade">
-                  <infoLinks>
-                    <infoLink id="4312-7712-3079-4d61" name="Rending Claws" hidden="false" targetId="ae9e-110b-2ee4-3f5b" type="profile"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="10.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="c65f-f53f-a08b-0475" name="2x Scything Talons" hidden="false" collective="false" import="true" type="upgrade">
-                  <infoLinks>
-                    <infoLink id="4b67-31e6-0749-4e80" name="Scything Talons" hidden="false" targetId="da55-bd45-95d2-6dc9" type="profile"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-              <entryLinks>
-                <entryLink id="a97d-eaa4-58d5-4332" name="Deathspitter" hidden="false" collective="false" import="true" targetId="9d64-5849-a7bb-0529" type="selectionEntry">
-                  <infoLinks>
-                    <infoLink id="3be4-e0f8-8cfe-c779" name="Scything Talons" hidden="false" targetId="da55-bd45-95d2-6dc9" type="profile"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="10.0"/>
-                  </costs>
-                </entryLink>
-                <entryLink id="1ac7-de08-f66a-204b" name="Spine Fists" hidden="false" collective="false" import="true" targetId="52c5-dc19-a976-0b20" type="selectionEntry">
-                  <infoLinks>
-                    <infoLink id="49c6-36f9-e9af-501c" name="Scything Talons" hidden="false" targetId="da55-bd45-95d2-6dc9" type="profile"/>
-                  </infoLinks>
-                </entryLink>
-                <entryLink id="e98c-8d6c-a0a8-2fa8" name="Devourer" hidden="false" collective="false" import="true" targetId="44e7-25f1-e2f7-6c7b" type="selectionEntry">
-                  <infoLinks>
-                    <infoLink id="43d8-184a-aac9-3815" name="Scything Talons" hidden="false" targetId="da55-bd45-95d2-6dc9" type="profile"/>
-                  </infoLinks>
-                </entryLink>
-              </entryLinks>
+            <selectionEntryGroup id="e871-c613-6d94-4f0f" name="Weapon Options" page="" hidden="false" collective="false" import="true">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="39e4-446a-845f-df47" name="Lower Limb Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="2412-a06d-ccdf-926e">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a943-8b09-8a48-f7b6" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c1b-7838-7c55-b9f8" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="a5df-6594-9ec4-0811" name="Deathspitter" hidden="false" collective="false" import="true" targetId="9d64-5849-a7bb-0529" type="selectionEntry">
+                      <costs>
+                        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="10.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="46ab-d6e9-2426-f015" name="Spine Fists" hidden="false" collective="false" import="true" targetId="52c5-dc19-a976-0b20" type="selectionEntry"/>
+                    <entryLink id="c924-d23f-e93c-046f" name="Devourer" hidden="false" collective="false" import="true" targetId="44e7-25f1-e2f7-6c7b" type="selectionEntry"/>
+                    <entryLink id="e9c1-303e-9a13-50b4" name="Rending Claws" hidden="false" collective="false" import="true" targetId="7858-3f29-b9f4-9c33" type="selectionEntry">
+                      <costs>
+                        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="10.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="2412-a06d-ccdf-926e" name="Scything Talons" hidden="false" collective="false" import="true" targetId="d4b8-ad55-41c6-8200" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="376f-cc8f-608b-e0ce" name="Upper Limb Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="103d-5649-6d50-c499">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="def0-4bd4-3d44-3a11" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a01d-27b3-0db9-41a5" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="1359-ebdb-957a-5b28" name="Rending Claws" hidden="false" collective="false" import="true" targetId="7858-3f29-b9f4-9c33" type="selectionEntry">
+                      <costs>
+                        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="10.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="103d-5649-6d50-c499" name="Scything Talons" hidden="false" collective="false" import="true" targetId="d4b8-ad55-41c6-8200" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
@@ -2853,7 +2845,7 @@
             </profile>
             <profile id="a6db-5feb-90ca-2f90" name="Swallow Whole" hidden="false" typeId="c5b0-edc1-3954-f457" typeName="2. Special Rule">
               <characteristics>
-                <characteristic name="Description" typeId="7625-b45b-2ec6-2bfe"> At initiative step 0, you can select a single enemy model within 1” of a Red Terror model in this unit. It makes a toughness test. Roll a Dice. If the result is higher than the target&apos;s Toughness (T) Characteristic, it is slain and removed from play. If the result is lower than the target&apos;s Toughness characteristic, nothing happens.</characteristic>
+                <characteristic name="Description" typeId="7625-b45b-2ec6-2bfe"> At initiative step 0, you can select a single infantry enemy model within 1” of a Red Terror model in this unit. It makes a toughness test. Roll a Dice. If the result is higher than the target&apos;s Toughness (T) Characteristic, it is slain and removed from play. If the result is lower than the target&apos;s Toughness characteristic, nothing happens. This counts as an Instant Death wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2862,49 +2854,44 @@
             <categoryLink id="cc0c-a745-d57a-ef4c" name="M41" hidden="false" targetId="a842-59be-7eae-8938" primary="false"/>
           </categoryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup id="265d-2a9c-60ea-4401" name="Weapon Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="9beb-6879-1af7-aab5">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e3b-7f8d-9a25-de1d" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea7b-bf39-d875-d517" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="55b1-2645-9707-b3d7" name="2x Rending Claws" hidden="false" collective="false" import="true" type="upgrade">
-                  <infoLinks>
-                    <infoLink id="e286-f93d-040a-fd17" name="Rending Claws" hidden="false" targetId="ae9e-110b-2ee4-3f5b" type="profile"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="10.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="9beb-6879-1af7-aab5" name="2x Scything Talons" hidden="false" collective="false" import="true" type="upgrade">
-                  <infoLinks>
-                    <infoLink id="0815-8c83-cf60-3cdc" name="Scything Talons" hidden="false" targetId="da55-bd45-95d2-6dc9" type="profile"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-              <entryLinks>
-                <entryLink id="d25b-416e-b328-c6c6" name="Deathspitter" hidden="false" collective="false" import="true" targetId="9d64-5849-a7bb-0529" type="selectionEntry">
-                  <infoLinks>
-                    <infoLink id="f6fa-cc51-48dd-d291" name="Scything Talons" hidden="false" targetId="da55-bd45-95d2-6dc9" type="profile"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="10.0"/>
-                  </costs>
-                </entryLink>
-                <entryLink id="5603-824f-63b1-be5e" name="Spine Fists" hidden="false" collective="false" import="true" targetId="52c5-dc19-a976-0b20" type="selectionEntry">
-                  <infoLinks>
-                    <infoLink id="2d01-90ac-91d8-8967" name="Scything Talons" hidden="false" targetId="da55-bd45-95d2-6dc9" type="profile"/>
-                  </infoLinks>
-                </entryLink>
-                <entryLink id="c2fe-0169-472a-b960" name="Devourer" hidden="false" collective="false" import="true" targetId="44e7-25f1-e2f7-6c7b" type="selectionEntry">
-                  <infoLinks>
-                    <infoLink id="955e-e425-fbc9-c664" name="Scything Talons" hidden="false" targetId="da55-bd45-95d2-6dc9" type="profile"/>
-                  </infoLinks>
-                </entryLink>
-              </entryLinks>
+            <selectionEntryGroup id="39d7-1f36-7e51-293a" name="Weapon Options" page="" hidden="false" collective="false" import="true">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="faa3-3fb3-f9fe-afac" name="Lower Limb Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="49fb-54c7-5156-a7b2">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0f3-0468-84f1-d468" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59fd-e5b6-2511-8e4b" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="76e7-020a-67ee-a1f9" name="Deathspitter" hidden="false" collective="false" import="true" targetId="9d64-5849-a7bb-0529" type="selectionEntry">
+                      <costs>
+                        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="10.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="7b38-8890-5c35-8a33" name="Spine Fists" hidden="false" collective="false" import="true" targetId="52c5-dc19-a976-0b20" type="selectionEntry"/>
+                    <entryLink id="aa63-dbf7-ee50-9b7a" name="Devourer" hidden="false" collective="false" import="true" targetId="44e7-25f1-e2f7-6c7b" type="selectionEntry"/>
+                    <entryLink id="11e9-94f6-1e5d-b086" name="Rending Claws" hidden="false" collective="false" import="true" targetId="7858-3f29-b9f4-9c33" type="selectionEntry">
+                      <costs>
+                        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="10.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="49fb-54c7-5156-a7b2" name="Scything Talons" hidden="false" collective="false" import="true" targetId="d4b8-ad55-41c6-8200" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="6ee7-ef50-ba32-b750" name="Upper Limb Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="6cca-8b55-5787-54af">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d541-6532-dedb-54cd" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b0c2-5e1c-81a8-5029" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="a5a0-e53e-7fa7-577d" name="Rending Claws" hidden="false" collective="false" import="true" targetId="7858-3f29-b9f4-9c33" type="selectionEntry">
+                      <costs>
+                        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="10.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="6cca-8b55-5787-54af" name="Scything Talons" hidden="false" collective="false" import="true" targetId="d4b8-ad55-41c6-8200" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
@@ -3448,7 +3435,7 @@
         <profile id="4371-4bc4-eadd-3654" name="Behemoth" hidden="false" typeId="8c25-648d-d16b-796a" typeName="Hive Fleet">
           <characteristics>
             <characteristic name="Description" typeId="c0d5-52c3-167d-202f">All Tyranid units change their [Hive Fleet] keyword to Behemoth. All units with the Behemoth Keyword gain the Allegiance: Behemoth special rule. The Allegiance: Behemoth special rule consists of the following rules:
-● Hyper Aggression: Behemoth units gain the Rage (2) special rule while within Synapse Range.
+● Hyper Aggression: Behemoth units gain the Rage (2) special rule while within Synapse.
 ● Overwhelming Ferocity: A Behemoth Army must have at least 1 Heavy Support choice for every 1000pts</characteristic>
           </characteristics>
         </profile>
@@ -3462,7 +3449,7 @@
         <profile id="2341-615b-25d4-3d10" name="Kraken" hidden="false" typeId="8c25-648d-d16b-796a" typeName="Hive Fleet">
           <characteristics>
             <characteristic name="Description" typeId="c0d5-52c3-167d-202f">All Tyranid units change their [Hive Fleet] keyword to Kraken. All units with the Kraken Keyword gain the Allegiance: Kraken special rule. The Allegiance: Kraken special rule consists of the following rules:
-● Questing Tendrils: Kraken units gain the Sprint (1) special rule while within Synapse Range. If they already have the Sprint (x) special rule, increase the value of x by 1 to a max of 3.
+● Questing Tendrils: Kraken units gain the Sprint (1) special rule while within Synapse. If they already have the Sprint (x) special rule, increase the value of x by 1 to a max of 3.
 ● Speedy Consumption: A Kraken army must include more Fast Attack Choices than Heavy Support choices.</characteristic>
           </characteristics>
         </profile>
@@ -3504,7 +3491,7 @@
         <profile id="8bd2-f4e1-5ecd-8d5d" name="Hydra" hidden="false" typeId="8c25-648d-d16b-796a" typeName="Hive Fleet">
           <characteristics>
             <characteristic name="Description" typeId="c0d5-52c3-167d-202f">All Tyranid units change their [Hive Fleet] keyword to Hydra. All units with the Hydra Keyword gain the Allegiance: Hydra special rule. The Allegiance: Hydra special rule consists of the following rules:
-● The Swarm: At the start of combat, at initiative step 10, if a Hydra unit with 5 or more models is engaged in Combat and in Synapse Range, Hydra models in that unit gain +1 to their Weapon Skill (WS) characteristic until the end of combat.
+● The Swarm: At the start of combat, at initiative step 10, if a Hydra unit with 5 or more models is engaged in Combat and in Synapse, Hydra models in that unit gain +1 to their Weapon Skill (WS) characteristic until the end of combat.
 ● The Many Headed Beast: A Hydra army must have 3 Troops choices for every 1000pts.</characteristic>
           </characteristics>
         </profile>
@@ -3518,7 +3505,7 @@
         <profile id="9d09-5f18-aa77-198c" name="Ouroboros" hidden="false" typeId="8c25-648d-d16b-796a" typeName="Hive Fleet">
           <characteristics>
             <characteristic name="Description" typeId="c0d5-52c3-167d-202f">All Tyranid units change their [Hive Fleet] keyword to Ouroboros. All units with the Ouroboros Keyword gain the Allegiance: Ouroboros special rule. The Allegiance: Ouroboros special rule consists of the following rules:
-● Flocking Doom: Ouroboros units with the Fly Keyword in Synapse Range may perform a Counter Charge with reaction with no negative modifiers to their Charge roll. 
+● Flocking Doom: Ouroboros units with the Fly Keyword in Synapse may perform a Counter Charge with reaction with no negative modifiers to their Charge roll. 
 ● Primordial Biology: An Ouroboros army must select the Caustic Blood Physiology(see Adaptive Physiology section). All Ouroboros units gain the M32 keyword.</characteristic>
           </characteristics>
         </profile>
@@ -3532,7 +3519,7 @@
         <profile id="c21d-8259-2fbb-f9ba" name="Gorgon" hidden="false" typeId="8c25-648d-d16b-796a" typeName="Hive Fleet">
           <characteristics>
             <characteristic name="Description" typeId="c0d5-52c3-167d-202f">All Tyranid units change their [Hive Fleet] keyword to Gorgon. All units with the Gorgon Keyword gain the Allegiance: Gorgon special rule. The Allegiance: Gorgon special rule consists of the following rules:
-● Hyper Adaptive Biology: A Gorgon unit with this special rule that is within Synapse range gains the Poison (4+) special rule on all weapons they are equipped with. If they already have the Poison (x) special rule, improve the value of (x) by 1 to a max of (2+). Units with Poison Sacs Adaptation go to Poison (3+). 
+● Hyper Adaptive Biology: A Gorgon unit with this special rule that is within Synapse gains the Poison (4+) special rule on all weapons they are equipped with. If they already have the Poison (x) special rule, improve the value of (x) by 1 to a max of (2+). Units with Poison Sacs Adaptation go to Poison (3+). 
 ● Sustainable Consumption: If a Gorgon army does not slay more units than the opponent by the end of the game, you lose 1VP.</characteristic>
           </characteristics>
         </profile>
@@ -3546,7 +3533,7 @@
         <profile id="8d4e-9c8a-3939-ef60" name="Kronos" hidden="false" typeId="8c25-648d-d16b-796a" typeName="Hive Fleet">
           <characteristics>
             <characteristic name="Description" typeId="c0d5-52c3-167d-202f">All Tyranid units change their [Hive Fleet] keyword to Kronos. All units with the Kronos Keyword gain the Allegiance: Kronos special rule. The Allegiance: Kronos special rule consists of the following rules:
-● The Deepest Shadow: Enemy units within Synapse range of a Kronos unit suffer -2 to their Leadership (LD) characteristic.
+● The Deepest Shadow: Enemy units within Synapse of a Kronos unit suffer -2 to their Leadership (LD) characteristic.
 ● The shadow hunt: Kronos units must attempt to charge any units with the Psyker (x) rule or units with models with the Psyker (x) rule in them if they are eligible to charge in the charge Phase unless another unit is
 closer.</characteristic>
           </characteristics>
@@ -3561,7 +3548,7 @@ closer.</characteristic>
         <profile id="dfff-d8f4-d01c-587b" name="Tiamet" hidden="false" typeId="8c25-648d-d16b-796a" typeName="Hive Fleet">
           <characteristics>
             <characteristic name="Description" typeId="c0d5-52c3-167d-202f">All Tyranid units change their [Hive Fleet] keyword to Tiamet. All units with the Tiamet Keyword gain the Allegiance: Tiamet special rule. The Allegiance: Tiamet special rule consists of the following rules:
-● Defensive Organisms: Tiamet units in Synapse range may re-roll failed Armour saves (Armour Saves Only). 
+● Defensive Organisms: Tiamet units in Synapse may re-roll failed Armour saves (Armour Saves Only). 
 ● The first to arrive: All Tiamet units gain the M35 keyword. Tiamet may not field any Unique keyword units.</characteristic>
           </characteristics>
         </profile>
@@ -3909,6 +3896,11 @@ Benefits:
                 <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="15.0"/>
               </costs>
             </entryLink>
+            <entryLink id="f073-5d63-3a22-c6f7" name="Rending Claws" hidden="false" collective="false" import="true" targetId="7858-3f29-b9f4-9c33" type="selectionEntry">
+              <costs>
+                <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="2.0"/>
+              </costs>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -3922,6 +3914,11 @@ Benefits:
         <infoLink id="2572-de23-9e7b-c140" name="Close Combat Weapon" hidden="false" targetId="b814-6941-df17-3d2b" type="profile"/>
         <infoLink id="5e7e-1c8d-01e5-6b36" name="Spore Mine Launcher (Air)" hidden="false" targetId="2be7-1912-f82d-300c" type="profile"/>
         <infoLink id="72f4-037e-32bf-9712" name="Spore Mine Launcher (Ground)" hidden="false" targetId="b39a-4910-54a3-fd00" type="profile"/>
+        <infoLink id="a8e3-4851-72f5-4c89" name="Bulky (x)" hidden="false" targetId="46aa-b0c1-0fc6-6d39" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Bulky (3)"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="3a4f-4024-373a-adf9" name="New CategoryLink" hidden="false" targetId="e2ce-2e0b-e92f-3060" primary="true"/>
@@ -3967,13 +3964,18 @@ Benefits:
         <infoLink id="1428-d5ef-a1f5-51c3" name="Tyranid Special Rules" hidden="false" targetId="f22e-7fef-bcfc-de06" type="infoGroup"/>
         <infoLink id="9bf5-414a-ad2e-aa05" name="Acid Maw" hidden="false" targetId="1c42-c239-57a6-ccca" type="profile"/>
         <infoLink id="dce0-2190-abca-161c" name="Flamespurt" hidden="false" targetId="ff94-26ec-3253-6168" type="profile"/>
+        <infoLink id="9eb2-5345-7d10-21f7" name="Bulky (x)" hidden="false" targetId="46aa-b0c1-0fc6-6d39" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Bulky (3)"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="ab9c-a0cc-108b-05f2" name="New CategoryLink" hidden="false" targetId="e2ce-2e0b-e92f-3060" primary="true"/>
-        <categoryLink id="0761-c2f1-bdfa-1e3b" name="Assault" hidden="false" targetId="6774-96a7-6b23-f8c1" primary="false"/>
         <categoryLink id="d356-e1e9-f48e-87dd" name="Pyrovore" hidden="false" targetId="40b3-539c-11f0-c141" primary="false"/>
         <categoryLink id="1455-0f1c-b4d8-a8f5" name="M41" hidden="false" targetId="a842-59be-7eae-8938" primary="false"/>
         <categoryLink id="ebef-0dd0-1281-6b48" name="Non-Flyer" hidden="false" targetId="af97-c5ad-abb2-5b03" primary="false"/>
+        <categoryLink id="e6f1-97fc-9f1e-6a0a" name="Feeder" hidden="false" targetId="d3a1-8cd9-d989-527a" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="5fb5-5948-5feb-6d08" name="Pyrovore" hidden="false" collective="false" import="true" type="model">
@@ -4046,7 +4048,7 @@ Benefits:
         </profile>
         <profile id="159f-ec1a-3ad0-7a9c" name="Transport (Tyrannocyte)" hidden="false" typeId="c5b0-edc1-3954-f457" typeName="2. Special Rule">
           <characteristics>
-            <characteristic name="Description" typeId="7625-b45b-2ec6-2bfe">This unit can transport 10 Infantry models. Alternatively, this unit can Transport 1 Monster type unit that does not have the Fly keyword. If the Monster unit has a special rule that allows you to take multiple models in the unit that would separate upon deployment, all the models from that unit may be placed in this Transport during deployment and separate to become individual units once they Disembark. Models may not Embark on this unit after Deployment is completed. When this unit arrives via Deep Strike, units Embarked must Disembark. It may not transport Hierophant Bio Titans or Hierodule Broods</characteristic>
+            <characteristic name="Description" typeId="7625-b45b-2ec6-2bfe">This unit can transport 10 Infantry models. Alternatively, this unit can Transport 1 Monster type unit that does not have the Fly keyword or a Wounds (W) characteristic of 5 or more. If the Monster unit has a special rule that allows you to take multiple models in the unit that would separate upon deployment, all the models from that unit may be placed in this Transport during deployment and separate to become individual units once they Disembark. Models may not Embark on this unit after Deployment is completed. When this unit arrives via Deep Strike, units Embarked must Disembark. It may not transport Hierophant Bio Titans or Hierodule Broods</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4068,6 +4070,7 @@ Benefits:
         <categoryLink id="a4f1-3089-505d-aab0" name="Tyrannocyte" hidden="false" targetId="8124-725d-11d1-2ec0" primary="false"/>
         <categoryLink id="b9ab-0d4e-8742-a4ae" name="Transport" hidden="false" targetId="689c-14c0-e2aa-7ad8" primary="false"/>
         <categoryLink id="1f22-a596-b6de-c65c" name="M41" hidden="false" targetId="a842-59be-7eae-8938" primary="false"/>
+        <categoryLink id="ea62-7998-5073-3a0d" name="Expendable" hidden="false" targetId="ae03-d304-ee68-582c" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="5cd8-d533-fa57-ef90" name="5 Deathspitters" hidden="false" collective="false" import="true" type="upgrade">
@@ -4211,6 +4214,7 @@ Benefits:
         <infoLink id="e3da-01f4-7b1a-5d99" name="Tentaclids" hidden="false" targetId="9b47-d3e0-69a9-d7ac" type="profile"/>
         <infoLink id="2203-f46c-1c86-3f65" name="Drool Cannon" hidden="false" targetId="f0a6-9cfa-269c-33ce" type="profile"/>
         <infoLink id="f114-6161-d625-fd0f" name="Wicked Spur" hidden="false" targetId="0a2b-f425-ba81-df50" type="profile"/>
+        <infoLink id="2ed4-8f45-2dd6-99b3" name="Stinger Salvo" hidden="false" targetId="c1e7-8a6e-ae2c-3b2f" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="e31c-5c8f-7d8c-0a75" name="New CategoryLink" hidden="false" targetId="5b95-9566-207a-c690" primary="true"/>
@@ -4417,7 +4421,7 @@ Benefits:
                 <characteristic name="T" typeId="ee17-ac8b-a4ce-3713">1</characteristic>
                 <characteristic name="W" typeId="b5f2-2a18-a740-edfa">1</characteristic>
                 <characteristic name="A" typeId="0b22-edd2-dfa9-b0a9">-</characteristic>
-                <characteristic name="I" typeId="73ed-811c-821a-28a3">-</characteristic>
+                <characteristic name="I" typeId="73ed-811c-821a-28a3">10</characteristic>
                 <characteristic name="Ld" typeId="1a83-3556-dd65-614d">10</characteristic>
                 <characteristic name="Sv" typeId="4740-fde6-c158-c099">-</characteristic>
               </characteristics>
@@ -4483,7 +4487,7 @@ Benefits:
                 <characteristic name="T" typeId="ee17-ac8b-a4ce-3713">3</characteristic>
                 <characteristic name="W" typeId="b5f2-2a18-a740-edfa">2</characteristic>
                 <characteristic name="A" typeId="0b22-edd2-dfa9-b0a9">-</characteristic>
-                <characteristic name="I" typeId="73ed-811c-821a-28a3">-</characteristic>
+                <characteristic name="I" typeId="73ed-811c-821a-28a3">10</characteristic>
                 <characteristic name="Ld" typeId="1a83-3556-dd65-614d">10</characteristic>
                 <characteristic name="Sv" typeId="4740-fde6-c158-c099">6+</characteristic>
               </characteristics>
@@ -4588,10 +4592,9 @@ Elite &gt; HQ</comment>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="f758-43ea-9863-c565" name="Monstrous Scything Talons" hidden="false" targetId="4140-98ea-1103-9490" type="profile"/>
-        <infoLink id="a9b0-a1fd-5011-7b52" name="Scything Talons" hidden="false" targetId="da55-bd45-95d2-6dc9" type="profile">
+        <infoLink id="f758-43ea-9863-c565" name="Monstrous Scything Talons" hidden="false" targetId="4140-98ea-1103-9490" type="profile">
           <modifiers>
-            <modifier type="set" field="name" value="2 Scything Talons"/>
+            <modifier type="set" field="name" value="3 Monstrous Scything Talons"/>
           </modifiers>
         </infoLink>
         <infoLink id="21fa-aa27-8c9c-b948" name="Bio Electric Pulse" hidden="false" targetId="5a60-b1fb-fd9f-d2b8" type="profile"/>
@@ -4688,10 +4691,9 @@ Elite &gt; HQ</comment>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="6330-4da3-5988-6a5c" name="Monstrous Scything Talons" hidden="false" targetId="4140-98ea-1103-9490" type="profile"/>
-        <infoLink id="8902-2209-1dc2-74e6" name="Scything Talons" hidden="false" targetId="da55-bd45-95d2-6dc9" type="profile">
+        <infoLink id="6330-4da3-5988-6a5c" name="Monstrous Scything Talons" hidden="false" targetId="4140-98ea-1103-9490" type="profile">
           <modifiers>
-            <modifier type="set" field="name" value="2 Scything Talons"/>
+            <modifier type="set" field="name" value="3 Monstrous Scything Talons"/>
           </modifiers>
         </infoLink>
         <infoLink id="1b95-dcea-af31-bc51" name="Distensible Jaw" hidden="false" targetId="c612-da8a-2b4d-651f" type="profile"/>
@@ -4751,8 +4753,8 @@ Elite &gt; HQ</comment>
         </profile>
         <profile id="b00e-c3f7-f245-17b3" name="Spine Maw" hidden="false" typeId="c5b0-edc1-3954-f457" typeName="2. Special Rule">
           <characteristics>
-            <characteristic name="Description" typeId="7625-b45b-2ec6-2bfe">At the end of the Combat Phase, select a single enemy infantry type model within 1” of this model. The chosen unit must make a Strength test. To make a Strength test, roll a D6 and compare the result to the models Strength (S) characteristic. If the result is lower than the models Strength (S) characteristic, the test is passed, and the model resists being placed in the maw. If the result tis higher than the models Strength (S) characteristic, the target model is slain (this
-counts as an Instant death attack).</characteristic>
+            <characteristic name="Description" typeId="7625-b45b-2ec6-2bfe">At the end of the Combat Phase, select a single enemy infantry type model within 1” of this model. The chosen unit must make a Strength test. To make a Strength test, roll a D6 and compare the result to the models Strength (S) characteristic. If the result is lower than the models Strength (S) characteristic, the test is passed, and the model resists being placed in the maw. If the result tis higher than the models Strength (S) characteristic, the target model is slain (This
+counts as an Instant death wound).</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5261,7 +5263,7 @@ counts as an Instant death attack).</characteristic>
         <infoLink id="6c99-6bf3-e849-7cc7" name="Smite" hidden="false" targetId="5eaf-9c4a-985c-9222" type="profile"/>
         <infoLink id="0b7c-3755-4ad7-374c" name="Psyker (x)" hidden="false" targetId="f292-d630-ac45-5b22" type="rule">
           <modifiers>
-            <modifier type="set" field="name" value="Psyker (1)"/>
+            <modifier type="set" field="name" value="Psyker (2)"/>
           </modifiers>
         </infoLink>
         <infoLink id="0b49-262e-1ad2-cf8a" name="Synapse" hidden="false" targetId="6de1-e307-ef3f-a199" type="rule"/>
@@ -5274,9 +5276,10 @@ counts as an Instant death attack).</characteristic>
         <categoryLink id="24f0-a376-7013-37cf" name="Assault" hidden="false" targetId="6774-96a7-6b23-f8c1" primary="false"/>
         <categoryLink id="9802-2851-c924-37c5" name="Monster" hidden="false" targetId="4637-0878-f0cb-b11a" primary="false"/>
         <categoryLink id="44e6-8fb1-a22d-16a5" name="Non-Flyer" hidden="false" targetId="af97-c5ad-abb2-5b03" primary="false"/>
+        <categoryLink id="4dcd-9f40-4065-e783" name="Synapse" hidden="false" targetId="1364-b259-2825-f472" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="110.0"/>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="120.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="618e-c62f-3fc7-7761" name="Haruspex" hidden="false" collective="false" import="true" type="unit">
@@ -5495,7 +5498,7 @@ counts as an Instant death attack).</characteristic>
             <characteristic name="Description" typeId="7625-b45b-2ec6-2bfe">This unit may re-roll failed hit rolls of 1 against the enemy Warlord. If the Enemy Warlord is slain by this unit, you gain 1 Victory Point. If this unit is slain, you lose 1 Victory Point.</characteristic>
           </characteristics>
         </profile>
-        <profile id="fdc5-1417-90f1-9392" name="Toxinjector Harpoons" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
+        <profile id="fdc5-1417-90f1-9392" name="Toxinjector Harpoons (Shooting)" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
           <characteristics>
             <characteristic name="Type" typeId="e073-8376-b400-62a1">Pistol 2</characteristic>
             <characteristic name="Range" typeId="adb6-ae76-701b-28cb">24&quot;</characteristic>
@@ -5507,6 +5510,15 @@ counts as an Instant death attack).</characteristic>
         <profile id="09f2-0bec-92c1-02af" name="Prey Grasp" hidden="false" typeId="c5b0-edc1-3954-f457" typeName="2. Special Rule">
           <characteristics>
             <characteristic name="Description" typeId="7625-b45b-2ec6-2bfe">Enemy units within 3” of a unit equipped with this special rule may not make Retreat moves in the Movement phase. If a unit in combat with this unit would fail a Panic test at the end of the Combat phase, the unit does not move and instead, simply takes 1 automatic wound. When a unit with this special rule attempts to charge a unit hit by this models Toxinjector Harpoon, this unit has +1 to its Charge roll.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2e82-f8e2-f73c-782c" name="Toxinjector Harpoons (Melee)" hidden="false" typeId="aee3-6e54-942d-9406" typeName="4.2 Melee Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="94d4-e42f-3ef5-684b">Melee</characteristic>
+            <characteristic name="Range" typeId="88bf-9bf9-3672-1398">Melee</characteristic>
+            <characteristic name="Strength" typeId="7207-63c6-bac0-ee4b">User</characteristic>
+            <characteristic name="AP" typeId="b78f-cbd6-e399-76db">2</characteristic>
+            <characteristic name="Rules" typeId="a64f-633d-92d0-587c">Poison (4+), Crushing (5+), Concussive</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5671,7 +5683,7 @@ counts as an Instant death attack).</characteristic>
         </profile>
         <profile id="100d-39ed-15b6-d788" name="Hyper Toxic Miasma" hidden="false" typeId="c5b0-edc1-3954-f457" typeName="2. Special Rule">
           <characteristics>
-            <characteristic name="Description" typeId="7625-b45b-2ec6-2bfe">At the end of each Charge Phase, Each enemy unit within 12” of this unit takes D6 automatic hits. Those hits are resolved at strength 1, AP ‘-‘ with the Poison (4+) special rule. Armour saves may be made as normal but Invulnerable saves and Cover saves may not be taken against these hits.</characteristic>
+            <characteristic name="Description" typeId="7625-b45b-2ec6-2bfe">Enemy units within 3” of this unit reduce their Toughness (T) characteristic by 1 . In addition, at the end of each Charge Phase, Each enemy unit within 12” of this unit takes D6 Automatic wounds. Saves may be taken a normal (except Cover Saves).</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5855,6 +5867,7 @@ counts as an Instant death attack).</characteristic>
         <categoryLink id="7a0b-6b9c-e877-bb28" name="Sporocyst" hidden="false" targetId="e032-8f97-c642-1e6b" primary="false"/>
         <categoryLink id="854f-a67f-ff62-4959" name="Synapse" hidden="false" targetId="1364-b259-2825-f472" primary="false"/>
         <categoryLink id="2264-e728-3d54-c90e" name="M41" hidden="false" targetId="a842-59be-7eae-8938" primary="false"/>
+        <categoryLink id="dc98-8a6f-6c4a-4d9a" name="Expendable" hidden="false" targetId="ae03-d304-ee68-582c" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="3e35-a348-47b2-7c36" name="Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="3c9f-bbd4-d43b-683a">
@@ -6484,7 +6497,7 @@ Benefits:
         <categoryLink id="57d8-5d1b-c234-0ffa" name="Non-Flyer" hidden="false" targetId="af97-c5ad-abb2-5b03" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="110.0"/>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="120.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="72de-8df9-d694-a827" name="Toxicrene (Elite)" hidden="false" collective="false" import="true" type="unit">
@@ -6955,6 +6968,7 @@ Elite &gt; HQ</comment>
         <infoLink id="b4df-661d-406f-b8fb" name="Tentaclids" hidden="false" targetId="9b47-d3e0-69a9-d7ac" type="profile"/>
         <infoLink id="1d9e-a135-3654-dd0d" name="Drool Cannon" hidden="false" targetId="f0a6-9cfa-269c-33ce" type="profile"/>
         <infoLink id="c8a1-8f0b-2cc0-9d9b" name="Wicked Spur" hidden="false" targetId="0a2b-f425-ba81-df50" type="profile"/>
+        <infoLink id="b3b4-7ca0-5b56-7e11" name="Stinger Salvo" hidden="false" targetId="c1e7-8a6e-ae2c-3b2f" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="ffa6-f0be-b465-e39f" name="Fly" hidden="false" targetId="011e-85a1-b276-91fb" primary="false"/>
@@ -7158,7 +7172,7 @@ Elite &gt; HQ</comment>
         </profile>
         <profile id="b66c-8267-b3df-69e2" name="The Parasite" hidden="false" typeId="c5b0-edc1-3954-f457" typeName="2. Special Rule">
           <characteristics>
-            <characteristic name="Description" typeId="7625-b45b-2ec6-2bfe"> Each time this unit attacks in the combat phase, after resolving all of this unit&apos;s attacks, if it inflicted at least 1 wound, you may summon 1 unit of Ripper Swarms within 3” of this unit. At the start of your movement phase, this unit may summon 1 unit of Ripper Swarms per game within 3” of it and more than 3” away from any enemy models.</characteristic>
+            <characteristic name="Description" typeId="7625-b45b-2ec6-2bfe"> Each time this unit attacks in the combat phase, after resolving all of this unit&apos;s attacks, if it inflicted at least 1 wound, you may summon 1 unit of Ripper Swarms within 3” of this unit. In addition, once per game at the start of your movement phase, this unit may summon 1 unit of Ripper Swarms within 3” of it and more than 3” away from any enemy models.</characteristic>
           </characteristics>
         </profile>
         <profile id="668e-6f7d-95d4-3c4a" name="Injector Tail" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4.1 Ranged Weapon">
@@ -7369,11 +7383,19 @@ Elite &gt; HQ</comment>
             <characteristic name="Description" typeId="7625-b45b-2ec6-2bfe">Even if this unit is not your Warlord, it may take 1 Warlord trait from the Warlord traits section.</characteristic>
           </characteristics>
         </profile>
+        <profile id="7642-706b-568f-de3b" name="Reaper Scythe" hidden="false" typeId="aee3-6e54-942d-9406" typeName="4.2 Melee Weapon">
+          <characteristics>
+            <characteristic name="Type" typeId="94d4-e42f-3ef5-684b">Melee</characteristic>
+            <characteristic name="Range" typeId="88bf-9bf9-3672-1398">Melee</characteristic>
+            <characteristic name="Strength" typeId="7207-63c6-bac0-ee4b">User</characteristic>
+            <characteristic name="AP" typeId="b78f-cbd6-e399-76db">4</characteristic>
+            <characteristic name="Rules" typeId="a64f-633d-92d0-587c">Sweeping (2)</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoLinks>
         <infoLink id="770d-dfae-9f91-8b52" name="Monstrous Scything Talons" hidden="false" targetId="4140-98ea-1103-9490" type="profile"/>
         <infoLink id="773b-b24c-ada1-c9f9" name="Monstrous Crushing Claws" hidden="false" targetId="eeac-9cbf-a060-e2d5" type="profile"/>
-        <infoLink id="a05e-fede-ba38-9ae2" name="Thresher Scythe" hidden="false" targetId="612b-a338-627c-8f9c" type="profile"/>
         <infoLink id="107c-19d4-b826-8cba" name="Monster Special Rules" hidden="false" targetId="03d4-5e41-49a0-893f" type="infoGroup"/>
         <infoLink id="b717-80e4-76b5-25be" name="Tyranid Special Rules" hidden="false" targetId="f22e-7fef-bcfc-de06" type="infoGroup"/>
         <infoLink id="fd26-f2f4-ec21-1794" name="Hammer of Wrath (X)" hidden="false" targetId="5284-a442-b9a6-d0ce" type="rule">
@@ -7516,7 +7538,7 @@ Elite &gt; HQ</comment>
             </modifier>
           </modifiers>
           <costs>
-            <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="5.0"/>
+            <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="15.0"/>
           </costs>
         </entryLink>
         <entryLink id="5db2-988b-2f90-af1a" name="Scythes of Tyran" hidden="false" collective="false" import="true" targetId="7f88-08fe-183d-c0a8" type="selectionEntry">
@@ -7609,8 +7631,8 @@ Elite &gt; HQ</comment>
   <sharedRules>
     <rule id="6de1-e307-ef3f-a199" name="Synapse" hidden="false">
       <description>This special rule confers the following effects:
-○ Friendly Tyranid units wholly within 18” of a Tyranid unit with this special rule have the Stubborn special rule and change their Leadership (LD) Characteristic to 10.
-○ Friendly Tyranid Units within Synapse range also automatically Rally at the start of their movement phase.
+○ Friendly Tyranid units wholly within 18” of a Tyranid unit with this special rule have the Stubborn special rule and change their Leadership (LD) Characteristic to 10 unless higher.
+○ Friendly Tyranid Units within Synapse automatically Rally at the start of their movement phase.
 ○ Tyranid Units that are not within Synapse range of a model with this special rule have the Frenzy Special Rule instead and use their base Leadership (LD) Characteristic.
 ○ The unit with this special rule gains the Synapse keyword.</description>
     </rule>
@@ -7637,7 +7659,7 @@ Elite &gt; HQ</comment>
   <sharedProfiles>
     <profile id="41c7-31b3-53d8-e1a1" name="Wings" publicationId="6ce0-fd6b-2a83-a367" page="7" hidden="false" typeId="a36b-d7d4-4249-a209" typeName="3. Wargear">
       <characteristics>
-        <characteristic name="Description" typeId="98c9-5aeb-b901-28d4">A Tyranid Infantry or Monster unit with this Bio-Morph increases their Movement (M) characteristic to 12”.  It gains the Hammer of Wrath (1) and Deep strike special rules. The equipped model gains the Fly keyword.</characteristic>
+        <characteristic name="Description" typeId="98c9-5aeb-b901-28d4">A Tyranid unit with this Bio-Morph increases their Movement (M) characteristic to 12”.  It gains the Hammer of Wrath (1) and Deep strike special rules. The equipped model gains the Fly keyword.</characteristic>
       </characteristics>
     </profile>
     <profile id="062a-cfeb-1de6-36b7" name="Scorch Bugs" publicationId="6ce0-fd6b-2a83-a367" page="7" hidden="false" typeId="a36b-d7d4-4249-a209" typeName="3. Wargear">
@@ -8324,7 +8346,7 @@ automatically Rally when this power is resolved</characteristic>
     </profile>
     <profile id="7b71-a794-227c-1024" name="Caustic Blood" hidden="false" typeId="ab10-5db7-ed44-bbeb" typeName="Adaptive Physiology">
       <characteristics>
-        <characteristic name="Description" typeId="eea0-4f2d-ef4e-8d64">When a unit with this wargear is slain and the last model in the unit is removed from play, before that model is removed, all enemy units within 6” take D3+(x) automatic hits where (x) is the models Wounds (W) characteristic. The Strength of the hit is equal to the removed units Toughness (T) characteristic. The AP is resolved at AP5.</characteristic>
+        <characteristic name="Description" typeId="eea0-4f2d-ef4e-8d64">When a unit with this adaptation is slain and the last model in the unit is removed from play, before that model is removed, all enemy units within 6” take D3+(x) automatic hits where (x) is the models Wounds (W) characteristic. The Strength of the hit is equal to the removed units Toughness (T) characteristic. The AP is resolved at AP5.</characteristic>
       </characteristics>
     </profile>
     <profile id="adfd-2732-1331-e7cc" name="Lightning-Fast Reactions" hidden="false" typeId="c5b0-edc1-3954-f457" typeName="2. Special Rule">
